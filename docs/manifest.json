@@ -1,0 +1,4598 @@
+{
+  "source_base_path": "/home/runner/work/ELibrary/ELibrary/docs/backend",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiGateway.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiGateway.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiGateway.Middlewares.TokenFromQueryMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiGateway.Middlewares.TokenFromQueryMiddleware.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiGateway.Middlewares.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiGateway.Middlewares.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiGateway.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiGateway.Utility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ApiGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ApiGateway.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.CustomAuthExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.CustomAuthExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Identity.Policy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Identity.Policy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Identity.Roles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Identity.Roles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Identity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Models.AccessTokenData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Models.AccessTokenData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.Google.GoogleOAuthSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.Google.GoogleOAuthSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.Google.GoogleOAuthTokenResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.Google.GoogleOAuthTokenResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.Google.GoogleTokenValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.Google.GoogleTokenValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.Google.IGoogleTokenValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.Google.IGoogleTokenValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.Google.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.Google.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.OAuthLoginProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.OAuthLoginProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.OAuth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Token.ITokenHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Token.ITokenHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Token.JwtConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Token.JwtConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Token.JwtHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Token.JwtHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Token.JwtSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Token.JwtSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Authentication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.CacheExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.CacheExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.Helpers.CachingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.Helpers.CachingHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.Helpers.ICachingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.Helpers.ICachingHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.OutputCachePolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.OutputCachePolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.Services.ICacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.Services.ICacheService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.Services.InMemoryCacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.Services.InMemoryCacheService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Caching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Caching.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.ApplicationBuilderExstensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.ApplicationBuilderExstensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.DatabaseConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.DatabaseConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EventSourcing.EventDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EventSourcing.EventDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EventSourcing.IEventDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EventSourcing.IEventDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EventSourcing.IEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EventSourcing.IEventHandler-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EventSourcing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EventSourcing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExceptionHandling.AuthorizationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExceptionHandling.AuthorizationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExceptionHandling.ExceptionMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExceptionHandling.ExceptionMiddleware.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExceptionHandling.ExceptionMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExceptionHandling.ExceptionMiddlewareExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExceptionHandling.ResponseError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExceptionHandling.ResponseError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExceptionHandling.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExceptionHandling.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExceptionHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExceptionHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.AutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.AutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Controllers.AuthorController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Controllers.AuthorController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Controllers.BaseLibraryEntityController-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Controllers.BaseLibraryEntityController-7.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Controllers.BookController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Controllers.BookController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Controllers.GenreController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Controllers.GenreController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Controllers.PublisherController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Controllers.PublisherController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Author.CreateAuthorRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Author.CreateAuthorRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Author.UpdateAuthorRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Author.UpdateAuthorRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Author.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Author.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Book.CreateBookRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Book.CreateBookRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Book.UpdateBookRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Book.UpdateBookRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Book.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Book.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Genre.CreateGenreRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Genre.CreateGenreRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Genre.UpdateGenreRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Genre.UpdateGenreRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Genre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Genre.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Publisher.CreatePublisherRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Publisher.CreatePublisherRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Publisher.UpdatePublisherRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Publisher.UpdatePublisherRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Domain.Dto.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Domain.Dto.Publisher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Migrations.AddedBookDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Migrations.AddedBookDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Migrations.InitialMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Migrations.InitialMigration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Services.BookService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Services.BookService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Services.IBookService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Services.IBookService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Services.ILibraryEntityService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Services.ILibraryEntityService-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Services.LibraryEntityService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Services.LibraryEntityService-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Author.CreateAuthorRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Author.CreateAuthorRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Author.UpdateAuthorRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Author.UpdateAuthorRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Author.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Author.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Book.CreateBookRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Book.CreateBookRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Book.RaiseBookPopularityRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Book.RaiseBookPopularityRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Book.UpdateBookRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Book.UpdateBookRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Book.UpdateBookStockAmountRequestCollectionValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Book.UpdateBookStockAmountRequestCollectionValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Book.UpdateBookStockAmountRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Book.UpdateBookStockAmountRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Book.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Book.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.BookFilterRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.BookFilterRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Genre.CreateGenreRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Genre.CreateGenreRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Genre.UpdateGenreRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Genre.UpdateGenreRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Genre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Genre.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.GetByIdsRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.GetByIdsRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.LibraryFilterRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.LibraryFilterRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Publisher.CreatePublisherRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Publisher.CreatePublisherRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Publisher.UpdatePublisherRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Publisher.UpdatePublisherRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.Publisher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryApi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Data.LibraryDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Data.LibraryDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Data.ShopDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Data.ShopDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.AuthorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.AuthorResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.BookResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.BookResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.GenreResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.GenreResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.PublisherResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.PublisherResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Library.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.GetByIdsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.GetByIdsRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.RaiseBookPopularityRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.RaiseBookPopularityRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.UpdateBookStockAmountRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.UpdateBookStockAmountRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.SharedRequests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.CartBookResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.CartBookResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.CartResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.CartResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.ClientResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.ClientResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.OrderBookResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.OrderBookResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.OrderResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.OrderResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.StockBookChangeResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.StockBookChangeResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.StockBookOrderResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.StockBookOrderResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Dtos.Shop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.ITrackable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.ITrackable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Author.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Author.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.BaseLibraryEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.BaseLibraryEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Book.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Book.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.BookPopularity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.BookPopularity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.CoverType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.CoverType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Genre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Genre.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.Publisher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Library.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.Cart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.Cart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.CartBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.CartBook.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.DeliveryMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.DeliveryMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.OrderBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.OrderBook.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.OrderStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.OrderStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.PaymentMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.PaymentMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.StockBookChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.StockBookChange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.StockBookOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.StockBookOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.StockBookOrderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.StockBookOrderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.Shop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Domain.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Filters.BookFilterRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Filters.BookFilterRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Filters.BookSorting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Filters.BookSorting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Filters.GetOrdersFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Filters.GetOrdersFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Filters.LibraryFilterRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Filters.LibraryFilterRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Filters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Library.AuthorRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Library.AuthorRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Library.BookRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Library.BookRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Library.IBookRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Library.IBookRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Library.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.CartRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.CartRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.ClientRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.ClientRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.ICartRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.ICartRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.IClientRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.IClientRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.IOrderRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.IOrderRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.IStockBookOrderRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.IStockBookOrderRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.OrderRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.OrderRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LibraryShopEntities.Repositories.Shop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LibraryShopEntities.Repositories.Shop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Logging.HostBuilderExtenstions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Logging.HostBuilderExtenstions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pagination.PaginationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pagination.PaginationConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pagination.PaginationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pagination.PaginationOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pagination.PaginationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pagination.PaginationRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pagination.PaginationRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pagination.PaginationRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pagination.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pagination.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pagination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pagination.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Resilience.ResilienceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Resilience.ResilienceConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Resilience.ResilienceHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Resilience.ResilienceHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Resilience.ResiliencePipelineConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Resilience.ResiliencePipelineConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Resilience.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Resilience.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Resilience.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Resilience.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.ApplicationBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Configurations.SharedConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Configurations.SharedConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Configurations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Helpers.HashHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Helpers.HashHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Helpers.HttpHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Helpers.HttpHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Helpers.IHttpHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Helpers.IHttpHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Repositories.DatabaseRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Repositories.DatabaseRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Repositories.IDatabaseRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Repositories.IDatabaseRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.AutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.AutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.AdvisorController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.AdvisorController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.CartController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.CartController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.ClientController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.ClientController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.OrderController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.OrderController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.StatisticsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.StatisticsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.StockBookOrderController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.StockBookOrderController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.ChatConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.ChatConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.AdvisorQueryRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.AdvisorQueryRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.AdvisorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.AdvisorResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.ChatAdvisorQueryRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.ChatAdvisorQueryRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.ChatAdvisorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.ChatAdvisorResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Validators.AdvisorQueryRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Validators.AdvisorQueryRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Validators.ChatAdvisorQueryRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Validators.ChatAdvisorQueryRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Domain.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Services.AdvisorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Services.AdvisorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Services.IAdvisorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Services.IAdvisorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Validators.AdvisorQueryRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Validators.AdvisorQueryRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.AdvisorFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.AdvisorFeature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.AddBookToCart.AddBookToCartCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.AddBookToCart.AddBookToCartCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.AddBookToCart.AddBookToCartCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.AddBookToCart.AddBookToCartCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.AddBookToCart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.AddBookToCart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.GetCart.GetCartQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.GetCart.GetCartQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.GetCart.GetCartQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.GetCart.GetCartQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.GetCart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.GetCart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.GetInCartAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.GetInCartAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.UpdateCartBookInCart.UpdateCartBookInCartCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.UpdateCartBookInCart.UpdateCartBookInCartCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.UpdateCartBookInCart.UpdateCartBookInCartCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.UpdateCartBookInCart.UpdateCartBookInCartCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Command.UpdateCartBookInCart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Command.UpdateCartBookInCart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Dtos.AddBookToCartRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Dtos.AddBookToCartRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Dtos.UpdateCartBookRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Dtos.UpdateCartBookRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Services.CartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Services.CartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Services.ICartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Services.ICartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Validators.AddBookToCartRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Validators.AddBookToCartRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Validators.DeleteBookFromCartRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Validators.DeleteBookFromCartRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Validators.UpdateCartBookRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Validators.UpdateCartBookRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.CartFeature.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.CartFeature.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.CreateClient.CreateClientForUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.CreateClient.CreateClientForUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.CreateClient.CreateClientForUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.CreateClient.CreateClientForUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.CreateClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.CreateClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.GetClient.GetClientForUserQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.GetClient.GetClientForUserQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.GetClient.GetClientForUserQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.GetClient.GetClientForUserQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.GetClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.GetClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.UpdateClient.UpdateClientForUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.UpdateClient.UpdateClientForUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.UpdateClient.UpdateClientForUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.UpdateClient.UpdateClientForUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Command.UpdateClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Command.UpdateClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Dtos.CreateClientRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Dtos.CreateClientRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Dtos.GetClientResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Dtos.GetClientResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Dtos.UpdateClientRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Dtos.UpdateClientRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Services.ClientService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Services.ClientService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Services.IClientService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Services.IClientService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Validators.CreateClientRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Validators.CreateClientRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Validators.UpdateClientRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Validators.UpdateClientRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.ClientFeature.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.ClientFeature.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.CancelOrder.CancelOrderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.CancelOrder.CancelOrderCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.CancelOrder.CancelOrderCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.CancelOrder.CancelOrderCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.CancelOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.CancelOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.CreateOrder.CreateOrderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.CreateOrder.CreateOrderCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.CreateOrder.CreateOrderCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.CreateOrder.CreateOrderCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.CreateOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.CreateOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrderAmount.GetOrderAmountQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrderAmount.GetOrderAmountQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrderAmount.GetOrderAmountQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrderAmount.GetOrderAmountQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrderAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrderAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrders.GetOrdersQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrders.GetOrdersQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrders.GetOrdersQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrders.GetOrdersQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.GetOrders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerCancelOrder.ManagerCancelOrderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerCancelOrder.ManagerCancelOrderCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerCancelOrder.ManagerCancelOrderCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerCancelOrder.ManagerCancelOrderCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerCancelOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerCancelOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderAmount.ManagerGetOrderAmountQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderAmount.ManagerGetOrderAmountQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderAmount.ManagerGetOrderAmountQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderAmount.ManagerGetOrderAmountQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderById.ManagerGetOrderByIdQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderById.ManagerGetOrderByIdQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderById.ManagerGetOrderByIdQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderById.ManagerGetOrderByIdQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetOrderById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetPaginatedOrders.ManagerGetPaginatedOrdersQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetPaginatedOrders.ManagerGetPaginatedOrdersQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetPaginatedOrders.ManagerGetPaginatedOrdersQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetPaginatedOrders.ManagerGetPaginatedOrdersQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetPaginatedOrders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerGetPaginatedOrders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerUpdateOrder.ManagerUpdateOrderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerUpdateOrder.ManagerUpdateOrderCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerUpdateOrder.ManagerUpdateOrderCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerUpdateOrder.ManagerUpdateOrderCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerUpdateOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.ManagerUpdateOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.UpdateOrder.UpdateOrderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.UpdateOrder.UpdateOrderCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.UpdateOrder.UpdateOrderCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.UpdateOrder.UpdateOrderCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Command.UpdateOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Command.UpdateOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Dtos.ClientUpdateOrderRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Dtos.ClientUpdateOrderRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Dtos.CreateOrderRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Dtos.CreateOrderRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Dtos.ManagerUpdateOrderRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Dtos.ManagerUpdateOrderRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Dtos.OrderBookRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Dtos.OrderBookRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Services.IOrderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Services.IOrderService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Services.OrderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Services.OrderService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Validators.ClientUpdateOrderRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Validators.ClientUpdateOrderRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Validators.CreateOrderRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Validators.CreateOrderRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Validators.GetOrdersFilterValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Validators.GetOrdersFilterValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Validators.ManagerUpdateOrderRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Validators.ManagerUpdateOrderRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Validators.OrderBookRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Validators.OrderBookRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.OrderFeature.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.OrderFeature.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.GetShopStatisticsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.GetShopStatisticsRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.ShopStatisticsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.ShopStatisticsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.StatisticsBookRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.StatisticsBookRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.GetShopStatisticsFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.GetShopStatisticsFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.ShopStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.ShopStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.StatisticsBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.StatisticsBook.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Domain.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Repository.IStatisticsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Repository.IStatisticsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Repository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Services.IStatisticsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Services.IStatisticsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Services.StatisticsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Services.StatisticsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Validators.GetBookStatisticsRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Validators.GetBookStatisticsRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Validators.StatisticsBookValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Validators.StatisticsBookValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StatisticsFeature.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StatisticsFeature.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.CreateStockBookOrder.CreateStockBookOrderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.CreateStockBookOrder.CreateStockBookOrderCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.CreateStockBookOrder.CreateStockBookOrderCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.CreateStockBookOrder.CreateStockBookOrderCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.CreateStockBookOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.CreateStockBookOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderAmount.GetStockOrderAmountQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderAmount.GetStockOrderAmountQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderAmount.GetStockOrderAmountQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderAmount.GetStockOrderAmountQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderById.GetStockOrderByIdQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderById.GetStockOrderByIdQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderById.GetStockOrderByIdQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderById.GetStockOrderByIdQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderPaginated.GetStockOrderPaginatedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderPaginated.GetStockOrderPaginatedQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderPaginated.GetStockOrderPaginatedQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderPaginated.GetStockOrderPaginatedQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderPaginated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Command.GetStockOrderPaginated.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Dtos.CreateStockBookOrderRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Dtos.CreateStockBookOrderRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Dtos.StockBookChangeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Dtos.StockBookChangeRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.BookStockAmountUpdatedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.BookStockAmountUpdatedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.IStockBookOrderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.IStockBookOrderService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.StockBookOrderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.StockBookOrderService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Validators.CreateStockBookOrderRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Validators.CreateStockBookOrderRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Validators.StockBookChangeRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Validators.StockBookChangeRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Features.StockBookOrderFeature.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Features.StockBookOrderFeature.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.GetLibraryEntityHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.GetLibraryEntityHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.LibraryConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.LibraryConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Migrations.AddedContactClientInfoToOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Migrations.AddedContactClientInfoToOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Migrations.InitialMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Migrations.InitialMigration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Services.ILibraryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Services.ILibraryService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Services.LibraryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Services.LibraryService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.AutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.AutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminDeleteUser.AdminDeleteUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminDeleteUser.AdminDeleteUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminDeleteUser.AdminDeleteUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminDeleteUser.AdminDeleteUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminDeleteUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminDeleteUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminRegisterUser.AdminRegisterUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminRegisterUser.AdminRegisterUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminRegisterUser.AdminRegisterUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminRegisterUser.AdminRegisterUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminRegisterUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminRegisterUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminUpdateUser.AdminUpdateUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminUpdateUser.AdminUpdateUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminUpdateUser.AdminUpdateUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminUpdateUser.AdminUpdateUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.AdminUpdateUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.AdminUpdateUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetPaginatedUserTotalAmount.GetPaginatedUserTotalAmountQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetPaginatedUserTotalAmount.GetPaginatedUserTotalAmountQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetPaginatedUserTotalAmount.GetPaginatedUserTotalAmountQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetPaginatedUserTotalAmount.GetPaginatedUserTotalAmountQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetPaginatedUserTotalAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetPaginatedUserTotalAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetPaginatedUsers.GetPaginatedUsersQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetPaginatedUsers.GetPaginatedUsersQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetPaginatedUsers.GetPaginatedUsersQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetPaginatedUsers.GetPaginatedUsersQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetPaginatedUsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetPaginatedUsers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetUserByInfo.GetUserByInfoQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetUserByInfo.GetUserByInfoQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetUserByInfo.GetUserByInfoQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetUserByInfo.GetUserByInfoQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Admin.GetUserByInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Admin.GetUserByInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.DeleteUser.DeleteUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.DeleteUser.DeleteUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.DeleteUser.DeleteUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.DeleteUser.DeleteUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.DeleteUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.DeleteUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.GetOAuthUrl.GetOAuthUrlQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.GetOAuthUrl.GetOAuthUrlQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.GetOAuthUrl.GetOAuthUrlQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.GetOAuthUrl.GetOAuthUrlQueryHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.GetOAuthUrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.GetOAuthUrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.LoginOAuth.LoginOAuthCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.LoginOAuth.LoginOAuthCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.LoginOAuth.LoginOAuthCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.LoginOAuth.LoginOAuthCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.LoginOAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.LoginOAuth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.LoginUser.LoginUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.LoginUser.LoginUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.LoginUser.LoginUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.LoginUser.LoginUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.LoginUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.LoginUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.RefreshToken.RefreshTokenCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.RefreshToken.RefreshTokenCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.RefreshToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.RefreshToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.RegisterUser.RegisterUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.RegisterUser.RegisterUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.RegisterUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.RegisterUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.UpdateUser.UpdateUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.UpdateUser.UpdateUserCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.UpdateUser.UpdateUserCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.UpdateUser.UpdateUserCommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Command.Client.UpdateUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Command.Client.UpdateUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Controllers.AuthController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Controllers.UserController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Controllers.UserController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.AdminGetUserFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.AdminGetUserFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.AuthToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.AuthToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.AdminUserRegistrationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.AdminUserRegistrationRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.AdminUserUpdateDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.AdminUserUpdateDataRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.GetOAuthUrlQueryParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.GetOAuthUrlQueryParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.LoginOAuthRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.LoginOAuthRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.UserAuthenticationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.UserAuthenticationRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.UserRegistrationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.UserRegistrationRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.UserUpdateDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.UserUpdateDataRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Requests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Requests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Responses.AdminUserResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Responses.AdminUserResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Responses.GetOAuthUrlResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Responses.GetOAuthUrlResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Responses.UserAuthenticationResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Responses.UserAuthenticationResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.Responses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.Responses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Dtos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Dtos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Models.CreateUserFromOAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Models.CreateUserFromOAuth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Models.UserUpdateData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Models.UserUpdateData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Migrations.InitialMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Migrations.InitialMigration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.Auth.AuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.Auth.AuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.Auth.IAuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.Auth.IAuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.Auth.LoginUserParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.Auth.LoginUserParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.Auth.RegisterUserParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.Auth.RegisterUserParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.Auth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.ITokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.ITokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.IUserAuthenticationMethodService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.IUserAuthenticationMethodService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.IUserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.GenerateOAuthRequestUrlParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.GenerateOAuthRequestUrlParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.GetAccessOnCodeParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.GetAccessOnCodeParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.Google.GoogleOAuthHttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.Google.GoogleOAuthHttpClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.Google.GoogleOAuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.Google.GoogleOAuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.Google.IGoogleOAuthHttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.Google.IGoogleOAuthHttpClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.Google.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.Google.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.IOAuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.IOAuthService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.IUserOAuthCreationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.IUserOAuthCreationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.UserOAuthCreationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.UserOAuthCreationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.OAuth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.TokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.TokenService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.UserAuthenticationMethodService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.UserAuthenticationMethodService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.UserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.AccessTokenDataValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.AccessTokenDataValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.AdminGetUserFilterValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.AdminGetUserFilterValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.AdminUserRegistrationRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.AdminUserRegistrationRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.AdminUserUpdateDataRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.AdminUserUpdateDataRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.LoginOAuthRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.LoginOAuthRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.OAuthGetUrlQueryParamsValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.OAuthGetUrlQueryParamsValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.UserAuthenticationRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.UserAuthenticationRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.UserRegistrationRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.UserRegistrationRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.UserUpdateDataRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.UserUpdateDataRequestValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Validators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserEntities.Data.UserIdentityDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserEntities.Data.UserIdentityDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserEntities.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserEntities.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserEntities.Domain.Entities.AuthenticationMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserEntities.Domain.Entities.AuthenticationMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserEntities.Domain.Entities.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserEntities.Domain.Entities.User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserEntities.Domain.Entities.UserAuthenticationMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserEntities.Domain.Entities.UserAuthenticationMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserEntities.Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserEntities.Domain.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

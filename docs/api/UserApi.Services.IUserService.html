@@ -1,0 +1,460 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IUserService | ELibrary </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IUserService | ELibrary ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TEGTO/ELibrary/new/develop-release-documentation/apiSpec/new?filename=UserApi_Services_IUserService.md&amp;value=---%0Auid%3A%20UserApi.Services.IUserService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ELibrary">
+            ELibrary
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="UserApi.Services.IUserService">
+
+
+
+  <h1 id="UserApi_Services_IUserService" data-uid="UserApi.Services.IUserService" class="text-break">
+Interface IUserService  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UserApi.html">UserApi</a>.<a class="xref" href="UserApi.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>UserApi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IUserService</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="UserApi_Services_IUserService_DeleteUserAsync_" data-uid="UserApi.Services.IUserService.DeleteUserAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_DeleteUserAsync_UserEntities_Domain_Entities_User_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.DeleteUserAsync(UserEntities.Domain.Entities.User,System.Threading.CancellationToken)">
+  DeleteUserAsync(User, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IdentityResult&gt; DeleteUserAsync(User user, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="UserEntities.Domain.Entities.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityresult">IdentityResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_GetPaginatedUsersAsync_" data-uid="UserApi.Services.IUserService.GetPaginatedUsersAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_GetPaginatedUsersAsync_UserApi_Domain_Dtos_AdminGetUserFilter_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetPaginatedUsersAsync(UserApi.Domain.Dtos.AdminGetUserFilter,System.Threading.CancellationToken)">
+  GetPaginatedUsersAsync(AdminGetUserFilter, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;User&gt;&gt; GetPaginatedUsersAsync(AdminGetUserFilter filter, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filter</code> <a class="xref" href="UserApi.Domain.Dtos.AdminGetUserFilter.html">AdminGetUserFilter</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="UserEntities.Domain.Entities.User.html">User</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_GetUserAsync_" data-uid="UserApi.Services.IUserService.GetUserAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_GetUserAsync_System_Security_Claims_ClaimsPrincipal_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserAsync(System.Security.Claims.ClaimsPrincipal,System.Threading.CancellationToken)">
+  GetUserAsync(ClaimsPrincipal, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;User?&gt; GetUserAsync(ClaimsPrincipal principal, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>principal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="UserEntities.Domain.Entities.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_GetUserByUserInfoAsync_" data-uid="UserApi.Services.IUserService.GetUserByUserInfoAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_GetUserByUserInfoAsync_System_String_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserByUserInfoAsync(System.String,System.Threading.CancellationToken)">
+  GetUserByUserInfoAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a user by any information about him.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;User?&gt; GetUserByUserInfoAsync(string info, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>info</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Login, Name, Email, Id, etc...</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="UserEntities.Domain.Entities.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_GetUserRolesAsync_" data-uid="UserApi.Services.IUserService.GetUserRolesAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_GetUserRolesAsync_UserEntities_Domain_Entities_User_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserRolesAsync(UserEntities.Domain.Entities.User,System.Threading.CancellationToken)">
+  GetUserRolesAsync(User, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;string&gt;&gt; GetUserRolesAsync(User user, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="UserEntities.Domain.Entities.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_GetUserTotalAmountAsync_" data-uid="UserApi.Services.IUserService.GetUserTotalAmountAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_GetUserTotalAmountAsync_UserApi_Domain_Dtos_AdminGetUserFilter_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserTotalAmountAsync(UserApi.Domain.Dtos.AdminGetUserFilter,System.Threading.CancellationToken)">
+  GetUserTotalAmountAsync(AdminGetUserFilter, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; GetUserTotalAmountAsync(AdminGetUserFilter filter, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filter</code> <a class="xref" href="UserApi.Domain.Dtos.AdminGetUserFilter.html">AdminGetUserFilter</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_SetUserRolesAsync_" data-uid="UserApi.Services.IUserService.SetUserRolesAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_SetUserRolesAsync_UserEntities_Domain_Entities_User_System_Collections_Generic_List_System_String__System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.SetUserRolesAsync(UserEntities.Domain.Entities.User,System.Collections.Generic.List{System.String},System.Threading.CancellationToken)">
+  SetUserRolesAsync(User, List&lt;string&gt;, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;IdentityError&gt;&gt; SetUserRolesAsync(User user, List&lt;string&gt; roles, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="UserEntities.Domain.Entities.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>roles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityerror">IdentityError</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UserApi_Services_IUserService_UpdateUserAsync_" data-uid="UserApi.Services.IUserService.UpdateUserAsync*"></a>
+
+  <h3 id="UserApi_Services_IUserService_UpdateUserAsync_UserEntities_Domain_Entities_User_UserApi_Domain_Models_UserUpdateData_System_Boolean_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateData,System.Boolean,System.Threading.CancellationToken)">
+  UpdateUserAsync(User, UserUpdateData, bool, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;IdentityError&gt;&gt; UpdateUserAsync(User user, UserUpdateData updateData, bool resetPassword, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="UserEntities.Domain.Entities.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>updateData</code> <a class="xref" href="UserApi.Domain.Models.UserUpdateData.html">UserUpdateData</a></dt>
+    <dd></dd>
+    <dt><code>resetPassword</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityerror">IdentityError</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TEGTO/ELibrary/blob/develop-release-documentation/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
