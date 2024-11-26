@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -162,8 +162,8 @@ Class DeleteBooksFromCartCommand  <a class="header-action link-secondary" title=
 
   <a id="ShopApi_Features_CartFeature_Command_DeleteBooksFromCart_DeleteBooksFromCartCommand__ctor_" data-uid="ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor*"></a>
 
-  <h3 id="ShopApi_Features_CartFeature_Command_DeleteBooksFromCart_DeleteBooksFromCartCommand__ctor_System_String_ShopApi_Features_CartFeature_Dtos_DeleteCartBookFromCartRequest___" data-uid="ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor(System.String,ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[])">
-  DeleteBooksFromCartCommand(string, DeleteCartBookFromCartRequest[])
+  <h3 id="ShopApi_Features_CartFeature_Command_DeleteBooksFromCart_DeleteBooksFromCartCommand__ctor_System_String_System_Collections_Generic_IEnumerable_ShopApi_Features_CartFeature_Dtos_DeleteCartBookFromCartRequest__" data-uid="ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor(System.String,System.Collections.Generic.IEnumerable{ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest})">
+  DeleteBooksFromCartCommand(string, IEnumerable&lt;DeleteCartBookFromCartRequest&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/ShopApi/Features/CartFeature/Command/DeleteBooksFromCart/DeleteBooksFromCartCommand.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -171,14 +171,14 @@ Class DeleteBooksFromCartCommand  <a class="header-action link-secondary" title=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DeleteBooksFromCartCommand(string UserId, DeleteCartBookFromCartRequest[] Requests)</code></pre>
+    <pre><code class="lang-csharp hljs">public DeleteBooksFromCartCommand(string UserId, IEnumerable&lt;DeleteCartBookFromCartRequest&gt; Requests)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>UserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
-    <dt><code>Requests</code> <a class="xref" href="ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest.html">DeleteCartBookFromCartRequest</a>[]</dt>
+    <dt><code>Requests</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest.html">DeleteCartBookFromCartRequest</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -208,7 +208,7 @@ Class DeleteBooksFromCartCommand  <a class="header-action link-secondary" title=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DeleteCartBookFromCartRequest[] Requests { get; init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;DeleteCartBookFromCartRequest&gt; Requests { get; init; }</code></pre>
   </div>
 
 
@@ -217,7 +217,7 @@ Class DeleteBooksFromCartCommand  <a class="header-action link-secondary" title=
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest.html">DeleteCartBookFromCartRequest</a>[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest.html">DeleteCartBookFromCartRequest</a>&gt;</dt>
     <dd></dd>
   </dl>
 

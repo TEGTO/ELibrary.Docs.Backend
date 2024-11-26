@@ -994,28 +994,28 @@ references:
   commentId: N:DatabaseControl
   fullName: DatabaseControl
   nameWithType: DatabaseControl
-- uid: DatabaseControl.ApplicationBuilderExstensions
-  name: ApplicationBuilderExstensions
-  href: api/DatabaseControl.ApplicationBuilderExstensions.html
-  commentId: T:DatabaseControl.ApplicationBuilderExstensions
-  fullName: DatabaseControl.ApplicationBuilderExstensions
-  nameWithType: ApplicationBuilderExstensions
-- uid: DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync*
+- uid: DatabaseControl.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/DatabaseControl.ApplicationBuilderExtensions.html
+  commentId: T:DatabaseControl.ApplicationBuilderExtensions
+  fullName: DatabaseControl.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync*
   name: ConfigureDatabaseAsync
-  href: api/DatabaseControl.ApplicationBuilderExstensions.html#DatabaseControl_ApplicationBuilderExstensions_ConfigureDatabaseAsync_
-  commentId: Overload:DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync
+  href: api/DatabaseControl.ApplicationBuilderExtensions.html#DatabaseControl_ApplicationBuilderExtensions_ConfigureDatabaseAsync_
+  commentId: Overload:DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync
   isSpec: "True"
-  fullName: DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync
-  nameWithType: ApplicationBuilderExstensions.ConfigureDatabaseAsync
-- uid: DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync``1(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Threading.CancellationToken)
+  fullName: DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync
+  nameWithType: ApplicationBuilderExtensions.ConfigureDatabaseAsync
+- uid: DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync``1(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Threading.CancellationToken)
   name: ConfigureDatabaseAsync<TContext>(IApplicationBuilder, CancellationToken)
-  href: api/DatabaseControl.ApplicationBuilderExstensions.html#DatabaseControl_ApplicationBuilderExstensions_ConfigureDatabaseAsync__1_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Threading_CancellationToken_
-  commentId: M:DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync``1(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Threading.CancellationToken)
+  href: api/DatabaseControl.ApplicationBuilderExtensions.html#DatabaseControl_ApplicationBuilderExtensions_ConfigureDatabaseAsync__1_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync``1(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Threading.CancellationToken)
   name.vb: ConfigureDatabaseAsync(Of TContext)(IApplicationBuilder, CancellationToken)
-  fullName: DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync<TContext>(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Threading.CancellationToken)
-  fullName.vb: DatabaseControl.ApplicationBuilderExstensions.ConfigureDatabaseAsync(Of TContext)(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Threading.CancellationToken)
-  nameWithType: ApplicationBuilderExstensions.ConfigureDatabaseAsync<TContext>(IApplicationBuilder, CancellationToken)
-  nameWithType.vb: ApplicationBuilderExstensions.ConfigureDatabaseAsync(Of TContext)(IApplicationBuilder, CancellationToken)
+  fullName: DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync<TContext>(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.ApplicationBuilderExtensions.ConfigureDatabaseAsync(Of TContext)(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Threading.CancellationToken)
+  nameWithType: ApplicationBuilderExtensions.ConfigureDatabaseAsync<TContext>(IApplicationBuilder, CancellationToken)
+  nameWithType.vb: ApplicationBuilderExtensions.ConfigureDatabaseAsync(Of TContext)(IApplicationBuilder, CancellationToken)
 - uid: DatabaseControl.DatabaseConfiguration
   name: DatabaseConfiguration
   href: api/DatabaseControl.DatabaseConfiguration.html
@@ -1057,22 +1057,22 @@ references:
   fullName.vb: DatabaseControl.ServiceCollectionExtensions.AddDbContextFactory(Of Context)(Microsoft.Extensions.DependencyInjection.IServiceCollection, String, String, System.Action(Of Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.NpgsqlDbContextOptionsBuilder), System.Action(Of Microsoft.EntityFrameworkCore.DbContextOptionsBuilder))
   nameWithType: ServiceCollectionExtensions.AddDbContextFactory<Context>(IServiceCollection, string, string?, Action<NpgsqlDbContextOptionsBuilder>?, Action<DbContextOptionsBuilder>?)
   nameWithType.vb: ServiceCollectionExtensions.AddDbContextFactory(Of Context)(IServiceCollection, String, String, Action(Of NpgsqlDbContextOptionsBuilder), Action(Of DbContextOptionsBuilder))
-- uid: DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience*
-  name: AddRepositoryPatternWithResilience
-  href: api/DatabaseControl.ServiceCollectionExtensions.html#DatabaseControl_ServiceCollectionExtensions_AddRepositoryPatternWithResilience_
-  commentId: Overload:DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience
+- uid: DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience*
+  name: AddRepositoryWithResilience
+  href: api/DatabaseControl.ServiceCollectionExtensions.html#DatabaseControl_ServiceCollectionExtensions_AddRepositoryWithResilience_
+  commentId: Overload:DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience
   isSpec: "True"
-  fullName: DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience
-  nameWithType: ServiceCollectionExtensions.AddRepositoryPatternWithResilience
-- uid: DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddRepositoryPatternWithResilience<Context>(IServiceCollection, IConfiguration)
-  href: api/DatabaseControl.ServiceCollectionExtensions.html#DatabaseControl_ServiceCollectionExtensions_AddRepositoryPatternWithResilience__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name.vb: AddRepositoryPatternWithResilience(Of Context)(IServiceCollection, IConfiguration)
-  fullName: DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience<Context>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  fullName.vb: DatabaseControl.ServiceCollectionExtensions.AddRepositoryPatternWithResilience(Of Context)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: ServiceCollectionExtensions.AddRepositoryPatternWithResilience<Context>(IServiceCollection, IConfiguration)
-  nameWithType.vb: ServiceCollectionExtensions.AddRepositoryPatternWithResilience(Of Context)(IServiceCollection, IConfiguration)
+  fullName: DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience
+  nameWithType: ServiceCollectionExtensions.AddRepositoryWithResilience
+- uid: DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddRepositoryWithResilience<Context>(IServiceCollection, IConfiguration)
+  href: api/DatabaseControl.ServiceCollectionExtensions.html#DatabaseControl_ServiceCollectionExtensions_AddRepositoryWithResilience__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddRepositoryWithResilience(Of Context)(IServiceCollection, IConfiguration)
+  fullName: DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience<Context>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: DatabaseControl.ServiceCollectionExtensions.AddRepositoryWithResilience(Of Context)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddRepositoryWithResilience<Context>(IServiceCollection, IConfiguration)
+  nameWithType.vb: ServiceCollectionExtensions.AddRepositoryWithResilience(Of Context)(IServiceCollection, IConfiguration)
 - uid: EventSourcing
   name: EventSourcing
   href: api/EventSourcing.html
@@ -1189,6 +1189,15 @@ references:
   fullName.vb: ExceptionHandling.AuthorizationException.New(System.Collections.Generic.IEnumerable(Of String))
   nameWithType: AuthorizationException.AuthorizationException(IEnumerable<string>)
   nameWithType.vb: AuthorizationException.New(IEnumerable(Of String))
+- uid: ExceptionHandling.AuthorizationException.#ctor(System.String)
+  name: AuthorizationException(string)
+  href: api/ExceptionHandling.AuthorizationException.html#ExceptionHandling_AuthorizationException__ctor_System_String_
+  commentId: M:ExceptionHandling.AuthorizationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ExceptionHandling.AuthorizationException.AuthorizationException(string)
+  fullName.vb: ExceptionHandling.AuthorizationException.New(String)
+  nameWithType: AuthorizationException.AuthorizationException(string)
+  nameWithType.vb: AuthorizationException.New(String)
 - uid: ExceptionHandling.AuthorizationException.#ctor*
   name: AuthorizationException
   href: api/ExceptionHandling.AuthorizationException.html#ExceptionHandling_AuthorizationException__ctor_
@@ -1231,15 +1240,15 @@ references:
   commentId: T:ExceptionHandling.ExceptionMiddleware
   fullName: ExceptionHandling.ExceptionMiddleware
   nameWithType: ExceptionMiddleware
-- uid: ExceptionHandling.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Serilog.ILogger)
-  name: ExceptionMiddleware(RequestDelegate, ILogger)
-  href: api/ExceptionHandling.ExceptionMiddleware.html#ExceptionHandling_ExceptionMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Serilog_ILogger_
-  commentId: M:ExceptionHandling.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Serilog.ILogger)
-  name.vb: New(RequestDelegate, ILogger)
-  fullName: ExceptionHandling.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Serilog.ILogger)
-  fullName.vb: ExceptionHandling.ExceptionMiddleware.New(Microsoft.AspNetCore.Http.RequestDelegate, Serilog.ILogger)
-  nameWithType: ExceptionMiddleware.ExceptionMiddleware(RequestDelegate, ILogger)
-  nameWithType.vb: ExceptionMiddleware.New(RequestDelegate, ILogger)
+- uid: ExceptionHandling.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{ExceptionHandling.ExceptionMiddleware})
+  name: ExceptionMiddleware(RequestDelegate, ILogger<ExceptionMiddleware>)
+  href: api/ExceptionHandling.ExceptionMiddleware.html#ExceptionHandling_ExceptionMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Logging_ILogger_ExceptionHandling_ExceptionMiddleware__
+  commentId: M:ExceptionHandling.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{ExceptionHandling.ExceptionMiddleware})
+  name.vb: New(RequestDelegate, ILogger(Of ExceptionMiddleware))
+  fullName: ExceptionHandling.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<ExceptionHandling.ExceptionMiddleware>)
+  fullName.vb: ExceptionHandling.ExceptionMiddleware.New(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger(Of ExceptionHandling.ExceptionMiddleware))
+  nameWithType: ExceptionMiddleware.ExceptionMiddleware(RequestDelegate, ILogger<ExceptionMiddleware>)
+  nameWithType.vb: ExceptionMiddleware.New(RequestDelegate, ILogger(Of ExceptionMiddleware))
 - uid: ExceptionHandling.ExceptionMiddleware.#ctor*
   name: ExceptionMiddleware
   href: api/ExceptionHandling.ExceptionMiddleware.html#ExceptionHandling_ExceptionMiddleware__ctor_
@@ -2366,15 +2375,15 @@ references:
   isSpec: "True"
   fullName: LibraryApi.Services.BookService.ChangeBookStockAmount
   nameWithType: BookService.ChangeBookStockAmount
-- uid: LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: RaisePopularityAsync(List<int>, CancellationToken)
-  href: api/LibraryApi.Services.BookService.html#LibraryApi_Services_BookService_RaisePopularityAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: RaisePopularityAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: BookService.RaisePopularityAsync(List<int>, CancellationToken)
-  nameWithType.vb: BookService.RaisePopularityAsync(List(Of Integer), CancellationToken)
+- uid: LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: RaisePopularityAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryApi.Services.BookService.html#LibraryApi_Services_BookService_RaisePopularityAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: RaisePopularityAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryApi.Services.BookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: BookService.RaisePopularityAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: BookService.RaisePopularityAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryApi.Services.BookService.RaisePopularityAsync*
   name: RaisePopularityAsync
   href: api/LibraryApi.Services.BookService.html#LibraryApi_Services_BookService_RaisePopularityAsync_
@@ -2404,15 +2413,15 @@ references:
   isSpec: "True"
   fullName: LibraryApi.Services.IBookService.ChangeBookStockAmount
   nameWithType: IBookService.ChangeBookStockAmount
-- uid: LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: RaisePopularityAsync(List<int>, CancellationToken)
-  href: api/LibraryApi.Services.IBookService.html#LibraryApi_Services_IBookService_RaisePopularityAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: RaisePopularityAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: IBookService.RaisePopularityAsync(List<int>, CancellationToken)
-  nameWithType.vb: IBookService.RaisePopularityAsync(List(Of Integer), CancellationToken)
+- uid: LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: RaisePopularityAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryApi.Services.IBookService.html#LibraryApi_Services_IBookService_RaisePopularityAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: RaisePopularityAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryApi.Services.IBookService.RaisePopularityAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: IBookService.RaisePopularityAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: IBookService.RaisePopularityAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryApi.Services.IBookService.RaisePopularityAsync*
   name: RaisePopularityAsync
   href: api/LibraryApi.Services.IBookService.html#LibraryApi_Services_IBookService_RaisePopularityAsync_
@@ -2482,15 +2491,15 @@ references:
   fullName.vb: LibraryApi.Services.ILibraryEntityService(Of TEntity).GetByIdAsync
   nameWithType: ILibraryEntityService<TEntity>.GetByIdAsync
   nameWithType.vb: ILibraryEntityService(Of TEntity).GetByIdAsync
-- uid: LibraryApi.Services.ILibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryApi.Services.ILibraryEntityService-1.html#LibraryApi_Services_ILibraryEntityService_1_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryApi.Services.ILibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryApi.Services.ILibraryEntityService<TEntity>.GetByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryApi.Services.ILibraryEntityService(Of TEntity).GetByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: ILibraryEntityService<TEntity>.GetByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: ILibraryEntityService(Of TEntity).GetByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryApi.Services.ILibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryApi.Services.ILibraryEntityService-1.html#LibraryApi_Services_ILibraryEntityService_1_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryApi.Services.ILibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryApi.Services.ILibraryEntityService<TEntity>.GetByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryApi.Services.ILibraryEntityService(Of TEntity).GetByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: ILibraryEntityService<TEntity>.GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: ILibraryEntityService(Of TEntity).GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryApi.Services.ILibraryEntityService`1.GetByIdsAsync*
   name: GetByIdsAsync
   href: api/LibraryApi.Services.ILibraryEntityService-1.html#LibraryApi_Services_ILibraryEntityService_1_GetByIdsAsync_
@@ -2632,15 +2641,15 @@ references:
   fullName.vb: LibraryApi.Services.LibraryEntityService(Of TEntity).GetByIdAsync
   nameWithType: LibraryEntityService<TEntity>.GetByIdAsync
   nameWithType.vb: LibraryEntityService(Of TEntity).GetByIdAsync
-- uid: LibraryApi.Services.LibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryApi.Services.LibraryEntityService-1.html#LibraryApi_Services_LibraryEntityService_1_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryApi.Services.LibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryApi.Services.LibraryEntityService<TEntity>.GetByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryApi.Services.LibraryEntityService(Of TEntity).GetByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: LibraryEntityService<TEntity>.GetByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: LibraryEntityService(Of TEntity).GetByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryApi.Services.LibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryApi.Services.LibraryEntityService-1.html#LibraryApi_Services_LibraryEntityService_1_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryApi.Services.LibraryEntityService`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryApi.Services.LibraryEntityService<TEntity>.GetByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryApi.Services.LibraryEntityService(Of TEntity).GetByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: LibraryEntityService<TEntity>.GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: LibraryEntityService(Of TEntity).GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryApi.Services.LibraryEntityService`1.GetByIdsAsync*
   name: GetByIdsAsync
   href: api/LibraryApi.Services.LibraryEntityService-1.html#LibraryApi_Services_LibraryEntityService_1_GetByIdsAsync_
@@ -5937,6 +5946,22 @@ references:
   fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.New
   nameWithType: BookRepository.BookRepository
   nameWithType.vb: BookRepository.New
+- uid: LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter(System.Linq.IQueryable{LibraryShopEntities.Domain.Entities.Library.Book},LibraryShopEntities.Filters.LibraryFilterRequest)
+  name: ApplyFilter(IQueryable<Book>, LibraryFilterRequest)
+  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_ApplyFilter_System_Linq_IQueryable_LibraryShopEntities_Domain_Entities_Library_Book__LibraryShopEntities_Filters_LibraryFilterRequest_
+  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter(System.Linq.IQueryable{LibraryShopEntities.Domain.Entities.Library.Book},LibraryShopEntities.Filters.LibraryFilterRequest)
+  name.vb: ApplyFilter(IQueryable(Of Book), LibraryFilterRequest)
+  fullName: LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter(System.Linq.IQueryable<LibraryShopEntities.Domain.Entities.Library.Book>, LibraryShopEntities.Filters.LibraryFilterRequest)
+  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter(System.Linq.IQueryable(Of LibraryShopEntities.Domain.Entities.Library.Book), LibraryShopEntities.Filters.LibraryFilterRequest)
+  nameWithType: BookRepository.ApplyFilter(IQueryable<Book>, LibraryFilterRequest)
+  nameWithType.vb: BookRepository.ApplyFilter(IQueryable(Of Book), LibraryFilterRequest)
+- uid: LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter*
+  name: ApplyFilter
+  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_ApplyFilter_
+  commentId: Overload:LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter
+  isSpec: "True"
+  fullName: LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter
+  nameWithType: BookRepository.ApplyFilter
 - uid: LibraryShopEntities.Repositories.Library.BookRepository.CreateAsync(LibraryShopEntities.Domain.Entities.Library.Book,System.Threading.CancellationToken)
   name: CreateAsync(Book, CancellationToken)
   href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_CreateAsync_LibraryShopEntities_Domain_Entities_Library_Book_System_Threading_CancellationToken_
@@ -5966,15 +5991,15 @@ references:
   isSpec: "True"
   fullName: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdAsync
   nameWithType: BookRepository.GetByIdAsync
-- uid: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: BookRepository.GetByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: BookRepository.GetByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: BookRepository.GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: BookRepository.GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync*
   name: GetByIdsAsync
   href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_GetByIdsAsync_
@@ -6008,15 +6033,15 @@ references:
   isSpec: "True"
   fullName: LibraryShopEntities.Repositories.Library.BookRepository.GetPaginatedAsync
   nameWithType: BookRepository.GetPaginatedAsync
-- uid: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetPopularitiesByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetPopularitiesByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: BookRepository.GetPopularitiesByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: BookRepository.GetPopularitiesByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetPopularitiesByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetPopularitiesByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: BookRepository.GetPopularitiesByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: BookRepository.GetPopularitiesByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync*
   name: GetPopularitiesByIdsAsync
   href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository_GetPopularitiesByIdsAsync_
@@ -6059,15 +6084,15 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Library.IBookRepository
   fullName: LibraryShopEntities.Repositories.Library.IBookRepository
   nameWithType: IBookRepository
-- uid: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetPopularitiesByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.IBookRepository.html#LibraryShopEntities_Repositories_Library_IBookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetPopularitiesByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: IBookRepository.GetPopularitiesByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: IBookRepository.GetPopularitiesByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetPopularitiesByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.IBookRepository.html#LibraryShopEntities_Repositories_Library_IBookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetPopularitiesByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: IBookRepository.GetPopularitiesByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: IBookRepository.GetPopularitiesByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync*
   name: GetPopularitiesByIdsAsync
   href: api/LibraryShopEntities.Repositories.Library.IBookRepository.html#LibraryShopEntities_Repositories_Library_IBookRepository_GetPopularitiesByIdsAsync_
@@ -6152,15 +6177,15 @@ references:
   fullName.vb: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository(Of TEntity).GetByIdAsync
   nameWithType: ILibraryEntityRepository<TEntity>.GetByIdAsync
   nameWithType.vb: ILibraryEntityRepository(Of TEntity).GetByIdAsync
-- uid: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository<TEntity>.GetByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository(Of TEntity).GetByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: ILibraryEntityRepository<TEntity>.GetByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: ILibraryEntityRepository(Of TEntity).GetByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository<TEntity>.GetByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository(Of TEntity).GetByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: ILibraryEntityRepository<TEntity>.GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: ILibraryEntityRepository(Of TEntity).GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync*
   name: GetByIdsAsync
   href: api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_
@@ -6221,15 +6246,15 @@ references:
   fullName.vb: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository(Of TEntity).UpdateAsync
   nameWithType: ILibraryEntityRepository<TEntity>.UpdateAsync
   nameWithType.vb: ILibraryEntityRepository(Of TEntity).UpdateAsync
-- uid: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync(`0[],System.Threading.CancellationToken)
-  name: UpdateRangeAsync(TEntity[], CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync__0___System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync(`0[],System.Threading.CancellationToken)
-  name.vb: UpdateRangeAsync(TEntity(), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository<TEntity>.UpdateRangeAsync(TEntity[], System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository(Of TEntity).UpdateRangeAsync(TEntity(), System.Threading.CancellationToken)
-  nameWithType: ILibraryEntityRepository<TEntity>.UpdateRangeAsync(TEntity[], CancellationToken)
-  nameWithType.vb: ILibraryEntityRepository(Of TEntity).UpdateRangeAsync(TEntity(), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)
+  name: UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync_System_Collections_Generic_IEnumerable__0__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)
+  name.vb: UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository<TEntity>.UpdateRangeAsync(System.Collections.Generic.IEnumerable<TEntity>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository(Of TEntity).UpdateRangeAsync(System.Collections.Generic.IEnumerable(Of TEntity), System.Threading.CancellationToken)
+  nameWithType: ILibraryEntityRepository<TEntity>.UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  nameWithType.vb: ILibraryEntityRepository(Of TEntity).UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync*
   name: UpdateRangeAsync
   href: api/LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync_
@@ -6373,15 +6398,15 @@ references:
   fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).GetByIdAsync
   nameWithType: LibraryEntityRepository<TEntity>.GetByIdAsync
   nameWithType.vb: LibraryEntityRepository(Of TEntity).GetByIdAsync
-- uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: GetByIdsAsync(List<int>, CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.LibraryEntityRepository<TEntity>.GetByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).GetByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: LibraryEntityRepository<TEntity>.GetByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: LibraryEntityRepository(Of TEntity).GetByIdsAsync(List(Of Integer), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.LibraryEntityRepository<TEntity>.GetByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).GetByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: LibraryEntityRepository<TEntity>.GetByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: LibraryEntityRepository(Of TEntity).GetByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.GetByIdsAsync*
   name: GetByIdsAsync
   href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_GetByIdsAsync_
@@ -6442,15 +6467,15 @@ references:
   fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).UpdateAsync
   nameWithType: LibraryEntityRepository<TEntity>.UpdateAsync
   nameWithType.vb: LibraryEntityRepository(Of TEntity).UpdateAsync
-- uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.UpdateRangeAsync(`0[],System.Threading.CancellationToken)
-  name: UpdateRangeAsync(TEntity[], CancellationToken)
-  href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_UpdateRangeAsync__0___System_Threading_CancellationToken_
-  commentId: M:LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.UpdateRangeAsync(`0[],System.Threading.CancellationToken)
-  name.vb: UpdateRangeAsync(TEntity(), CancellationToken)
-  fullName: LibraryShopEntities.Repositories.Library.LibraryEntityRepository<TEntity>.UpdateRangeAsync(TEntity[], System.Threading.CancellationToken)
-  fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).UpdateRangeAsync(TEntity(), System.Threading.CancellationToken)
-  nameWithType: LibraryEntityRepository<TEntity>.UpdateRangeAsync(TEntity[], CancellationToken)
-  nameWithType.vb: LibraryEntityRepository(Of TEntity).UpdateRangeAsync(TEntity(), CancellationToken)
+- uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.UpdateRangeAsync(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)
+  name: UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_UpdateRangeAsync_System_Collections_Generic_IEnumerable__0__System_Threading_CancellationToken_
+  commentId: M:LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.UpdateRangeAsync(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)
+  name.vb: UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
+  fullName: LibraryShopEntities.Repositories.Library.LibraryEntityRepository<TEntity>.UpdateRangeAsync(System.Collections.Generic.IEnumerable<TEntity>, System.Threading.CancellationToken)
+  fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).UpdateRangeAsync(System.Collections.Generic.IEnumerable(Of TEntity), System.Threading.CancellationToken)
+  nameWithType: LibraryEntityRepository<TEntity>.UpdateRangeAsync(IEnumerable<TEntity>, CancellationToken)
+  nameWithType.vb: LibraryEntityRepository(Of TEntity).UpdateRangeAsync(IEnumerable(Of TEntity), CancellationToken)
 - uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.UpdateRangeAsync*
   name: UpdateRangeAsync
   href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_UpdateRangeAsync_
@@ -7218,25 +7243,25 @@ references:
   commentId: N:Logging
   fullName: Logging
   nameWithType: Logging
-- uid: Logging.HostBuilderExtenstions
-  name: HostBuilderExtenstions
-  href: api/Logging.HostBuilderExtenstions.html
-  commentId: T:Logging.HostBuilderExtenstions
-  fullName: Logging.HostBuilderExtenstions
-  nameWithType: HostBuilderExtenstions
-- uid: Logging.HostBuilderExtenstions.AddLogging(Microsoft.Extensions.Hosting.IHostBuilder)
+- uid: Logging.HostBuilderExtensions
+  name: HostBuilderExtensions
+  href: api/Logging.HostBuilderExtensions.html
+  commentId: T:Logging.HostBuilderExtensions
+  fullName: Logging.HostBuilderExtensions
+  nameWithType: HostBuilderExtensions
+- uid: Logging.HostBuilderExtensions.AddLogging(Microsoft.Extensions.Hosting.IHostBuilder)
   name: AddLogging(IHostBuilder)
-  href: api/Logging.HostBuilderExtenstions.html#Logging_HostBuilderExtenstions_AddLogging_Microsoft_Extensions_Hosting_IHostBuilder_
-  commentId: M:Logging.HostBuilderExtenstions.AddLogging(Microsoft.Extensions.Hosting.IHostBuilder)
-  fullName: Logging.HostBuilderExtenstions.AddLogging(Microsoft.Extensions.Hosting.IHostBuilder)
-  nameWithType: HostBuilderExtenstions.AddLogging(IHostBuilder)
-- uid: Logging.HostBuilderExtenstions.AddLogging*
+  href: api/Logging.HostBuilderExtensions.html#Logging_HostBuilderExtensions_AddLogging_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Logging.HostBuilderExtensions.AddLogging(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName: Logging.HostBuilderExtensions.AddLogging(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderExtensions.AddLogging(IHostBuilder)
+- uid: Logging.HostBuilderExtensions.AddLogging*
   name: AddLogging
-  href: api/Logging.HostBuilderExtenstions.html#Logging_HostBuilderExtenstions_AddLogging_
-  commentId: Overload:Logging.HostBuilderExtenstions.AddLogging
+  href: api/Logging.HostBuilderExtensions.html#Logging_HostBuilderExtensions_AddLogging_
+  commentId: Overload:Logging.HostBuilderExtensions.AddLogging
   isSpec: "True"
-  fullName: Logging.HostBuilderExtenstions.AddLogging
-  nameWithType: HostBuilderExtenstions.AddLogging
+  fullName: Logging.HostBuilderExtensions.AddLogging
+  nameWithType: HostBuilderExtensions.AddLogging
 - uid: Pagination
   name: Pagination
   href: api/Pagination.html
@@ -7939,15 +7964,15 @@ references:
   fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync
   nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync
   nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync
-- uid: Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(``0[],System.Threading.CancellationToken)
-  name: UpdateRangeAsync<T>(T[], CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_UpdateRangeAsync__1___0___System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(``0[],System.Threading.CancellationToken)
-  name.vb: UpdateRangeAsync(Of T)(T(), CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.UpdateRangeAsync<T>(T[], System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(T(), System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync<T>(T[], CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(T(), CancellationToken)
+- uid: Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name: UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_UpdateRangeAsync__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
+  commentId: M:Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name.vb: UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
+  fullName: Shared.Repositories.DatabaseRepository<TContext>.UpdateRangeAsync<T>(System.Collections.Generic.IEnumerable<T>, System.Threading.CancellationToken)
+  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
 - uid: Shared.Repositories.IDatabaseRepository`1
   name: IDatabaseRepository<TContext>
   href: api/Shared.Repositories.IDatabaseRepository-1.html
@@ -8055,15 +8080,15 @@ references:
   fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync
   nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync
   nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(``0[],System.Threading.CancellationToken)
-  name: UpdateRangeAsync<T>(T[], CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_UpdateRangeAsync__1___0___System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(``0[],System.Threading.CancellationToken)
-  name.vb: UpdateRangeAsync(Of T)(T(), CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.UpdateRangeAsync<T>(T[], System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(T(), System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync<T>(T[], CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(T(), CancellationToken)
+- uid: Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name: UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_UpdateRangeAsync__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
+  commentId: M:Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name.vb: UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
+  fullName: Shared.Repositories.IDatabaseRepository<TContext>.UpdateRangeAsync<T>(System.Collections.Generic.IEnumerable<T>, System.Threading.CancellationToken)
+  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
 - uid: Shared.ServiceCollectionExtensions
   name: ServiceCollectionExtensions
   href: api/Shared.ServiceCollectionExtensions.html
@@ -8338,15 +8363,15 @@ references:
   isSpec: "True"
   fullName: ShopApi.Controllers.CartController.AddBookToCart
   nameWithType: CartController.AddBookToCart
-- uid: ShopApi.Controllers.CartController.DeleteBooksFromCart(ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[],System.Threading.CancellationToken)
-  name: DeleteBooksFromCart(DeleteCartBookFromCartRequest[], CancellationToken)
-  href: api/ShopApi.Controllers.CartController.html#ShopApi_Controllers_CartController_DeleteBooksFromCart_ShopApi_Features_CartFeature_Dtos_DeleteCartBookFromCartRequest___System_Threading_CancellationToken_
-  commentId: M:ShopApi.Controllers.CartController.DeleteBooksFromCart(ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[],System.Threading.CancellationToken)
-  name.vb: DeleteBooksFromCart(DeleteCartBookFromCartRequest(), CancellationToken)
-  fullName: ShopApi.Controllers.CartController.DeleteBooksFromCart(ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[], System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Controllers.CartController.DeleteBooksFromCart(ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest(), System.Threading.CancellationToken)
-  nameWithType: CartController.DeleteBooksFromCart(DeleteCartBookFromCartRequest[], CancellationToken)
-  nameWithType.vb: CartController.DeleteBooksFromCart(DeleteCartBookFromCartRequest(), CancellationToken)
+- uid: ShopApi.Controllers.CartController.DeleteBooksFromCart(System.Collections.Generic.List{ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest},System.Threading.CancellationToken)
+  name: DeleteBooksFromCart(List<DeleteCartBookFromCartRequest>, CancellationToken)
+  href: api/ShopApi.Controllers.CartController.html#ShopApi_Controllers_CartController_DeleteBooksFromCart_System_Collections_Generic_List_ShopApi_Features_CartFeature_Dtos_DeleteCartBookFromCartRequest__System_Threading_CancellationToken_
+  commentId: M:ShopApi.Controllers.CartController.DeleteBooksFromCart(System.Collections.Generic.List{ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest},System.Threading.CancellationToken)
+  name.vb: DeleteBooksFromCart(List(Of DeleteCartBookFromCartRequest), CancellationToken)
+  fullName: ShopApi.Controllers.CartController.DeleteBooksFromCart(System.Collections.Generic.List<ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest>, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Controllers.CartController.DeleteBooksFromCart(System.Collections.Generic.List(Of ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest), System.Threading.CancellationToken)
+  nameWithType: CartController.DeleteBooksFromCart(List<DeleteCartBookFromCartRequest>, CancellationToken)
+  nameWithType.vb: CartController.DeleteBooksFromCart(List(Of DeleteCartBookFromCartRequest), CancellationToken)
 - uid: ShopApi.Controllers.CartController.DeleteBooksFromCart*
   name: DeleteBooksFromCart
   href: api/ShopApi.Controllers.CartController.html#ShopApi_Controllers_CartController_DeleteBooksFromCart_
@@ -9164,15 +9189,15 @@ references:
   commentId: T:ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand
   fullName: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand
   nameWithType: DeleteBooksFromCartCommand
-- uid: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor(System.String,ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[])
-  name: DeleteBooksFromCartCommand(string, DeleteCartBookFromCartRequest[])
-  href: api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.html#ShopApi_Features_CartFeature_Command_DeleteBooksFromCart_DeleteBooksFromCartCommand__ctor_System_String_ShopApi_Features_CartFeature_Dtos_DeleteCartBookFromCartRequest___
-  commentId: M:ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor(System.String,ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[])
-  name.vb: New(String, DeleteCartBookFromCartRequest())
-  fullName: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.DeleteBooksFromCartCommand(string, ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest[])
-  fullName.vb: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.New(String, ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest())
-  nameWithType: DeleteBooksFromCartCommand.DeleteBooksFromCartCommand(string, DeleteCartBookFromCartRequest[])
-  nameWithType.vb: DeleteBooksFromCartCommand.New(String, DeleteCartBookFromCartRequest())
+- uid: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor(System.String,System.Collections.Generic.IEnumerable{ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest})
+  name: DeleteBooksFromCartCommand(string, IEnumerable<DeleteCartBookFromCartRequest>)
+  href: api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.html#ShopApi_Features_CartFeature_Command_DeleteBooksFromCart_DeleteBooksFromCartCommand__ctor_System_String_System_Collections_Generic_IEnumerable_ShopApi_Features_CartFeature_Dtos_DeleteCartBookFromCartRequest__
+  commentId: M:ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor(System.String,System.Collections.Generic.IEnumerable{ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest})
+  name.vb: New(String, IEnumerable(Of DeleteCartBookFromCartRequest))
+  fullName: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.DeleteBooksFromCartCommand(string, System.Collections.Generic.IEnumerable<ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest>)
+  fullName.vb: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.New(String, System.Collections.Generic.IEnumerable(Of ShopApi.Features.CartFeature.Dtos.DeleteCartBookFromCartRequest))
+  nameWithType: DeleteBooksFromCartCommand.DeleteBooksFromCartCommand(string, IEnumerable<DeleteCartBookFromCartRequest>)
+  nameWithType.vb: DeleteBooksFromCartCommand.New(String, IEnumerable(Of DeleteCartBookFromCartRequest))
 - uid: ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.#ctor*
   name: DeleteBooksFromCartCommand
   href: api/ShopApi.Features.CartFeature.Command.DeleteBooksFromCart.DeleteBooksFromCartCommand.html#ShopApi_Features_CartFeature_Command_DeleteBooksFromCart_DeleteBooksFromCartCommand__ctor_
@@ -9379,15 +9404,15 @@ references:
   commentId: T:ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler
   fullName: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler
   nameWithType: GetInCartAmountQueryHandler
-- uid: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.#ctor(ShopApi.Features.CartFeature.Services.ICartService,AutoMapper.IMapper)
-  name: GetInCartAmountQueryHandler(ICartService, IMapper)
-  href: api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.html#ShopApi_Features_CartFeature_Command_GetInCartAmount_GetInCartAmountQueryHandler__ctor_ShopApi_Features_CartFeature_Services_ICartService_AutoMapper_IMapper_
-  commentId: M:ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.#ctor(ShopApi.Features.CartFeature.Services.ICartService,AutoMapper.IMapper)
-  name.vb: New(ICartService, IMapper)
-  fullName: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.GetInCartAmountQueryHandler(ShopApi.Features.CartFeature.Services.ICartService, AutoMapper.IMapper)
-  fullName.vb: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.New(ShopApi.Features.CartFeature.Services.ICartService, AutoMapper.IMapper)
-  nameWithType: GetInCartAmountQueryHandler.GetInCartAmountQueryHandler(ICartService, IMapper)
-  nameWithType.vb: GetInCartAmountQueryHandler.New(ICartService, IMapper)
+- uid: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.#ctor(ShopApi.Features.CartFeature.Services.ICartService)
+  name: GetInCartAmountQueryHandler(ICartService)
+  href: api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.html#ShopApi_Features_CartFeature_Command_GetInCartAmount_GetInCartAmountQueryHandler__ctor_ShopApi_Features_CartFeature_Services_ICartService_
+  commentId: M:ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.#ctor(ShopApi.Features.CartFeature.Services.ICartService)
+  name.vb: New(ICartService)
+  fullName: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.GetInCartAmountQueryHandler(ShopApi.Features.CartFeature.Services.ICartService)
+  fullName.vb: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.New(ShopApi.Features.CartFeature.Services.ICartService)
+  nameWithType: GetInCartAmountQueryHandler.GetInCartAmountQueryHandler(ICartService)
+  nameWithType.vb: GetInCartAmountQueryHandler.New(ICartService)
 - uid: ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.#ctor*
   name: GetInCartAmountQueryHandler
   href: api/ShopApi.Features.CartFeature.Command.GetInCartAmount.GetInCartAmountQueryHandler.html#ShopApi_Features_CartFeature_Command_GetInCartAmount_GetInCartAmountQueryHandler__ctor_
@@ -13316,25 +13341,6 @@ references:
   commentId: T:ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent
   fullName: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent
   nameWithType: BookStockAmountUpdatedEvent
-- uid: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.#ctor(LibraryShopEntities.Domain.Entities.Shop.StockBookOrder)
-  name: BookStockAmountUpdatedEvent(StockBookOrder)
-  href: api/ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.html#ShopApi_Features_StockBookOrderFeature_Models_BookStockAmountUpdatedEvent__ctor_LibraryShopEntities_Domain_Entities_Shop_StockBookOrder_
-  commentId: M:ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.#ctor(LibraryShopEntities.Domain.Entities.Shop.StockBookOrder)
-  name.vb: New(StockBookOrder)
-  fullName: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.BookStockAmountUpdatedEvent(LibraryShopEntities.Domain.Entities.Shop.StockBookOrder)
-  fullName.vb: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.New(LibraryShopEntities.Domain.Entities.Shop.StockBookOrder)
-  nameWithType: BookStockAmountUpdatedEvent.BookStockAmountUpdatedEvent(StockBookOrder)
-  nameWithType.vb: BookStockAmountUpdatedEvent.New(StockBookOrder)
-- uid: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.#ctor*
-  name: BookStockAmountUpdatedEvent
-  href: api/ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.html#ShopApi_Features_StockBookOrderFeature_Models_BookStockAmountUpdatedEvent__ctor_
-  commentId: Overload:ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.BookStockAmountUpdatedEvent
-  fullName.vb: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.New
-  nameWithType: BookStockAmountUpdatedEvent.BookStockAmountUpdatedEvent
-  nameWithType.vb: BookStockAmountUpdatedEvent.New
 - uid: ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.StockBookOrder
   name: StockBookOrder
   href: api/ShopApi.Features.StockBookOrderFeature.Models.BookStockAmountUpdatedEvent.html#ShopApi_Features_StockBookOrderFeature_Models_BookStockAmountUpdatedEvent_StockBookOrder
@@ -13653,15 +13659,15 @@ references:
   commentId: T:ShopApi.GetLibraryEntityHelper
   fullName: ShopApi.GetLibraryEntityHelper
   nameWithType: GetLibraryEntityHelper
-- uid: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.List{System.Int32},ShopApi.Services.ILibraryService,System.Threading.CancellationToken)
-  name: GetBookResponsesForIdsAsync(List<int>, ILibraryService, CancellationToken)
-  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetBookResponsesForIdsAsync_System_Collections_Generic_List_System_Int32__ShopApi_Services_ILibraryService_System_Threading_CancellationToken_
-  commentId: M:ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.List{System.Int32},ShopApi.Services.ILibraryService,System.Threading.CancellationToken)
-  name.vb: GetBookResponsesForIdsAsync(List(Of Integer), ILibraryService, CancellationToken)
-  fullName: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.List<int>, ShopApi.Services.ILibraryService, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.List(Of Integer), ShopApi.Services.ILibraryService, System.Threading.CancellationToken)
-  nameWithType: GetLibraryEntityHelper.GetBookResponsesForIdsAsync(List<int>, ILibraryService, CancellationToken)
-  nameWithType.vb: GetLibraryEntityHelper.GetBookResponsesForIdsAsync(List(Of Integer), ILibraryService, CancellationToken)
+- uid: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},ShopApi.Services.ILibraryService,System.Threading.CancellationToken)
+  name: GetBookResponsesForIdsAsync(IEnumerable<int>, ILibraryService, CancellationToken)
+  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetBookResponsesForIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__ShopApi_Services_ILibraryService_System_Threading_CancellationToken_
+  commentId: M:ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},ShopApi.Services.ILibraryService,System.Threading.CancellationToken)
+  name.vb: GetBookResponsesForIdsAsync(IEnumerable(Of Integer), ILibraryService, CancellationToken)
+  fullName: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.IEnumerable<int>, ShopApi.Services.ILibraryService, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), ShopApi.Services.ILibraryService, System.Threading.CancellationToken)
+  nameWithType: GetLibraryEntityHelper.GetBookResponsesForIdsAsync(IEnumerable<int>, ILibraryService, CancellationToken)
+  nameWithType.vb: GetLibraryEntityHelper.GetBookResponsesForIdsAsync(IEnumerable(Of Integer), ILibraryService, CancellationToken)
 - uid: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync*
   name: GetBookResponsesForIdsAsync
   href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetBookResponsesForIdsAsync_
@@ -13669,19 +13675,19 @@ references:
   isSpec: "True"
   fullName: ShopApi.GetLibraryEntityHelper.GetBookResponsesForIdsAsync
   nameWithType: GetLibraryEntityHelper.GetBookResponsesForIdsAsync
-- uid: ShopApi.GetLibraryEntityHelper.GetCartResponseWiithBooksAsync(LibraryShopEntities.Domain.Entities.Shop.Cart,ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
-  name: GetCartResponseWiithBooksAsync(Cart, ILibraryService, IMapper, CancellationToken)
-  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetCartResponseWiithBooksAsync_LibraryShopEntities_Domain_Entities_Shop_Cart_ShopApi_Services_ILibraryService_AutoMapper_IMapper_System_Threading_CancellationToken_
-  commentId: M:ShopApi.GetLibraryEntityHelper.GetCartResponseWiithBooksAsync(LibraryShopEntities.Domain.Entities.Shop.Cart,ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
-  fullName: ShopApi.GetLibraryEntityHelper.GetCartResponseWiithBooksAsync(LibraryShopEntities.Domain.Entities.Shop.Cart, ShopApi.Services.ILibraryService, AutoMapper.IMapper, System.Threading.CancellationToken)
-  nameWithType: GetLibraryEntityHelper.GetCartResponseWiithBooksAsync(Cart, ILibraryService, IMapper, CancellationToken)
-- uid: ShopApi.GetLibraryEntityHelper.GetCartResponseWiithBooksAsync*
-  name: GetCartResponseWiithBooksAsync
-  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetCartResponseWiithBooksAsync_
-  commentId: Overload:ShopApi.GetLibraryEntityHelper.GetCartResponseWiithBooksAsync
+- uid: ShopApi.GetLibraryEntityHelper.GetCartResponseWithBooksAsync(LibraryShopEntities.Domain.Entities.Shop.Cart,ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
+  name: GetCartResponseWithBooksAsync(Cart, ILibraryService, IMapper, CancellationToken)
+  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetCartResponseWithBooksAsync_LibraryShopEntities_Domain_Entities_Shop_Cart_ShopApi_Services_ILibraryService_AutoMapper_IMapper_System_Threading_CancellationToken_
+  commentId: M:ShopApi.GetLibraryEntityHelper.GetCartResponseWithBooksAsync(LibraryShopEntities.Domain.Entities.Shop.Cart,ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
+  fullName: ShopApi.GetLibraryEntityHelper.GetCartResponseWithBooksAsync(LibraryShopEntities.Domain.Entities.Shop.Cart, ShopApi.Services.ILibraryService, AutoMapper.IMapper, System.Threading.CancellationToken)
+  nameWithType: GetLibraryEntityHelper.GetCartResponseWithBooksAsync(Cart, ILibraryService, IMapper, CancellationToken)
+- uid: ShopApi.GetLibraryEntityHelper.GetCartResponseWithBooksAsync*
+  name: GetCartResponseWithBooksAsync
+  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetCartResponseWithBooksAsync_
+  commentId: Overload:ShopApi.GetLibraryEntityHelper.GetCartResponseWithBooksAsync
   isSpec: "True"
-  fullName: ShopApi.GetLibraryEntityHelper.GetCartResponseWiithBooksAsync
-  nameWithType: GetLibraryEntityHelper.GetCartResponseWiithBooksAsync
+  fullName: ShopApi.GetLibraryEntityHelper.GetCartResponseWithBooksAsync
+  nameWithType: GetLibraryEntityHelper.GetCartResponseWithBooksAsync
 - uid: ShopApi.GetLibraryEntityHelper.GetOrderResponsesWithBooksAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.Order},ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
   name: GetOrderResponsesWithBooksAsync(IEnumerable<Order>, ILibraryService, IMapper, CancellationToken)
   href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetOrderResponsesWithBooksAsync_System_Collections_Generic_IEnumerable_LibraryShopEntities_Domain_Entities_Shop_Order__ShopApi_Services_ILibraryService_AutoMapper_IMapper_System_Threading_CancellationToken_
@@ -13698,22 +13704,22 @@ references:
   isSpec: "True"
   fullName: ShopApi.GetLibraryEntityHelper.GetOrderResponsesWithBooksAsync
   nameWithType: GetLibraryEntityHelper.GetOrderResponsesWithBooksAsync
-- uid: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookOrder},ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
-  name: GetStockBookOrderResponseWiithBooksAsync(IEnumerable<StockBookOrder>, ILibraryService, IMapper, CancellationToken)
-  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetStockBookOrderResponseWiithBooksAsync_System_Collections_Generic_IEnumerable_LibraryShopEntities_Domain_Entities_Shop_StockBookOrder__ShopApi_Services_ILibraryService_AutoMapper_IMapper_System_Threading_CancellationToken_
-  commentId: M:ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookOrder},ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
-  name.vb: GetStockBookOrderResponseWiithBooksAsync(IEnumerable(Of StockBookOrder), ILibraryService, IMapper, CancellationToken)
-  fullName: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync(System.Collections.Generic.IEnumerable<LibraryShopEntities.Domain.Entities.Shop.StockBookOrder>, ShopApi.Services.ILibraryService, AutoMapper.IMapper, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync(System.Collections.Generic.IEnumerable(Of LibraryShopEntities.Domain.Entities.Shop.StockBookOrder), ShopApi.Services.ILibraryService, AutoMapper.IMapper, System.Threading.CancellationToken)
-  nameWithType: GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync(IEnumerable<StockBookOrder>, ILibraryService, IMapper, CancellationToken)
-  nameWithType.vb: GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync(IEnumerable(Of StockBookOrder), ILibraryService, IMapper, CancellationToken)
-- uid: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync*
-  name: GetStockBookOrderResponseWiithBooksAsync
-  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetStockBookOrderResponseWiithBooksAsync_
-  commentId: Overload:ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync
+- uid: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookOrder},ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
+  name: GetStockBookOrderResponseWithBooksAsync(IEnumerable<StockBookOrder>, ILibraryService, IMapper, CancellationToken)
+  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetStockBookOrderResponseWithBooksAsync_System_Collections_Generic_IEnumerable_LibraryShopEntities_Domain_Entities_Shop_StockBookOrder__ShopApi_Services_ILibraryService_AutoMapper_IMapper_System_Threading_CancellationToken_
+  commentId: M:ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookOrder},ShopApi.Services.ILibraryService,AutoMapper.IMapper,System.Threading.CancellationToken)
+  name.vb: GetStockBookOrderResponseWithBooksAsync(IEnumerable(Of StockBookOrder), ILibraryService, IMapper, CancellationToken)
+  fullName: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync(System.Collections.Generic.IEnumerable<LibraryShopEntities.Domain.Entities.Shop.StockBookOrder>, ShopApi.Services.ILibraryService, AutoMapper.IMapper, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync(System.Collections.Generic.IEnumerable(Of LibraryShopEntities.Domain.Entities.Shop.StockBookOrder), ShopApi.Services.ILibraryService, AutoMapper.IMapper, System.Threading.CancellationToken)
+  nameWithType: GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync(IEnumerable<StockBookOrder>, ILibraryService, IMapper, CancellationToken)
+  nameWithType.vb: GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync(IEnumerable(Of StockBookOrder), ILibraryService, IMapper, CancellationToken)
+- uid: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync*
+  name: GetStockBookOrderResponseWithBooksAsync
+  href: api/ShopApi.GetLibraryEntityHelper.html#ShopApi_GetLibraryEntityHelper_GetStockBookOrderResponseWithBooksAsync_
+  commentId: Overload:ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync
   isSpec: "True"
-  fullName: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync
-  nameWithType: GetLibraryEntityHelper.GetStockBookOrderResponseWiithBooksAsync
+  fullName: ShopApi.GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync
+  nameWithType: GetLibraryEntityHelper.GetStockBookOrderResponseWithBooksAsync
 - uid: ShopApi.LibraryConfiguration
   name: LibraryConfiguration
   href: api/ShopApi.LibraryConfiguration.html
@@ -13874,24 +13880,24 @@ references:
   isSpec: "True"
   fullName: ShopApi.Services.ILibraryService.GetByIdsAsync
   nameWithType: ILibraryService.GetByIdsAsync
-- uid: ShopApi.Services.ILibraryService.GetByIdsAsync``1(System.Collections.Generic.List{System.Int32},System.String,System.Threading.CancellationToken)
-  name: GetByIdsAsync<T>(List<int>, string, CancellationToken)
-  href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_GetByIdsAsync__1_System_Collections_Generic_List_System_Int32__System_String_System_Threading_CancellationToken_
-  commentId: M:ShopApi.Services.ILibraryService.GetByIdsAsync``1(System.Collections.Generic.List{System.Int32},System.String,System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(Of T)(List(Of Integer), String, CancellationToken)
-  fullName: ShopApi.Services.ILibraryService.GetByIdsAsync<T>(System.Collections.Generic.List<int>, string, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Services.ILibraryService.GetByIdsAsync(Of T)(System.Collections.Generic.List(Of Integer), String, System.Threading.CancellationToken)
-  nameWithType: ILibraryService.GetByIdsAsync<T>(List<int>, string, CancellationToken)
-  nameWithType.vb: ILibraryService.GetByIdsAsync(Of T)(List(Of Integer), String, CancellationToken)
-- uid: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: RaiseBookPopularityByIdsAsync(List<int>, CancellationToken)
-  href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_RaiseBookPopularityByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: RaiseBookPopularityByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: ILibraryService.RaiseBookPopularityByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: ILibraryService.RaiseBookPopularityByIdsAsync(List(Of Integer), CancellationToken)
+- uid: ShopApi.Services.ILibraryService.GetByIdsAsync``1(System.Collections.Generic.IEnumerable{System.Int32},System.String,System.Threading.CancellationToken)
+  name: GetByIdsAsync<T>(IEnumerable<int>, string, CancellationToken)
+  href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_GetByIdsAsync__1_System_Collections_Generic_IEnumerable_System_Int32__System_String_System_Threading_CancellationToken_
+  commentId: M:ShopApi.Services.ILibraryService.GetByIdsAsync``1(System.Collections.Generic.IEnumerable{System.Int32},System.String,System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(Of T)(IEnumerable(Of Integer), String, CancellationToken)
+  fullName: ShopApi.Services.ILibraryService.GetByIdsAsync<T>(System.Collections.Generic.IEnumerable<int>, string, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Services.ILibraryService.GetByIdsAsync(Of T)(System.Collections.Generic.IEnumerable(Of Integer), String, System.Threading.CancellationToken)
+  nameWithType: ILibraryService.GetByIdsAsync<T>(IEnumerable<int>, string, CancellationToken)
+  nameWithType.vb: ILibraryService.GetByIdsAsync(Of T)(IEnumerable(Of Integer), String, CancellationToken)
+- uid: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: RaiseBookPopularityByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_RaiseBookPopularityByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: RaiseBookPopularityByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: ILibraryService.RaiseBookPopularityByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: ILibraryService.RaiseBookPopularityByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync*
   name: RaiseBookPopularityByIdsAsync
   href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_RaiseBookPopularityByIdsAsync_
@@ -13899,15 +13905,15 @@ references:
   isSpec: "True"
   fullName: ShopApi.Services.ILibraryService.RaiseBookPopularityByIdsAsync
   nameWithType: ILibraryService.RaiseBookPopularityByIdsAsync
-- uid: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
-  name: UpdateBookStockAmountAsync(List<StockBookChange>, CancellationToken)
-  href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_UpdateBookStockAmountAsync_System_Collections_Generic_List_LibraryShopEntities_Domain_Entities_Shop_StockBookChange__System_Threading_CancellationToken_
-  commentId: M:ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
-  name.vb: UpdateBookStockAmountAsync(List(Of StockBookChange), CancellationToken)
-  fullName: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List<LibraryShopEntities.Domain.Entities.Shop.StockBookChange>, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List(Of LibraryShopEntities.Domain.Entities.Shop.StockBookChange), System.Threading.CancellationToken)
-  nameWithType: ILibraryService.UpdateBookStockAmountAsync(List<StockBookChange>, CancellationToken)
-  nameWithType.vb: ILibraryService.UpdateBookStockAmountAsync(List(Of StockBookChange), CancellationToken)
+- uid: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
+  name: UpdateBookStockAmountAsync(IEnumerable<StockBookChange>, CancellationToken)
+  href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_UpdateBookStockAmountAsync_System_Collections_Generic_IEnumerable_LibraryShopEntities_Domain_Entities_Shop_StockBookChange__System_Threading_CancellationToken_
+  commentId: M:ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
+  name.vb: UpdateBookStockAmountAsync(IEnumerable(Of StockBookChange), CancellationToken)
+  fullName: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable<LibraryShopEntities.Domain.Entities.Shop.StockBookChange>, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable(Of LibraryShopEntities.Domain.Entities.Shop.StockBookChange), System.Threading.CancellationToken)
+  nameWithType: ILibraryService.UpdateBookStockAmountAsync(IEnumerable<StockBookChange>, CancellationToken)
+  nameWithType.vb: ILibraryService.UpdateBookStockAmountAsync(IEnumerable(Of StockBookChange), CancellationToken)
 - uid: ShopApi.Services.ILibraryService.UpdateBookStockAmountAsync*
   name: UpdateBookStockAmountAsync
   href: api/ShopApi.Services.ILibraryService.html#ShopApi_Services_ILibraryService_UpdateBookStockAmountAsync_
@@ -13947,24 +13953,24 @@ references:
   isSpec: "True"
   fullName: ShopApi.Services.LibraryService.GetByIdsAsync
   nameWithType: LibraryService.GetByIdsAsync
-- uid: ShopApi.Services.LibraryService.GetByIdsAsync``1(System.Collections.Generic.List{System.Int32},System.String,System.Threading.CancellationToken)
-  name: GetByIdsAsync<T>(List<int>, string, CancellationToken)
-  href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_GetByIdsAsync__1_System_Collections_Generic_List_System_Int32__System_String_System_Threading_CancellationToken_
-  commentId: M:ShopApi.Services.LibraryService.GetByIdsAsync``1(System.Collections.Generic.List{System.Int32},System.String,System.Threading.CancellationToken)
-  name.vb: GetByIdsAsync(Of T)(List(Of Integer), String, CancellationToken)
-  fullName: ShopApi.Services.LibraryService.GetByIdsAsync<T>(System.Collections.Generic.List<int>, string, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Services.LibraryService.GetByIdsAsync(Of T)(System.Collections.Generic.List(Of Integer), String, System.Threading.CancellationToken)
-  nameWithType: LibraryService.GetByIdsAsync<T>(List<int>, string, CancellationToken)
-  nameWithType.vb: LibraryService.GetByIdsAsync(Of T)(List(Of Integer), String, CancellationToken)
-- uid: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name: RaiseBookPopularityByIdsAsync(List<int>, CancellationToken)
-  href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_RaiseBookPopularityByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_
-  commentId: M:ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
-  name.vb: RaiseBookPopularityByIdsAsync(List(Of Integer), CancellationToken)
-  fullName: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List<int>, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.List(Of Integer), System.Threading.CancellationToken)
-  nameWithType: LibraryService.RaiseBookPopularityByIdsAsync(List<int>, CancellationToken)
-  nameWithType.vb: LibraryService.RaiseBookPopularityByIdsAsync(List(Of Integer), CancellationToken)
+- uid: ShopApi.Services.LibraryService.GetByIdsAsync``1(System.Collections.Generic.IEnumerable{System.Int32},System.String,System.Threading.CancellationToken)
+  name: GetByIdsAsync<T>(IEnumerable<int>, string, CancellationToken)
+  href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_GetByIdsAsync__1_System_Collections_Generic_IEnumerable_System_Int32__System_String_System_Threading_CancellationToken_
+  commentId: M:ShopApi.Services.LibraryService.GetByIdsAsync``1(System.Collections.Generic.IEnumerable{System.Int32},System.String,System.Threading.CancellationToken)
+  name.vb: GetByIdsAsync(Of T)(IEnumerable(Of Integer), String, CancellationToken)
+  fullName: ShopApi.Services.LibraryService.GetByIdsAsync<T>(System.Collections.Generic.IEnumerable<int>, string, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Services.LibraryService.GetByIdsAsync(Of T)(System.Collections.Generic.IEnumerable(Of Integer), String, System.Threading.CancellationToken)
+  nameWithType: LibraryService.GetByIdsAsync<T>(IEnumerable<int>, string, CancellationToken)
+  nameWithType.vb: LibraryService.GetByIdsAsync(Of T)(IEnumerable(Of Integer), String, CancellationToken)
+- uid: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name: RaiseBookPopularityByIdsAsync(IEnumerable<int>, CancellationToken)
+  href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_RaiseBookPopularityByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_
+  commentId: M:ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)
+  name.vb: RaiseBookPopularityByIdsAsync(IEnumerable(Of Integer), CancellationToken)
+  fullName: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable<int>, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync(System.Collections.Generic.IEnumerable(Of Integer), System.Threading.CancellationToken)
+  nameWithType: LibraryService.RaiseBookPopularityByIdsAsync(IEnumerable<int>, CancellationToken)
+  nameWithType.vb: LibraryService.RaiseBookPopularityByIdsAsync(IEnumerable(Of Integer), CancellationToken)
 - uid: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync*
   name: RaiseBookPopularityByIdsAsync
   href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_RaiseBookPopularityByIdsAsync_
@@ -13972,15 +13978,15 @@ references:
   isSpec: "True"
   fullName: ShopApi.Services.LibraryService.RaiseBookPopularityByIdsAsync
   nameWithType: LibraryService.RaiseBookPopularityByIdsAsync
-- uid: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
-  name: UpdateBookStockAmountAsync(List<StockBookChange>, CancellationToken)
-  href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_UpdateBookStockAmountAsync_System_Collections_Generic_List_LibraryShopEntities_Domain_Entities_Shop_StockBookChange__System_Threading_CancellationToken_
-  commentId: M:ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
-  name.vb: UpdateBookStockAmountAsync(List(Of StockBookChange), CancellationToken)
-  fullName: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List<LibraryShopEntities.Domain.Entities.Shop.StockBookChange>, System.Threading.CancellationToken)
-  fullName.vb: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.List(Of LibraryShopEntities.Domain.Entities.Shop.StockBookChange), System.Threading.CancellationToken)
-  nameWithType: LibraryService.UpdateBookStockAmountAsync(List<StockBookChange>, CancellationToken)
-  nameWithType.vb: LibraryService.UpdateBookStockAmountAsync(List(Of StockBookChange), CancellationToken)
+- uid: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
+  name: UpdateBookStockAmountAsync(IEnumerable<StockBookChange>, CancellationToken)
+  href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_UpdateBookStockAmountAsync_System_Collections_Generic_IEnumerable_LibraryShopEntities_Domain_Entities_Shop_StockBookChange__System_Threading_CancellationToken_
+  commentId: M:ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Shop.StockBookChange},System.Threading.CancellationToken)
+  name.vb: UpdateBookStockAmountAsync(IEnumerable(Of StockBookChange), CancellationToken)
+  fullName: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable<LibraryShopEntities.Domain.Entities.Shop.StockBookChange>, System.Threading.CancellationToken)
+  fullName.vb: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync(System.Collections.Generic.IEnumerable(Of LibraryShopEntities.Domain.Entities.Shop.StockBookChange), System.Threading.CancellationToken)
+  nameWithType: LibraryService.UpdateBookStockAmountAsync(IEnumerable<StockBookChange>, CancellationToken)
+  nameWithType.vb: LibraryService.UpdateBookStockAmountAsync(IEnumerable(Of StockBookChange), CancellationToken)
 - uid: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync*
   name: UpdateBookStockAmountAsync
   href: api/ShopApi.Services.LibraryService.html#ShopApi_Services_LibraryService_UpdateBookStockAmountAsync_
@@ -13988,6 +13994,25 @@ references:
   isSpec: "True"
   fullName: ShopApi.Services.LibraryService.UpdateBookStockAmountAsync
   nameWithType: LibraryService.UpdateBookStockAmountAsync
+- uid: ShopApi.Utilities
+  name: Utilities
+  href: api/ShopApi.Utilities.html
+  commentId: T:ShopApi.Utilities
+  fullName: ShopApi.Utilities
+  nameWithType: Utilities
+- uid: ShopApi.Utilities.GetUserId(System.Security.Claims.ClaimsPrincipal)
+  name: GetUserId(ClaimsPrincipal)
+  href: api/ShopApi.Utilities.html#ShopApi_Utilities_GetUserId_System_Security_Claims_ClaimsPrincipal_
+  commentId: M:ShopApi.Utilities.GetUserId(System.Security.Claims.ClaimsPrincipal)
+  fullName: ShopApi.Utilities.GetUserId(System.Security.Claims.ClaimsPrincipal)
+  nameWithType: Utilities.GetUserId(ClaimsPrincipal)
+- uid: ShopApi.Utilities.GetUserId*
+  name: GetUserId
+  href: api/ShopApi.Utilities.html#ShopApi_Utilities_GetUserId_
+  commentId: Overload:ShopApi.Utilities.GetUserId
+  isSpec: "True"
+  fullName: ShopApi.Utilities.GetUserId
+  nameWithType: Utilities.GetUserId
 - uid: UserApi
   name: UserApi
   href: api/UserApi.html
@@ -14807,15 +14832,15 @@ references:
   commentId: T:UserApi.Command.Client.LoginUser.LoginUserCommandHandler
   fullName: UserApi.Command.Client.LoginUser.LoginUserCommandHandler
   nameWithType: LoginUserCommandHandler
-- uid: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,AutoMapper.IMapper)
-  name: LoginUserCommandHandler(IAuthService, IUserService, IMapper)
-  href: api/UserApi.Command.Client.LoginUser.LoginUserCommandHandler.html#UserApi_Command_Client_LoginUser_LoginUserCommandHandler__ctor_UserApi_Services_Auth_IAuthService_UserApi_Services_IUserService_AutoMapper_IMapper_
-  commentId: M:UserApi.Command.Client.LoginUser.LoginUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,AutoMapper.IMapper)
-  name.vb: New(IAuthService, IUserService, IMapper)
-  fullName: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.LoginUserCommandHandler(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, AutoMapper.IMapper)
-  fullName.vb: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.New(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, AutoMapper.IMapper)
-  nameWithType: LoginUserCommandHandler.LoginUserCommandHandler(IAuthService, IUserService, IMapper)
-  nameWithType.vb: LoginUserCommandHandler.New(IAuthService, IUserService, IMapper)
+- uid: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,UserApi.Services.IUserAuthenticationMethodService,AutoMapper.IMapper)
+  name: LoginUserCommandHandler(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
+  href: api/UserApi.Command.Client.LoginUser.LoginUserCommandHandler.html#UserApi_Command_Client_LoginUser_LoginUserCommandHandler__ctor_UserApi_Services_Auth_IAuthService_UserApi_Services_IUserService_UserApi_Services_IUserAuthenticationMethodService_AutoMapper_IMapper_
+  commentId: M:UserApi.Command.Client.LoginUser.LoginUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,UserApi.Services.IUserAuthenticationMethodService,AutoMapper.IMapper)
+  name.vb: New(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
+  fullName: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.LoginUserCommandHandler(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, UserApi.Services.IUserAuthenticationMethodService, AutoMapper.IMapper)
+  fullName.vb: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.New(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, UserApi.Services.IUserAuthenticationMethodService, AutoMapper.IMapper)
+  nameWithType: LoginUserCommandHandler.LoginUserCommandHandler(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
+  nameWithType.vb: LoginUserCommandHandler.New(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
 - uid: UserApi.Command.Client.LoginUser.LoginUserCommandHandler.#ctor*
   name: LoginUserCommandHandler
   href: api/UserApi.Command.Client.LoginUser.LoginUserCommandHandler.html#UserApi_Command_Client_LoginUser_LoginUserCommandHandler__ctor_
@@ -14889,15 +14914,15 @@ references:
   commentId: T:UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler
   fullName: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler
   nameWithType: RefreshTokenCommandHandler
-- uid: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,AutoMapper.IMapper)
-  name: RefreshTokenCommandHandler(IAuthService, IMapper)
-  href: api/UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.html#UserApi_Command_Client_RefreshToken_RefreshTokenCommandHandler__ctor_UserApi_Services_Auth_IAuthService_AutoMapper_IMapper_
-  commentId: M:UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,AutoMapper.IMapper)
-  name.vb: New(IAuthService, IMapper)
-  fullName: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.RefreshTokenCommandHandler(UserApi.Services.Auth.IAuthService, AutoMapper.IMapper)
-  fullName.vb: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.New(UserApi.Services.Auth.IAuthService, AutoMapper.IMapper)
-  nameWithType: RefreshTokenCommandHandler.RefreshTokenCommandHandler(IAuthService, IMapper)
-  nameWithType.vb: RefreshTokenCommandHandler.New(IAuthService, IMapper)
+- uid: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,UserApi.Services.ITokenService,AutoMapper.IMapper)
+  name: RefreshTokenCommandHandler(IAuthService, IUserService, ITokenService, IMapper)
+  href: api/UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.html#UserApi_Command_Client_RefreshToken_RefreshTokenCommandHandler__ctor_UserApi_Services_Auth_IAuthService_UserApi_Services_IUserService_UserApi_Services_ITokenService_AutoMapper_IMapper_
+  commentId: M:UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,UserApi.Services.ITokenService,AutoMapper.IMapper)
+  name.vb: New(IAuthService, IUserService, ITokenService, IMapper)
+  fullName: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.RefreshTokenCommandHandler(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, UserApi.Services.ITokenService, AutoMapper.IMapper)
+  fullName.vb: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.New(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, UserApi.Services.ITokenService, AutoMapper.IMapper)
+  nameWithType: RefreshTokenCommandHandler.RefreshTokenCommandHandler(IAuthService, IUserService, ITokenService, IMapper)
+  nameWithType.vb: RefreshTokenCommandHandler.New(IAuthService, IUserService, ITokenService, IMapper)
 - uid: UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.#ctor*
   name: RefreshTokenCommandHandler
   href: api/UserApi.Command.Client.RefreshToken.RefreshTokenCommandHandler.html#UserApi_Command_Client_RefreshToken_RefreshTokenCommandHandler__ctor_
@@ -14971,15 +14996,15 @@ references:
   commentId: T:UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler
   fullName: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler
   nameWithType: RegisterUserCommandHandler
-- uid: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,AutoMapper.IMapper)
-  name: RegisterUserCommandHandler(IAuthService, IUserService, IMapper)
-  href: api/UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.html#UserApi_Command_Client_RegisterUser_RegisterUserCommandHandler__ctor_UserApi_Services_Auth_IAuthService_UserApi_Services_IUserService_AutoMapper_IMapper_
-  commentId: M:UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,AutoMapper.IMapper)
-  name.vb: New(IAuthService, IUserService, IMapper)
-  fullName: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.RegisterUserCommandHandler(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, AutoMapper.IMapper)
-  fullName.vb: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.New(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, AutoMapper.IMapper)
-  nameWithType: RegisterUserCommandHandler.RegisterUserCommandHandler(IAuthService, IUserService, IMapper)
-  nameWithType.vb: RegisterUserCommandHandler.New(IAuthService, IUserService, IMapper)
+- uid: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,UserApi.Services.IUserAuthenticationMethodService,AutoMapper.IMapper)
+  name: RegisterUserCommandHandler(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
+  href: api/UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.html#UserApi_Command_Client_RegisterUser_RegisterUserCommandHandler__ctor_UserApi_Services_Auth_IAuthService_UserApi_Services_IUserService_UserApi_Services_IUserAuthenticationMethodService_AutoMapper_IMapper_
+  commentId: M:UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.#ctor(UserApi.Services.Auth.IAuthService,UserApi.Services.IUserService,UserApi.Services.IUserAuthenticationMethodService,AutoMapper.IMapper)
+  name.vb: New(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
+  fullName: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.RegisterUserCommandHandler(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, UserApi.Services.IUserAuthenticationMethodService, AutoMapper.IMapper)
+  fullName.vb: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.New(UserApi.Services.Auth.IAuthService, UserApi.Services.IUserService, UserApi.Services.IUserAuthenticationMethodService, AutoMapper.IMapper)
+  nameWithType: RegisterUserCommandHandler.RegisterUserCommandHandler(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
+  nameWithType.vb: RegisterUserCommandHandler.New(IAuthService, IUserService, IUserAuthenticationMethodService, IMapper)
 - uid: UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.#ctor*
   name: RegisterUserCommandHandler
   href: api/UserApi.Command.Client.RegisterUser.RegisterUserCommandHandler.html#UserApi_Command_Client_RegisterUser_RegisterUserCommandHandler__ctor_
@@ -16149,15 +16174,15 @@ references:
   commentId: T:UserApi.Services.Auth.AuthService
   fullName: UserApi.Services.Auth.AuthService
   nameWithType: AuthService
-- uid: UserApi.Services.Auth.AuthService.#ctor(Microsoft.AspNetCore.Identity.UserManager{UserEntities.Domain.Entities.User},UserApi.Services.ITokenService,UserApi.Services.IUserAuthenticationMethodService,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AuthService(UserManager<User>, ITokenService, IUserAuthenticationMethodService, IConfiguration)
-  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService__ctor_Microsoft_AspNetCore_Identity_UserManager_UserEntities_Domain_Entities_User__UserApi_Services_ITokenService_UserApi_Services_IUserAuthenticationMethodService_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:UserApi.Services.Auth.AuthService.#ctor(Microsoft.AspNetCore.Identity.UserManager{UserEntities.Domain.Entities.User},UserApi.Services.ITokenService,UserApi.Services.IUserAuthenticationMethodService,Microsoft.Extensions.Configuration.IConfiguration)
-  name.vb: New(UserManager(Of User), ITokenService, IUserAuthenticationMethodService, IConfiguration)
-  fullName: UserApi.Services.Auth.AuthService.AuthService(Microsoft.AspNetCore.Identity.UserManager<UserEntities.Domain.Entities.User>, UserApi.Services.ITokenService, UserApi.Services.IUserAuthenticationMethodService, Microsoft.Extensions.Configuration.IConfiguration)
-  fullName.vb: UserApi.Services.Auth.AuthService.New(Microsoft.AspNetCore.Identity.UserManager(Of UserEntities.Domain.Entities.User), UserApi.Services.ITokenService, UserApi.Services.IUserAuthenticationMethodService, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: AuthService.AuthService(UserManager<User>, ITokenService, IUserAuthenticationMethodService, IConfiguration)
-  nameWithType.vb: AuthService.New(UserManager(Of User), ITokenService, IUserAuthenticationMethodService, IConfiguration)
+- uid: UserApi.Services.Auth.AuthService.#ctor(Microsoft.AspNetCore.Identity.UserManager{UserEntities.Domain.Entities.User},UserApi.Services.ITokenService,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AuthService(UserManager<User>, ITokenService, IConfiguration)
+  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService__ctor_Microsoft_AspNetCore_Identity_UserManager_UserEntities_Domain_Entities_User__UserApi_Services_ITokenService_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:UserApi.Services.Auth.AuthService.#ctor(Microsoft.AspNetCore.Identity.UserManager{UserEntities.Domain.Entities.User},UserApi.Services.ITokenService,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: New(UserManager(Of User), ITokenService, IConfiguration)
+  fullName: UserApi.Services.Auth.AuthService.AuthService(Microsoft.AspNetCore.Identity.UserManager<UserEntities.Domain.Entities.User>, UserApi.Services.ITokenService, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: UserApi.Services.Auth.AuthService.New(Microsoft.AspNetCore.Identity.UserManager(Of UserEntities.Domain.Entities.User), UserApi.Services.ITokenService, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: AuthService.AuthService(UserManager<User>, ITokenService, IConfiguration)
+  nameWithType.vb: AuthService.New(UserManager(Of User), ITokenService, IConfiguration)
 - uid: UserApi.Services.Auth.AuthService.#ctor*
   name: AuthService
   href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService__ctor_
@@ -16181,12 +16206,12 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.AuthService.LoginUserAsync
   nameWithType: AuthService.LoginUserAsync
-- uid: UserApi.Services.Auth.AuthService.RefreshTokenAsync(Authentication.Models.AccessTokenData,System.Threading.CancellationToken)
-  name: RefreshTokenAsync(AccessTokenData, CancellationToken)
-  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RefreshTokenAsync_Authentication_Models_AccessTokenData_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.AuthService.RefreshTokenAsync(Authentication.Models.AccessTokenData,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.AuthService.RefreshTokenAsync(Authentication.Models.AccessTokenData, System.Threading.CancellationToken)
-  nameWithType: AuthService.RefreshTokenAsync(AccessTokenData, CancellationToken)
+- uid: UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
+  name: RefreshTokenAsync(RefreshTokenParams, CancellationToken)
+  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RefreshTokenAsync_UserApi_Services_Auth_RefreshTokenParams_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams, System.Threading.CancellationToken)
+  nameWithType: AuthService.RefreshTokenAsync(RefreshTokenParams, CancellationToken)
 - uid: UserApi.Services.Auth.AuthService.RefreshTokenAsync*
   name: RefreshTokenAsync
   href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RefreshTokenAsync_
@@ -16226,12 +16251,12 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.IAuthService.LoginUserAsync
   nameWithType: IAuthService.LoginUserAsync
-- uid: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(Authentication.Models.AccessTokenData,System.Threading.CancellationToken)
-  name: RefreshTokenAsync(AccessTokenData, CancellationToken)
-  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RefreshTokenAsync_Authentication_Models_AccessTokenData_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.IAuthService.RefreshTokenAsync(Authentication.Models.AccessTokenData,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(Authentication.Models.AccessTokenData, System.Threading.CancellationToken)
-  nameWithType: IAuthService.RefreshTokenAsync(AccessTokenData, CancellationToken)
+- uid: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
+  name: RefreshTokenAsync(RefreshTokenParams, CancellationToken)
+  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RefreshTokenAsync_UserApi_Services_Auth_RefreshTokenParams_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams, System.Threading.CancellationToken)
+  nameWithType: IAuthService.RefreshTokenAsync(RefreshTokenParams, CancellationToken)
 - uid: UserApi.Services.Auth.IAuthService.RefreshTokenAsync*
   name: RefreshTokenAsync
   href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RefreshTokenAsync_
@@ -16258,15 +16283,15 @@ references:
   commentId: T:UserApi.Services.Auth.LoginUserParams
   fullName: UserApi.Services.Auth.LoginUserParams
   nameWithType: LoginUserParams
-- uid: UserApi.Services.Auth.LoginUserParams.#ctor(System.String,System.String)
-  name: LoginUserParams(string, string)
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams__ctor_System_String_System_String_
-  commentId: M:UserApi.Services.Auth.LoginUserParams.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: UserApi.Services.Auth.LoginUserParams.LoginUserParams(string, string)
-  fullName.vb: UserApi.Services.Auth.LoginUserParams.New(String, String)
-  nameWithType: LoginUserParams.LoginUserParams(string, string)
-  nameWithType.vb: LoginUserParams.New(String, String)
+- uid: UserApi.Services.Auth.LoginUserParams.#ctor(UserEntities.Domain.Entities.User,System.String)
+  name: LoginUserParams(User, string)
+  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams__ctor_UserEntities_Domain_Entities_User_System_String_
+  commentId: M:UserApi.Services.Auth.LoginUserParams.#ctor(UserEntities.Domain.Entities.User,System.String)
+  name.vb: New(User, String)
+  fullName: UserApi.Services.Auth.LoginUserParams.LoginUserParams(UserEntities.Domain.Entities.User, string)
+  fullName.vb: UserApi.Services.Auth.LoginUserParams.New(UserEntities.Domain.Entities.User, String)
+  nameWithType: LoginUserParams.LoginUserParams(User, string)
+  nameWithType.vb: LoginUserParams.New(User, String)
 - uid: UserApi.Services.Auth.LoginUserParams.#ctor*
   name: LoginUserParams
   href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams__ctor_
@@ -16277,19 +16302,6 @@ references:
   fullName.vb: UserApi.Services.Auth.LoginUserParams.New
   nameWithType: LoginUserParams.LoginUserParams
   nameWithType.vb: LoginUserParams.New
-- uid: UserApi.Services.Auth.LoginUserParams.Login
-  name: Login
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_Login
-  commentId: P:UserApi.Services.Auth.LoginUserParams.Login
-  fullName: UserApi.Services.Auth.LoginUserParams.Login
-  nameWithType: LoginUserParams.Login
-- uid: UserApi.Services.Auth.LoginUserParams.Login*
-  name: Login
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_Login_
-  commentId: Overload:UserApi.Services.Auth.LoginUserParams.Login
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.LoginUserParams.Login
-  nameWithType: LoginUserParams.Login
 - uid: UserApi.Services.Auth.LoginUserParams.Password
   name: Password
   href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_Password
@@ -16303,6 +16315,70 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.LoginUserParams.Password
   nameWithType: LoginUserParams.Password
+- uid: UserApi.Services.Auth.LoginUserParams.User
+  name: User
+  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_User
+  commentId: P:UserApi.Services.Auth.LoginUserParams.User
+  fullName: UserApi.Services.Auth.LoginUserParams.User
+  nameWithType: LoginUserParams.User
+- uid: UserApi.Services.Auth.LoginUserParams.User*
+  name: User
+  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_User_
+  commentId: Overload:UserApi.Services.Auth.LoginUserParams.User
+  isSpec: "True"
+  fullName: UserApi.Services.Auth.LoginUserParams.User
+  nameWithType: LoginUserParams.User
+- uid: UserApi.Services.Auth.RefreshTokenParams
+  name: RefreshTokenParams
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html
+  commentId: T:UserApi.Services.Auth.RefreshTokenParams
+  fullName: UserApi.Services.Auth.RefreshTokenParams
+  nameWithType: RefreshTokenParams
+- uid: UserApi.Services.Auth.RefreshTokenParams.#ctor(UserEntities.Domain.Entities.User,Authentication.Models.AccessTokenData)
+  name: RefreshTokenParams(User, AccessTokenData)
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams__ctor_UserEntities_Domain_Entities_User_Authentication_Models_AccessTokenData_
+  commentId: M:UserApi.Services.Auth.RefreshTokenParams.#ctor(UserEntities.Domain.Entities.User,Authentication.Models.AccessTokenData)
+  name.vb: New(User, AccessTokenData)
+  fullName: UserApi.Services.Auth.RefreshTokenParams.RefreshTokenParams(UserEntities.Domain.Entities.User, Authentication.Models.AccessTokenData)
+  fullName.vb: UserApi.Services.Auth.RefreshTokenParams.New(UserEntities.Domain.Entities.User, Authentication.Models.AccessTokenData)
+  nameWithType: RefreshTokenParams.RefreshTokenParams(User, AccessTokenData)
+  nameWithType.vb: RefreshTokenParams.New(User, AccessTokenData)
+- uid: UserApi.Services.Auth.RefreshTokenParams.#ctor*
+  name: RefreshTokenParams
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams__ctor_
+  commentId: Overload:UserApi.Services.Auth.RefreshTokenParams.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UserApi.Services.Auth.RefreshTokenParams.RefreshTokenParams
+  fullName.vb: UserApi.Services.Auth.RefreshTokenParams.New
+  nameWithType: RefreshTokenParams.RefreshTokenParams
+  nameWithType.vb: RefreshTokenParams.New
+- uid: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
+  name: AccessTokenData
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_AccessTokenData
+  commentId: P:UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
+  fullName: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
+  nameWithType: RefreshTokenParams.AccessTokenData
+- uid: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData*
+  name: AccessTokenData
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_AccessTokenData_
+  commentId: Overload:UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
+  isSpec: "True"
+  fullName: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
+  nameWithType: RefreshTokenParams.AccessTokenData
+- uid: UserApi.Services.Auth.RefreshTokenParams.User
+  name: User
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_User
+  commentId: P:UserApi.Services.Auth.RefreshTokenParams.User
+  fullName: UserApi.Services.Auth.RefreshTokenParams.User
+  nameWithType: RefreshTokenParams.User
+- uid: UserApi.Services.Auth.RefreshTokenParams.User*
+  name: User
+  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_User_
+  commentId: Overload:UserApi.Services.Auth.RefreshTokenParams.User
+  isSpec: "True"
+  fullName: UserApi.Services.Auth.RefreshTokenParams.User
+  nameWithType: RefreshTokenParams.User
 - uid: UserApi.Services.Auth.RegisterUserParams
   name: RegisterUserParams
   href: api/UserApi.Services.Auth.RegisterUserParams.html
@@ -16482,22 +16558,22 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.IUserService.GetUserAsync
   nameWithType: IUserService.GetUserAsync
-- uid: UserApi.Services.IUserService.GetUserByUserInfoAsync(System.String,System.Threading.CancellationToken)
-  name: GetUserByUserInfoAsync(string, CancellationToken)
-  href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_GetUserByUserInfoAsync_System_String_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.IUserService.GetUserByUserInfoAsync(System.String,System.Threading.CancellationToken)
-  name.vb: GetUserByUserInfoAsync(String, CancellationToken)
-  fullName: UserApi.Services.IUserService.GetUserByUserInfoAsync(string, System.Threading.CancellationToken)
-  fullName.vb: UserApi.Services.IUserService.GetUserByUserInfoAsync(String, System.Threading.CancellationToken)
-  nameWithType: IUserService.GetUserByUserInfoAsync(string, CancellationToken)
-  nameWithType.vb: IUserService.GetUserByUserInfoAsync(String, CancellationToken)
-- uid: UserApi.Services.IUserService.GetUserByUserInfoAsync*
-  name: GetUserByUserInfoAsync
-  href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_GetUserByUserInfoAsync_
-  commentId: Overload:UserApi.Services.IUserService.GetUserByUserInfoAsync
+- uid: UserApi.Services.IUserService.GetUserByLoginAsync(System.String,System.Threading.CancellationToken)
+  name: GetUserByLoginAsync(string, CancellationToken)
+  href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_GetUserByLoginAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.IUserService.GetUserByLoginAsync(System.String,System.Threading.CancellationToken)
+  name.vb: GetUserByLoginAsync(String, CancellationToken)
+  fullName: UserApi.Services.IUserService.GetUserByLoginAsync(string, System.Threading.CancellationToken)
+  fullName.vb: UserApi.Services.IUserService.GetUserByLoginAsync(String, System.Threading.CancellationToken)
+  nameWithType: IUserService.GetUserByLoginAsync(string, CancellationToken)
+  nameWithType.vb: IUserService.GetUserByLoginAsync(String, CancellationToken)
+- uid: UserApi.Services.IUserService.GetUserByLoginAsync*
+  name: GetUserByLoginAsync
+  href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_GetUserByLoginAsync_
+  commentId: Overload:UserApi.Services.IUserService.GetUserByLoginAsync
   isSpec: "True"
-  fullName: UserApi.Services.IUserService.GetUserByUserInfoAsync
-  nameWithType: IUserService.GetUserByUserInfoAsync
+  fullName: UserApi.Services.IUserService.GetUserByLoginAsync
+  nameWithType: IUserService.GetUserByLoginAsync
 - uid: UserApi.Services.IUserService.GetUserRolesAsync(UserEntities.Domain.Entities.User,System.Threading.CancellationToken)
   name: GetUserRolesAsync(User, CancellationToken)
   href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_GetUserRolesAsync_UserEntities_Domain_Entities_User_System_Threading_CancellationToken_
@@ -17135,22 +17211,22 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.UserService.GetUserAsync
   nameWithType: UserService.GetUserAsync
-- uid: UserApi.Services.UserService.GetUserByUserInfoAsync(System.String,System.Threading.CancellationToken)
-  name: GetUserByUserInfoAsync(string, CancellationToken)
-  href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_GetUserByUserInfoAsync_System_String_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.UserService.GetUserByUserInfoAsync(System.String,System.Threading.CancellationToken)
-  name.vb: GetUserByUserInfoAsync(String, CancellationToken)
-  fullName: UserApi.Services.UserService.GetUserByUserInfoAsync(string, System.Threading.CancellationToken)
-  fullName.vb: UserApi.Services.UserService.GetUserByUserInfoAsync(String, System.Threading.CancellationToken)
-  nameWithType: UserService.GetUserByUserInfoAsync(string, CancellationToken)
-  nameWithType.vb: UserService.GetUserByUserInfoAsync(String, CancellationToken)
-- uid: UserApi.Services.UserService.GetUserByUserInfoAsync*
-  name: GetUserByUserInfoAsync
-  href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_GetUserByUserInfoAsync_
-  commentId: Overload:UserApi.Services.UserService.GetUserByUserInfoAsync
+- uid: UserApi.Services.UserService.GetUserByLoginAsync(System.String,System.Threading.CancellationToken)
+  name: GetUserByLoginAsync(string, CancellationToken)
+  href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_GetUserByLoginAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.UserService.GetUserByLoginAsync(System.String,System.Threading.CancellationToken)
+  name.vb: GetUserByLoginAsync(String, CancellationToken)
+  fullName: UserApi.Services.UserService.GetUserByLoginAsync(string, System.Threading.CancellationToken)
+  fullName.vb: UserApi.Services.UserService.GetUserByLoginAsync(String, System.Threading.CancellationToken)
+  nameWithType: UserService.GetUserByLoginAsync(string, CancellationToken)
+  nameWithType.vb: UserService.GetUserByLoginAsync(String, CancellationToken)
+- uid: UserApi.Services.UserService.GetUserByLoginAsync*
+  name: GetUserByLoginAsync
+  href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_GetUserByLoginAsync_
+  commentId: Overload:UserApi.Services.UserService.GetUserByLoginAsync
   isSpec: "True"
-  fullName: UserApi.Services.UserService.GetUserByUserInfoAsync
-  nameWithType: UserService.GetUserByUserInfoAsync
+  fullName: UserApi.Services.UserService.GetUserByLoginAsync
+  nameWithType: UserService.GetUserByLoginAsync
 - uid: UserApi.Services.UserService.GetUserRolesAsync(UserEntities.Domain.Entities.User,System.Threading.CancellationToken)
   name: GetUserRolesAsync(User, CancellationToken)
   href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_GetUserRolesAsync_UserEntities_Domain_Entities_User_System_Threading_CancellationToken_

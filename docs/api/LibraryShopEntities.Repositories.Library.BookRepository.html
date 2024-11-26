@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -101,7 +101,7 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BookRepository : LibraryEntityRepository&lt;Book&gt;, IBookRepository, ILibraryEntityRepository&lt;Book&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class BookRepository : LibraryEntityRepository&lt;Book&gt;, IBookRepository, ILibraryEntityRepository&lt;Book&gt;</code></pre>
   </div>
 
 
@@ -129,22 +129,10 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_repository">LibraryEntityRepository&lt;Book&gt;.repository</a>
-    </div>
-    <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_UpdateRangeAsync__0___System_Threading_CancellationToken_">LibraryEntityRepository&lt;Book&gt;.UpdateRangeAsync(Book[], CancellationToken)</a>
+      <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_UpdateRangeAsync_System_Collections_Generic_IEnumerable__0__System_Threading_CancellationToken_">LibraryEntityRepository&lt;Book&gt;.UpdateRangeAsync(IEnumerable&lt;Book&gt;, CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_DeleteAsync__0_System_Threading_CancellationToken_">LibraryEntityRepository&lt;Book&gt;.DeleteAsync(Book, CancellationToken)</a>
-    </div>
-    <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_ApplyFilter_System_Linq_IQueryable__0__LibraryShopEntities_Filters_LibraryFilterRequest_">LibraryEntityRepository&lt;Book&gt;.ApplyFilter(IQueryable&lt;Book&gt;, LibraryFilterRequest)</a>
-    </div>
-    <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_ApplyOrdering_System_Linq_IQueryable__0__">LibraryEntityRepository&lt;Book&gt;.ApplyOrdering(IQueryable&lt;Book&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1_ApplyPagination_System_Linq_IQueryable__0__LibraryShopEntities_Filters_LibraryFilterRequest_">LibraryEntityRepository&lt;Book&gt;.ApplyPagination(IQueryable&lt;Book&gt;, LibraryFilterRequest)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -157,9 +145,6 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
@@ -213,11 +198,49 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 </h2>
 
 
+  <a id="LibraryShopEntities_Repositories_Library_BookRepository_ApplyFilter_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter*"></a>
+
+  <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_ApplyFilter_System_Linq_IQueryable_LibraryShopEntities_Domain_Entities_Library_Book__LibraryShopEntities_Filters_LibraryFilterRequest_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.ApplyFilter(System.Linq.IQueryable{LibraryShopEntities.Domain.Entities.Library.Book},LibraryShopEntities.Filters.LibraryFilterRequest)">
+  ApplyFilter(IQueryable&lt;Book&gt;, LibraryFilterRequest)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IQueryable&lt;Book&gt; ApplyFilter(IQueryable&lt;Book&gt; query, LibraryFilterRequest req)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="LibraryShopEntities.Domain.Entities.Library.Book.html">Book</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>req</code> <a class="xref" href="LibraryShopEntities.Filters.LibraryFilterRequest.html">LibraryFilterRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="LibraryShopEntities.Domain.Entities.Library.Book.html">Book</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="LibraryShopEntities_Repositories_Library_BookRepository_CreateAsync_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.CreateAsync*"></a>
 
   <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_CreateAsync_LibraryShopEntities_Domain_Entities_Library_Book_System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.CreateAsync(LibraryShopEntities.Domain.Entities.Library.Book,System.Threading.CancellationToken)">
   CreateAsync(Book, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -291,8 +314,8 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 
   <a id="LibraryShopEntities_Repositories_Library_BookRepository_GetByIdsAsync_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync*"></a>
 
-  <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)">
-  GetByIdsAsync(List&lt;int&gt;, CancellationToken)
+  <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)">
+  GetByIdsAsync(IEnumerable&lt;int&gt;, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -300,12 +323,12 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;IEnumerable&lt;Book&gt;&gt; GetByIdsAsync(List&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task&lt;IEnumerable&lt;Book&gt;&gt; GetByIdsAsync(IEnumerable&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
@@ -331,7 +354,7 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_GetItemTotalAmountAsync_LibraryShopEntities_Filters_LibraryFilterRequest_System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetItemTotalAmountAsync(LibraryShopEntities.Filters.LibraryFilterRequest,System.Threading.CancellationToken)">
   GetItemTotalAmountAsync(LibraryFilterRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -369,7 +392,7 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_GetPaginatedAsync_LibraryShopEntities_Filters_LibraryFilterRequest_System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetPaginatedAsync(LibraryShopEntities.Filters.LibraryFilterRequest,System.Threading.CancellationToken)">
   GetPaginatedAsync(LibraryFilterRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -405,8 +428,8 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 
   <a id="LibraryShopEntities_Repositories_Library_BookRepository_GetPopularitiesByIdsAsync_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync*"></a>
 
-  <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)">
-  GetPopularitiesByIdsAsync(List&lt;int&gt;, CancellationToken)
+  <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)">
+  GetPopularitiesByIdsAsync(IEnumerable&lt;int&gt;, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -414,12 +437,12 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;BookPopularity&gt;&gt; GetPopularitiesByIdsAsync(List&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;BookPopularity&gt;&gt; GetPopularitiesByIdsAsync(IEnumerable&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
@@ -445,7 +468,7 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_UpdateAsync_LibraryShopEntities_Domain_Entities_Library_Book_System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.UpdateAsync(LibraryShopEntities.Domain.Entities.Library.Book,System.Threading.CancellationToken)">
   UpdateAsync(Book, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -483,7 +506,7 @@ Class BookRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="LibraryShopEntities_Repositories_Library_BookRepository_UpdatePopularityRangeAsync_System_Collections_Generic_IEnumerable_LibraryShopEntities_Domain_Entities_Library_BookPopularity__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.BookRepository.UpdatePopularityRangeAsync(System.Collections.Generic.IEnumerable{LibraryShopEntities.Domain.Entities.Library.BookPopularity},System.Threading.CancellationToken)">
   UpdatePopularityRangeAsync(IEnumerable&lt;BookPopularity&gt;, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/BookRepository.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -234,26 +234,24 @@ Interface IUserService  <a class="header-action link-secondary" title="View sour
 
 
 
-  <a id="UserApi_Services_IUserService_GetUserByUserInfoAsync_" data-uid="UserApi.Services.IUserService.GetUserByUserInfoAsync*"></a>
+  <a id="UserApi_Services_IUserService_GetUserByLoginAsync_" data-uid="UserApi.Services.IUserService.GetUserByLoginAsync*"></a>
 
-  <h3 id="UserApi_Services_IUserService_GetUserByUserInfoAsync_System_String_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserByUserInfoAsync(System.String,System.Threading.CancellationToken)">
-  GetUserByUserInfoAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <h3 id="UserApi_Services_IUserService_GetUserByLoginAsync_System_String_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserByLoginAsync(System.String,System.Threading.CancellationToken)">
+  GetUserByLoginAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get a user by any information about him.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;User?&gt; GetUserByUserInfoAsync(string info, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;User?&gt; GetUserByLoginAsync(string login, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>info</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Login, Name, Email, Id, etc...</p>
-</dd>
+    <dt><code>login</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
   </dl>
@@ -278,7 +276,7 @@ Interface IUserService  <a class="header-action link-secondary" title="View sour
 
   <h3 id="UserApi_Services_IUserService_GetUserRolesAsync_UserEntities_Domain_Entities_User_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserRolesAsync(UserEntities.Domain.Entities.User,System.Threading.CancellationToken)">
   GetUserRolesAsync(User, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -316,7 +314,7 @@ Interface IUserService  <a class="header-action link-secondary" title="View sour
 
   <h3 id="UserApi_Services_IUserService_GetUserTotalAmountAsync_UserApi_Domain_Dtos_AdminGetUserFilter_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.GetUserTotalAmountAsync(UserApi.Domain.Dtos.AdminGetUserFilter,System.Threading.CancellationToken)">
   GetUserTotalAmountAsync(AdminGetUserFilter, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -354,7 +352,7 @@ Interface IUserService  <a class="header-action link-secondary" title="View sour
 
   <h3 id="UserApi_Services_IUserService_SetUserRolesAsync_UserEntities_Domain_Entities_User_System_Collections_Generic_List_System_String__System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.SetUserRolesAsync(UserEntities.Domain.Entities.User,System.Collections.Generic.List{System.String},System.Threading.CancellationToken)">
   SetUserRolesAsync(User, List&lt;string&gt;, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -394,7 +392,7 @@ Interface IUserService  <a class="header-action link-secondary" title="View sour
 
   <h3 id="UserApi_Services_IUserService_UpdateUserAsync_UserEntities_Domain_Entities_User_UserApi_Domain_Models_UserUpdateData_System_Boolean_System_Threading_CancellationToken_" data-uid="UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateData,System.Boolean,System.Threading.CancellationToken)">
   UpdateUserAsync(User, UserUpdateData, bool, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/IUserService.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

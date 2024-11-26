@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -123,7 +123,7 @@ Interface IBookRepository  <a class="header-action link-secondary" title="View s
       <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdAsync_System_Int32_System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.GetByIdAsync(int, CancellationToken)</a>
     </div>
     <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.GetByIdsAsync(List&lt;int&gt;, CancellationToken)</a>
+      <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.GetByIdsAsync(IEnumerable&lt;int&gt;, CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetItemTotalAmountAsync_LibraryShopEntities_Filters_LibraryFilterRequest_System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.GetItemTotalAmountAsync(LibraryFilterRequest, CancellationToken)</a>
@@ -135,7 +135,7 @@ Interface IBookRepository  <a class="header-action link-secondary" title="View s
       <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateAsync__0_System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.UpdateAsync(Book, CancellationToken)</a>
     </div>
     <div>
-      <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync__0___System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.UpdateRangeAsync(Book[], CancellationToken)</a>
+      <a class="xref" href="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync_System_Collections_Generic_IEnumerable__0__System_Threading_CancellationToken_">ILibraryEntityRepository&lt;Book&gt;.UpdateRangeAsync(IEnumerable&lt;Book&gt;, CancellationToken)</a>
     </div>
   </dd></dl>
 
@@ -150,8 +150,8 @@ Interface IBookRepository  <a class="header-action link-secondary" title="View s
 
   <a id="LibraryShopEntities_Repositories_Library_IBookRepository_GetPopularitiesByIdsAsync_" data-uid="LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync*"></a>
 
-  <h3 id="LibraryShopEntities_Repositories_Library_IBookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)">
-  GetPopularitiesByIdsAsync(List&lt;int&gt;, CancellationToken)
+  <h3 id="LibraryShopEntities_Repositories_Library_IBookRepository_GetPopularitiesByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.IBookRepository.GetPopularitiesByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)">
+  GetPopularitiesByIdsAsync(IEnumerable&lt;int&gt;, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/IBookRepository.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -159,12 +159,12 @@ Interface IBookRepository  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;BookPopularity&gt;&gt; GetPopularitiesByIdsAsync(List&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;BookPopularity&gt;&gt; GetPopularitiesByIdsAsync(IEnumerable&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>

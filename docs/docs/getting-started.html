@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -86,34 +86,74 @@
 
         <article data-uid="">
 
-<h2 id="getting-started-legacy">Getting Started (Legacy)</h2>
+<h2 id="getting-started">Getting Started</h2>
 <h3 id="prerequisites">Prerequisites</h3>
-<ul>
-<li><strong>Node.js</strong> (for Angular CLI)</li>
-<li><strong>.NET SDK</strong> (for backend)</li>
-<li><strong>PostgreSQL</strong> (for database)</li>
-</ul>
-<h3 id="installation">Installation</h3>
+<p>Before you begin, ensure you have the following installed on your machine:</p>
 <ol>
-<li><strong>Clone the repository</strong>:
-<pre><code class="lang-bash">git clone https://github.com/TEGTO/ELibrary.git
+<li><strong>Docker</strong>: For building and running containers. <a href="https://docs.docker.com/get-docker/">Install Docker</a>.</li>
+<li><strong>Minikube</strong>: A lightweight Kubernetes implementation for local testing. <a href="https://minikube.sigs.k8s.io/docs/start/">Install Minikube</a>.</li>
+<li><strong>kubectl</strong>: Kubernetes command-line tool to manage clusters. <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Install kubectl</a>.</li>
+</ol>
+<hr>
+<h3 id="kubernetes--minikube-setup">Kubernetes / Minikube Setup</h3>
+<ol>
+<li><strong>Clone the repository</strong>:</li>
+</ol>
+<pre><code>git clone https://github.com/TEGTO/ELibrary.git
 </code></pre>
-</li>
-<li><strong>Navigate into the project directory</strong>:
-<pre><code class="lang-bash">cd ELibrary
+<ol start="2">
+<li><strong>Navigate into the Kubernetes folder</strong>:</li>
+</ol>
+<pre><code>cd ELibrary/k8/dev
 </code></pre>
-</li>
-<li><strong>Set up the Backend</strong>:
+<ol start="3">
+<li><strong>Start Minikube</strong>:
+Open a terminal in the folder and start Minikube:</li>
+</ol>
+<pre><code>minikube start
+</code></pre>
+<p>If Minikube is already running, ensure you’re in the correct context:</p>
+<pre><code>kubectl config use-context minikube
+</code></pre>
+<ol start="4">
+<li><strong>Optional: Enable Chat Service</strong>:
+If you want to use the optional chat service:
 <ul>
-<li>Navigate to the backend directory.</li>
-<li>Configure database settings in <code>appsettings.json</code>.</li>
-<li>Run the application:
-<pre><code class="lang-bash">dotnet run
-</code></pre>
-</li>
+<li>Open the <code>chatbot-conf.yml</code> file.</li>
+<li>Set the <code>OPENAI_API_KEY</code> environment variable with your OpenAI API key.</li>
 </ul>
 </li>
 </ol>
+<hr>
+<h3 id="deployment-steps">Deployment Steps</h3>
+<p>Follow these steps in order:</p>
+<h4 id="1-configure-configmaps-and-secrets">1. Configure ConfigMaps and Secrets</h4>
+<pre><code>kubectl apply -f db-conf.yml
+kubectl apply -f backend-conf.yml
+kubectl apply -f chatbot-conf.yml # Optional
+</code></pre>
+<h4 id="2-deploy-the-database">2. Deploy the Database</h4>
+<p>Deploy the database and wait for it to be fully initialized:</p>
+<pre><code>kubectl apply -f db.yml
+kubectl get pods # Verify that the database pod is running.
+</code></pre>
+<h4 id="3-deploy-the-backend">3. Deploy the Backend</h4>
+<p>Deploy the backend services:</p>
+<pre><code>kubectl apply -f backend.yml
+</code></pre>
+<h4 id="4-optional-deploy-the-chat-service">4. Optional: Deploy the Chat Service</h4>
+<pre><code>kubectl apply -f chatbot.yml
+</code></pre>
+<h4 id="5-deploy-the-frontend">5. Deploy the Frontend</h4>
+<p>Deploy the frontend application:</p>
+<pre><code>kubectl apply -f frontend.yml
+</code></pre>
+<h4 id="6-access-the-frontend">6. Access the Frontend</h4>
+<p>Expose and forward the frontend service using Minikube:</p>
+<pre><code>minikube service frontend
+</code></pre>
+<p>This command will open the frontend in your default web browser.</p>
+<hr>
 
 </article>
 

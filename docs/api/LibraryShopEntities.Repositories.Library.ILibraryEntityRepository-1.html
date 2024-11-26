@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -241,8 +241,8 @@ Interface ILibraryEntityRepository&lt;TEntity&gt;  <a class="header-action link-
 
   <a id="LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_" data-uid="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync*"></a>
 
-  <h3 id="LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_List_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)">
-  GetByIdsAsync(List&lt;int&gt;, CancellationToken)
+  <h3 id="LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32},System.Threading.CancellationToken)">
+  GetByIdsAsync(IEnumerable&lt;int&gt;, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/ILibraryEntityRepository.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -250,12 +250,12 @@ Interface ILibraryEntityRepository&lt;TEntity&gt;  <a class="header-action link-
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TEntity&gt;&gt; GetByIdsAsync(List&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TEntity&gt;&gt; GetByIdsAsync(IEnumerable&lt;int&gt; ids, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
@@ -393,8 +393,8 @@ Interface ILibraryEntityRepository&lt;TEntity&gt;  <a class="header-action link-
 
   <a id="LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync_" data-uid="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync*"></a>
 
-  <h3 id="LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync__0___System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync(`0[],System.Threading.CancellationToken)">
-  UpdateRangeAsync(TEntity[], CancellationToken)
+  <h3 id="LibraryShopEntities_Repositories_Library_ILibraryEntityRepository_1_UpdateRangeAsync_System_Collections_Generic_IEnumerable__0__System_Threading_CancellationToken_" data-uid="LibraryShopEntities.Repositories.Library.ILibraryEntityRepository`1.UpdateRangeAsync(System.Collections.Generic.IEnumerable{`0},System.Threading.CancellationToken)">
+  UpdateRangeAsync(IEnumerable&lt;TEntity&gt;, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/LibraryShopEntities/Repositories/Library/ILibraryEntityRepository.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -402,12 +402,12 @@ Interface ILibraryEntityRepository&lt;TEntity&gt;  <a class="header-action link-
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task UpdateRangeAsync(TEntity[] entities, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task UpdateRangeAsync(IEnumerable&lt;TEntity&gt; entities, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entities</code> TEntity[]</dt>
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TEntity&gt;</dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>

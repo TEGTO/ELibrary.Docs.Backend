@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -164,7 +164,7 @@ Class GoogleOAuthTokenResult  <a class="header-action link-secondary" title="Vie
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;access_token&quot;)]
-public string AccessToken { get; set; }</code></pre>
+public string? AccessToken { get; set; }</code></pre>
   </div>
 
 
@@ -228,7 +228,7 @@ public double ExpiresInSeconds { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;id_token&quot;)]
-public string IdToken { get; set; }</code></pre>
+public string? IdToken { get; set; }</code></pre>
   </div>
 
 
@@ -260,7 +260,7 @@ public string IdToken { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;refresh_token&quot;)]
-public string RefreshToken { get; set; }</code></pre>
+public string? RefreshToken { get; set; }</code></pre>
   </div>
 
 
@@ -292,7 +292,7 @@ public string RefreshToken { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;scope&quot;)]
-public string Scope { get; set; }</code></pre>
+public string? Scope { get; set; }</code></pre>
   </div>
 
 
@@ -324,7 +324,7 @@ public string Scope { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;token_type&quot;)]
-public string TokenType { get; set; }</code></pre>
+public string? TokenType { get; set; }</code></pre>
   </div>
 
 

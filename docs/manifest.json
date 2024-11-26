@@ -352,10 +352,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DatabaseControl.ApplicationBuilderExstensions.yml",
+      "source_relative_path": "api/DatabaseControl.ApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DatabaseControl.ApplicationBuilderExstensions.html"
+          "relative_path": "api/DatabaseControl.ApplicationBuilderExtensions.html"
         }
       },
       "version": ""
@@ -1592,10 +1592,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Logging.HostBuilderExtenstions.yml",
+      "source_relative_path": "api/Logging.HostBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Logging.HostBuilderExtenstions.html"
+          "relative_path": "api/Logging.HostBuilderExtensions.html"
         }
       },
       "version": ""
@@ -3472,6 +3472,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ShopApi.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ShopApi.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ShopApi.yml",
       "output": {
         ".html": {
@@ -4146,6 +4156,16 @@
       "output": {
         ".html": {
           "relative_path": "api/UserApi.Services.Auth.LoginUserParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Services.Auth.RefreshTokenParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Services.Auth.RefreshTokenParams.html"
         }
       },
       "version": ""
