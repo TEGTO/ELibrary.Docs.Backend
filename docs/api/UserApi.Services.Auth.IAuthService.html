@@ -89,7 +89,7 @@
 
 
   <h1 id="UserApi_Services_Auth_IAuthService" data-uid="UserApi.Services.Auth.IAuthService" class="text-break">
-Interface IAuthService  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Interface IAuthService  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,21 +122,21 @@ Interface IAuthService  <a class="header-action link-secondary" title="View sour
 
   <a id="UserApi_Services_Auth_IAuthService_LoginUserAsync_" data-uid="UserApi.Services.Auth.IAuthService.LoginUserAsync*"></a>
 
-  <h3 id="UserApi_Services_Auth_IAuthService_LoginUserAsync_UserApi_Services_Auth_LoginUserParams_System_Threading_CancellationToken_" data-uid="UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams,System.Threading.CancellationToken)">
-  LoginUserAsync(LoginUserParams, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="UserApi_Services_Auth_IAuthService_LoginUserAsync_UserApi_Domain_Models_LoginUserModel_System_Threading_CancellationToken_" data-uid="UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel,System.Threading.CancellationToken)">
+  LoginUserAsync(LoginUserModel, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;AccessTokenData&gt; LoginUserAsync(LoginUserParams loginParams, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;AccessTokenData&gt; LoginUserAsync(LoginUserModel loginModel, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>loginParams</code> <a class="xref" href="UserApi.Services.Auth.LoginUserParams.html">LoginUserParams</a></dt>
+    <dt><code>loginModel</code> <a class="xref" href="UserApi.Domain.Models.LoginUserModel.html">LoginUserModel</a></dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
@@ -160,21 +160,21 @@ Interface IAuthService  <a class="header-action link-secondary" title="View sour
 
   <a id="UserApi_Services_Auth_IAuthService_RefreshTokenAsync_" data-uid="UserApi.Services.Auth.IAuthService.RefreshTokenAsync*"></a>
 
-  <h3 id="UserApi_Services_Auth_IAuthService_RefreshTokenAsync_UserApi_Services_Auth_RefreshTokenParams_System_Threading_CancellationToken_" data-uid="UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)">
-  RefreshTokenAsync(RefreshTokenParams, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="UserApi_Services_Auth_IAuthService_RefreshTokenAsync_UserApi_Domain_Models_RefreshTokenModel_System_Threading_CancellationToken_" data-uid="UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel,System.Threading.CancellationToken)">
+  RefreshTokenAsync(RefreshTokenModel, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;AccessTokenData&gt; RefreshTokenAsync(RefreshTokenParams refreshTokenParams, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;AccessTokenData&gt; RefreshTokenAsync(RefreshTokenModel refreshTokenModel, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>refreshTokenParams</code> <a class="xref" href="UserApi.Services.Auth.RefreshTokenParams.html">RefreshTokenParams</a></dt>
+    <dt><code>refreshTokenModel</code> <a class="xref" href="UserApi.Domain.Models.RefreshTokenModel.html">RefreshTokenModel</a></dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
@@ -198,21 +198,21 @@ Interface IAuthService  <a class="header-action link-secondary" title="View sour
 
   <a id="UserApi_Services_Auth_IAuthService_RegisterUserAsync_" data-uid="UserApi.Services.Auth.IAuthService.RegisterUserAsync*"></a>
 
-  <h3 id="UserApi_Services_Auth_IAuthService_RegisterUserAsync_UserApi_Services_Auth_RegisterUserParams_System_Threading_CancellationToken_" data-uid="UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams,System.Threading.CancellationToken)">
-  RegisterUserAsync(RegisterUserParams, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h3 id="UserApi_Services_Auth_IAuthService_RegisterUserAsync_UserApi_Domain_Models_RegisterUserModel_System_Threading_CancellationToken_" data-uid="UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel,System.Threading.CancellationToken)">
+  RegisterUserAsync(RegisterUserModel, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IdentityResult&gt; RegisterUserAsync(RegisterUserParams registerParams, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IdentityResult&gt; RegisterUserAsync(RegisterUserModel registerModel, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>registerParams</code> <a class="xref" href="UserApi.Services.Auth.RegisterUserParams.html">RegisterUserParams</a></dt>
+    <dt><code>registerModel</code> <a class="xref" href="UserApi.Domain.Models.RegisterUserModel.html">RegisterUserModel</a></dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
@@ -238,7 +238,7 @@ Interface IAuthService  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TEGTO/ELibrary/blob/main/src/ELibrary.Backend/UserApi/Services/Auth/IAuthService.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

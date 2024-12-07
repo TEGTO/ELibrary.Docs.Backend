@@ -1035,6 +1035,280 @@ references:
   isSpec: "True"
   fullName: DatabaseControl.DatabaseConfiguration.REPOSITORY_RESILIENCE_PIPELINE
   nameWithType: DatabaseConfiguration.REPOSITORY_RESILIENCE_PIPELINE
+- uid: DatabaseControl.Repositories
+  name: DatabaseControl.Repositories
+  href: api/DatabaseControl.Repositories.html
+  commentId: N:DatabaseControl.Repositories
+  fullName: DatabaseControl.Repositories
+  nameWithType: DatabaseControl.Repositories
+- uid: DatabaseControl.Repositories.DatabaseRepository`1
+  name: DatabaseRepository<TContext>
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html
+  commentId: T:DatabaseControl.Repositories.DatabaseRepository`1
+  name.vb: DatabaseRepository(Of TContext)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext)
+  nameWithType: DatabaseRepository<TContext>
+  nameWithType.vb: DatabaseRepository(Of TContext)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{`0},Polly.Registry.ResiliencePipelineProvider{System.String})
+  name: DatabaseRepository(IDbContextFactory<TContext>, ResiliencePipelineProvider<string>)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory__0__Polly_Registry_ResiliencePipelineProvider_System_String__
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{`0},Polly.Registry.ResiliencePipelineProvider{System.String})
+  name.vb: New(IDbContextFactory(Of TContext), ResiliencePipelineProvider(Of String))
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.DatabaseRepository(Microsoft.EntityFrameworkCore.IDbContextFactory<TContext>, Polly.Registry.ResiliencePipelineProvider<string>)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of TContext), Polly.Registry.ResiliencePipelineProvider(Of String))
+  nameWithType: DatabaseRepository<TContext>.DatabaseRepository(IDbContextFactory<TContext>, ResiliencePipelineProvider<string>)
+  nameWithType.vb: DatabaseRepository(Of TContext).New(IDbContextFactory(Of TContext), ResiliencePipelineProvider(Of String))
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.#ctor*
+  name: DatabaseRepository
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1__ctor_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.DatabaseRepository
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).New
+  nameWithType: DatabaseRepository<TContext>.DatabaseRepository
+  nameWithType.vb: DatabaseRepository(Of TContext).New
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.AddAsync*
+  name: AddAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_AddAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.AddAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.AddAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).AddAsync
+  nameWithType: DatabaseRepository<TContext>.AddAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).AddAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
+  name: AddAsync<T>(T, CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_AddAsync__1___0_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
+  name.vb: AddAsync(Of T)(T, CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.AddAsync<T>(T, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).AddAsync(Of T)(T, System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.AddAsync<T>(T, CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).AddAsync(Of T)(T, CancellationToken)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.CreateDbContextAsync(System.Threading.CancellationToken)
+  name: CreateDbContextAsync(CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_CreateDbContextAsync_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.CreateDbContextAsync(System.Threading.CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.CreateDbContextAsync(System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).CreateDbContextAsync(System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.CreateDbContextAsync(CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).CreateDbContextAsync(CancellationToken)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.CreateDbContextAsync*
+  name: CreateDbContextAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_CreateDbContextAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.CreateDbContextAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.CreateDbContextAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).CreateDbContextAsync
+  nameWithType: DatabaseRepository<TContext>.CreateDbContextAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).CreateDbContextAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_DeleteAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.DeleteAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.DeleteAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).DeleteAsync
+  nameWithType: DatabaseRepository<TContext>.DeleteAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).DeleteAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
+  name: DeleteAsync<T>(T, CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_DeleteAsync__1___0_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
+  name.vb: DeleteAsync(Of T)(T, CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.DeleteAsync<T>(T, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).DeleteAsync(Of T)(T, System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.DeleteAsync<T>(T, CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).DeleteAsync(Of T)(T, CancellationToken)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.GetQueryableAsync*
+  name: GetQueryableAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_GetQueryableAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.GetQueryableAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.GetQueryableAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).GetQueryableAsync
+  nameWithType: DatabaseRepository<TContext>.GetQueryableAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).GetQueryableAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
+  name: GetQueryableAsync<T>(CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_GetQueryableAsync__1_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
+  name.vb: GetQueryableAsync(Of T)(CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.GetQueryableAsync<T>(System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).GetQueryableAsync(Of T)(System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.GetQueryableAsync<T>(CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).GetQueryableAsync(Of T)(CancellationToken)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
+  name: MigrateDatabaseAsync(CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_MigrateDatabaseAsync_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.MigrateDatabaseAsync(System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).MigrateDatabaseAsync(System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.MigrateDatabaseAsync(CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).MigrateDatabaseAsync(CancellationToken)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.MigrateDatabaseAsync*
+  name: MigrateDatabaseAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_MigrateDatabaseAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.MigrateDatabaseAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.MigrateDatabaseAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).MigrateDatabaseAsync
+  nameWithType: DatabaseRepository<TContext>.MigrateDatabaseAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).MigrateDatabaseAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_UpdateAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.UpdateAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.UpdateAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).UpdateAsync
+  nameWithType: DatabaseRepository<TContext>.UpdateAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).UpdateAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
+  name: UpdateAsync<T>(T, CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_UpdateAsync__1___0_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
+  name.vb: UpdateAsync(Of T)(T, CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.UpdateAsync<T>(T, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).UpdateAsync(Of T)(T, System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.UpdateAsync<T>(T, CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).UpdateAsync(Of T)(T, CancellationToken)
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.UpdateRangeAsync*
+  name: UpdateRangeAsync
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_UpdateRangeAsync_
+  commentId: Overload:DatabaseControl.Repositories.DatabaseRepository`1.UpdateRangeAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.UpdateRangeAsync
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync
+  nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync
+  nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync
+- uid: DatabaseControl.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name: UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  href: api/DatabaseControl.Repositories.DatabaseRepository-1.html#DatabaseControl_Repositories_DatabaseRepository_1_UpdateRangeAsync__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name.vb: UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
+  fullName: DatabaseControl.Repositories.DatabaseRepository<TContext>.UpdateRangeAsync<T>(System.Collections.Generic.IEnumerable<T>, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Threading.CancellationToken)
+  nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1
+  name: IDatabaseRepository<TContext>
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html
+  commentId: T:DatabaseControl.Repositories.IDatabaseRepository`1
+  name.vb: IDatabaseRepository(Of TContext)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext)
+  nameWithType: IDatabaseRepository<TContext>
+  nameWithType.vb: IDatabaseRepository(Of TContext)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.AddAsync*
+  name: AddAsync
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_AddAsync_
+  commentId: Overload:DatabaseControl.Repositories.IDatabaseRepository`1.AddAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.AddAsync
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).AddAsync
+  nameWithType: IDatabaseRepository<TContext>.AddAsync
+  nameWithType.vb: IDatabaseRepository(Of TContext).AddAsync
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
+  name: AddAsync<T>(T, CancellationToken)
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_AddAsync__1___0_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.IDatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
+  name.vb: AddAsync(Of T)(T, CancellationToken)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.AddAsync<T>(T, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).AddAsync(Of T)(T, System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.AddAsync<T>(T, CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).AddAsync(Of T)(T, CancellationToken)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_DeleteAsync_
+  commentId: Overload:DatabaseControl.Repositories.IDatabaseRepository`1.DeleteAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.DeleteAsync
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).DeleteAsync
+  nameWithType: IDatabaseRepository<TContext>.DeleteAsync
+  nameWithType.vb: IDatabaseRepository(Of TContext).DeleteAsync
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
+  name: DeleteAsync<T>(T, CancellationToken)
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_DeleteAsync__1___0_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.IDatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
+  name.vb: DeleteAsync(Of T)(T, CancellationToken)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.DeleteAsync<T>(T, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).DeleteAsync(Of T)(T, System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.DeleteAsync<T>(T, CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).DeleteAsync(Of T)(T, CancellationToken)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.GetQueryableAsync*
+  name: GetQueryableAsync
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_GetQueryableAsync_
+  commentId: Overload:DatabaseControl.Repositories.IDatabaseRepository`1.GetQueryableAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.GetQueryableAsync
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).GetQueryableAsync
+  nameWithType: IDatabaseRepository<TContext>.GetQueryableAsync
+  nameWithType.vb: IDatabaseRepository(Of TContext).GetQueryableAsync
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
+  name: GetQueryableAsync<T>(CancellationToken)
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_GetQueryableAsync__1_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.IDatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
+  name.vb: GetQueryableAsync(Of T)(CancellationToken)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.GetQueryableAsync<T>(System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).GetQueryableAsync(Of T)(System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.GetQueryableAsync<T>(CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).GetQueryableAsync(Of T)(CancellationToken)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
+  name: MigrateDatabaseAsync(CancellationToken)
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_MigrateDatabaseAsync_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.MigrateDatabaseAsync(System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).MigrateDatabaseAsync(System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.MigrateDatabaseAsync(CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).MigrateDatabaseAsync(CancellationToken)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync*
+  name: MigrateDatabaseAsync
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_MigrateDatabaseAsync_
+  commentId: Overload:DatabaseControl.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.MigrateDatabaseAsync
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).MigrateDatabaseAsync
+  nameWithType: IDatabaseRepository<TContext>.MigrateDatabaseAsync
+  nameWithType.vb: IDatabaseRepository(Of TContext).MigrateDatabaseAsync
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_UpdateAsync_
+  commentId: Overload:DatabaseControl.Repositories.IDatabaseRepository`1.UpdateAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.UpdateAsync
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).UpdateAsync
+  nameWithType: IDatabaseRepository<TContext>.UpdateAsync
+  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateAsync
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
+  name: UpdateAsync<T>(T, CancellationToken)
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_UpdateAsync__1___0_System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.IDatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
+  name.vb: UpdateAsync(Of T)(T, CancellationToken)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.UpdateAsync<T>(T, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).UpdateAsync(Of T)(T, System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.UpdateAsync<T>(T, CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateAsync(Of T)(T, CancellationToken)
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.UpdateRangeAsync*
+  name: UpdateRangeAsync
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_UpdateRangeAsync_
+  commentId: Overload:DatabaseControl.Repositories.IDatabaseRepository`1.UpdateRangeAsync
+  isSpec: "True"
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.UpdateRangeAsync
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync
+  nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync
+  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync
+- uid: DatabaseControl.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name: UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  href: api/DatabaseControl.Repositories.IDatabaseRepository-1.html#DatabaseControl_Repositories_IDatabaseRepository_1_UpdateRangeAsync__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
+  commentId: M:DatabaseControl.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
+  name.vb: UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
+  fullName: DatabaseControl.Repositories.IDatabaseRepository<TContext>.UpdateRangeAsync<T>(System.Collections.Generic.IEnumerable<T>, System.Threading.CancellationToken)
+  fullName.vb: DatabaseControl.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Threading.CancellationToken)
+  nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
+  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
 - uid: DatabaseControl.ServiceCollectionExtensions
   name: ServiceCollectionExtensions
   href: api/DatabaseControl.ServiceCollectionExtensions.html
@@ -5886,13 +6160,13 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Library.AuthorRepository
   fullName: LibraryShopEntities.Repositories.Library.AuthorRepository
   nameWithType: AuthorRepository
-- uid: LibraryShopEntities.Repositories.Library.AuthorRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
+- uid: LibraryShopEntities.Repositories.Library.AuthorRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
   name: AuthorRepository(IDatabaseRepository<LibraryDbContext>)
-  href: api/LibraryShopEntities.Repositories.Library.AuthorRepository.html#LibraryShopEntities_Repositories_Library_AuthorRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_LibraryDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Library.AuthorRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
+  href: api/LibraryShopEntities.Repositories.Library.AuthorRepository.html#LibraryShopEntities_Repositories_Library_AuthorRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_LibraryDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Library.AuthorRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
   name.vb: New(IDatabaseRepository(Of LibraryDbContext))
-  fullName: LibraryShopEntities.Repositories.Library.AuthorRepository.AuthorRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.LibraryDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Library.AuthorRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.LibraryDbContext))
+  fullName: LibraryShopEntities.Repositories.Library.AuthorRepository.AuthorRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.LibraryDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Library.AuthorRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.LibraryDbContext))
   nameWithType: AuthorRepository.AuthorRepository(IDatabaseRepository<LibraryDbContext>)
   nameWithType.vb: AuthorRepository.New(IDatabaseRepository(Of LibraryDbContext))
 - uid: LibraryShopEntities.Repositories.Library.AuthorRepository.#ctor*
@@ -5927,13 +6201,13 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Library.BookRepository
   fullName: LibraryShopEntities.Repositories.Library.BookRepository
   nameWithType: BookRepository
-- uid: LibraryShopEntities.Repositories.Library.BookRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
+- uid: LibraryShopEntities.Repositories.Library.BookRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
   name: BookRepository(IDatabaseRepository<LibraryDbContext>)
-  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_LibraryDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
+  href: api/LibraryShopEntities.Repositories.Library.BookRepository.html#LibraryShopEntities_Repositories_Library_BookRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_LibraryDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Library.BookRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
   name.vb: New(IDatabaseRepository(Of LibraryDbContext))
-  fullName: LibraryShopEntities.Repositories.Library.BookRepository.BookRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.LibraryDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.LibraryDbContext))
+  fullName: LibraryShopEntities.Repositories.Library.BookRepository.BookRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.LibraryDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Library.BookRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.LibraryDbContext))
   nameWithType: BookRepository.BookRepository(IDatabaseRepository<LibraryDbContext>)
   nameWithType.vb: BookRepository.New(IDatabaseRepository(Of LibraryDbContext))
 - uid: LibraryShopEntities.Repositories.Library.BookRepository.#ctor*
@@ -6273,13 +6547,13 @@ references:
   fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity)
   nameWithType: LibraryEntityRepository<TEntity>
   nameWithType.vb: LibraryEntityRepository(Of TEntity)
-- uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
+- uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
   name: LibraryEntityRepository(IDatabaseRepository<LibraryDbContext>)
-  href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_LibraryDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
+  href: api/LibraryShopEntities.Repositories.Library.LibraryEntityRepository-1.html#LibraryShopEntities_Repositories_Library_LibraryEntityRepository_1__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_LibraryDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.LibraryDbContext})
   name.vb: New(IDatabaseRepository(Of LibraryDbContext))
-  fullName: LibraryShopEntities.Repositories.Library.LibraryEntityRepository<TEntity>.LibraryEntityRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.LibraryDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.LibraryDbContext))
+  fullName: LibraryShopEntities.Repositories.Library.LibraryEntityRepository<TEntity>.LibraryEntityRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.LibraryDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Library.LibraryEntityRepository(Of TEntity).New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.LibraryDbContext))
   nameWithType: LibraryEntityRepository<TEntity>.LibraryEntityRepository(IDatabaseRepository<LibraryDbContext>)
   nameWithType.vb: LibraryEntityRepository(Of TEntity).New(IDatabaseRepository(Of LibraryDbContext))
 - uid: LibraryShopEntities.Repositories.Library.LibraryEntityRepository`1.#ctor*
@@ -6505,13 +6779,13 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Shop.CartRepository
   fullName: LibraryShopEntities.Repositories.Shop.CartRepository
   nameWithType: CartRepository
-- uid: LibraryShopEntities.Repositories.Shop.CartRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+- uid: LibraryShopEntities.Repositories.Shop.CartRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name: CartRepository(IDatabaseRepository<ShopDbContext>)
-  href: api/LibraryShopEntities.Repositories.Shop.CartRepository.html#LibraryShopEntities_Repositories_Shop_CartRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Shop.CartRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+  href: api/LibraryShopEntities.Repositories.Shop.CartRepository.html#LibraryShopEntities_Repositories_Shop_CartRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Shop.CartRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name.vb: New(IDatabaseRepository(Of ShopDbContext))
-  fullName: LibraryShopEntities.Repositories.Shop.CartRepository.CartRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Shop.CartRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
+  fullName: LibraryShopEntities.Repositories.Shop.CartRepository.CartRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Shop.CartRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
   nameWithType: CartRepository.CartRepository(IDatabaseRepository<ShopDbContext>)
   nameWithType.vb: CartRepository.New(IDatabaseRepository(Of ShopDbContext))
 - uid: LibraryShopEntities.Repositories.Shop.CartRepository.#ctor*
@@ -6646,13 +6920,13 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Shop.ClientRepository
   fullName: LibraryShopEntities.Repositories.Shop.ClientRepository
   nameWithType: ClientRepository
-- uid: LibraryShopEntities.Repositories.Shop.ClientRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+- uid: LibraryShopEntities.Repositories.Shop.ClientRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name: ClientRepository(IDatabaseRepository<ShopDbContext>)
-  href: api/LibraryShopEntities.Repositories.Shop.ClientRepository.html#LibraryShopEntities_Repositories_Shop_ClientRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Shop.ClientRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+  href: api/LibraryShopEntities.Repositories.Shop.ClientRepository.html#LibraryShopEntities_Repositories_Shop_ClientRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Shop.ClientRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name.vb: New(IDatabaseRepository(Of ShopDbContext))
-  fullName: LibraryShopEntities.Repositories.Shop.ClientRepository.ClientRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Shop.ClientRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
+  fullName: LibraryShopEntities.Repositories.Shop.ClientRepository.ClientRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Shop.ClientRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
   nameWithType: ClientRepository.ClientRepository(IDatabaseRepository<ShopDbContext>)
   nameWithType.vb: ClientRepository.New(IDatabaseRepository(Of ShopDbContext))
 - uid: LibraryShopEntities.Repositories.Shop.ClientRepository.#ctor*
@@ -7057,13 +7331,13 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Shop.OrderRepository
   fullName: LibraryShopEntities.Repositories.Shop.OrderRepository
   nameWithType: OrderRepository
-- uid: LibraryShopEntities.Repositories.Shop.OrderRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+- uid: LibraryShopEntities.Repositories.Shop.OrderRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name: OrderRepository(IDatabaseRepository<ShopDbContext>)
-  href: api/LibraryShopEntities.Repositories.Shop.OrderRepository.html#LibraryShopEntities_Repositories_Shop_OrderRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Shop.OrderRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+  href: api/LibraryShopEntities.Repositories.Shop.OrderRepository.html#LibraryShopEntities_Repositories_Shop_OrderRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Shop.OrderRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name.vb: New(IDatabaseRepository(Of ShopDbContext))
-  fullName: LibraryShopEntities.Repositories.Shop.OrderRepository.OrderRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Shop.OrderRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
+  fullName: LibraryShopEntities.Repositories.Shop.OrderRepository.OrderRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Shop.OrderRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
   nameWithType: OrderRepository.OrderRepository(IDatabaseRepository<ShopDbContext>)
   nameWithType.vb: OrderRepository.New(IDatabaseRepository(Of ShopDbContext))
 - uid: LibraryShopEntities.Repositories.Shop.OrderRepository.#ctor*
@@ -7163,13 +7437,13 @@ references:
   commentId: T:LibraryShopEntities.Repositories.Shop.StockBookOrderRepository
   fullName: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository
   nameWithType: StockBookOrderRepository
-- uid: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+- uid: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name: StockBookOrderRepository(IDatabaseRepository<ShopDbContext>)
-  href: api/LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.html#LibraryShopEntities_Repositories_Shop_StockBookOrderRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
-  commentId: M:LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+  href: api/LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.html#LibraryShopEntities_Repositories_Shop_StockBookOrderRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
+  commentId: M:LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name.vb: New(IDatabaseRepository(Of ShopDbContext))
-  fullName: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.StockBookOrderRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
-  fullName.vb: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
+  fullName: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.StockBookOrderRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
+  fullName.vb: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
   nameWithType: StockBookOrderRepository.StockBookOrderRepository(IDatabaseRepository<ShopDbContext>)
   nameWithType.vb: StockBookOrderRepository.New(IDatabaseRepository(Of ShopDbContext))
 - uid: LibraryShopEntities.Repositories.Shop.StockBookOrderRepository.#ctor*
@@ -7815,280 +8089,6 @@ references:
   isSpec: "True"
   fullName: Shared.Helpers.IHttpHelper.SendPutRequestAsync
   nameWithType: IHttpHelper.SendPutRequestAsync
-- uid: Shared.Repositories
-  name: Shared.Repositories
-  href: api/Shared.Repositories.html
-  commentId: N:Shared.Repositories
-  fullName: Shared.Repositories
-  nameWithType: Shared.Repositories
-- uid: Shared.Repositories.DatabaseRepository`1
-  name: DatabaseRepository<TContext>
-  href: api/Shared.Repositories.DatabaseRepository-1.html
-  commentId: T:Shared.Repositories.DatabaseRepository`1
-  name.vb: DatabaseRepository(Of TContext)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext)
-  nameWithType: DatabaseRepository<TContext>
-  nameWithType.vb: DatabaseRepository(Of TContext)
-- uid: Shared.Repositories.DatabaseRepository`1.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{`0},Polly.Registry.ResiliencePipelineProvider{System.String})
-  name: DatabaseRepository(IDbContextFactory<TContext>, ResiliencePipelineProvider<string>)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory__0__Polly_Registry_ResiliencePipelineProvider_System_String__
-  commentId: M:Shared.Repositories.DatabaseRepository`1.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{`0},Polly.Registry.ResiliencePipelineProvider{System.String})
-  name.vb: New(IDbContextFactory(Of TContext), ResiliencePipelineProvider(Of String))
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.DatabaseRepository(Microsoft.EntityFrameworkCore.IDbContextFactory<TContext>, Polly.Registry.ResiliencePipelineProvider<string>)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of TContext), Polly.Registry.ResiliencePipelineProvider(Of String))
-  nameWithType: DatabaseRepository<TContext>.DatabaseRepository(IDbContextFactory<TContext>, ResiliencePipelineProvider<string>)
-  nameWithType.vb: DatabaseRepository(Of TContext).New(IDbContextFactory(Of TContext), ResiliencePipelineProvider(Of String))
-- uid: Shared.Repositories.DatabaseRepository`1.#ctor*
-  name: DatabaseRepository
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1__ctor_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.DatabaseRepository
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).New
-  nameWithType: DatabaseRepository<TContext>.DatabaseRepository
-  nameWithType.vb: DatabaseRepository(Of TContext).New
-- uid: Shared.Repositories.DatabaseRepository`1.AddAsync*
-  name: AddAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_AddAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.AddAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.AddAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).AddAsync
-  nameWithType: DatabaseRepository<TContext>.AddAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).AddAsync
-- uid: Shared.Repositories.DatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
-  name: AddAsync<T>(T, CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_AddAsync__1___0_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
-  name.vb: AddAsync(Of T)(T, CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.AddAsync<T>(T, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).AddAsync(Of T)(T, System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.AddAsync<T>(T, CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).AddAsync(Of T)(T, CancellationToken)
-- uid: Shared.Repositories.DatabaseRepository`1.CreateDbContextAsync(System.Threading.CancellationToken)
-  name: CreateDbContextAsync(CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_CreateDbContextAsync_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.CreateDbContextAsync(System.Threading.CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.CreateDbContextAsync(System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).CreateDbContextAsync(System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.CreateDbContextAsync(CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).CreateDbContextAsync(CancellationToken)
-- uid: Shared.Repositories.DatabaseRepository`1.CreateDbContextAsync*
-  name: CreateDbContextAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_CreateDbContextAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.CreateDbContextAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.CreateDbContextAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).CreateDbContextAsync
-  nameWithType: DatabaseRepository<TContext>.CreateDbContextAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).CreateDbContextAsync
-- uid: Shared.Repositories.DatabaseRepository`1.DeleteAsync*
-  name: DeleteAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_DeleteAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.DeleteAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.DeleteAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).DeleteAsync
-  nameWithType: DatabaseRepository<TContext>.DeleteAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).DeleteAsync
-- uid: Shared.Repositories.DatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
-  name: DeleteAsync<T>(T, CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_DeleteAsync__1___0_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
-  name.vb: DeleteAsync(Of T)(T, CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.DeleteAsync<T>(T, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).DeleteAsync(Of T)(T, System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.DeleteAsync<T>(T, CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).DeleteAsync(Of T)(T, CancellationToken)
-- uid: Shared.Repositories.DatabaseRepository`1.GetQueryableAsync*
-  name: GetQueryableAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_GetQueryableAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.GetQueryableAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.GetQueryableAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).GetQueryableAsync
-  nameWithType: DatabaseRepository<TContext>.GetQueryableAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).GetQueryableAsync
-- uid: Shared.Repositories.DatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
-  name: GetQueryableAsync<T>(CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_GetQueryableAsync__1_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
-  name.vb: GetQueryableAsync(Of T)(CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.GetQueryableAsync<T>(System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).GetQueryableAsync(Of T)(System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.GetQueryableAsync<T>(CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).GetQueryableAsync(Of T)(CancellationToken)
-- uid: Shared.Repositories.DatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
-  name: MigrateDatabaseAsync(CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_MigrateDatabaseAsync_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.MigrateDatabaseAsync(System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).MigrateDatabaseAsync(System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.MigrateDatabaseAsync(CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).MigrateDatabaseAsync(CancellationToken)
-- uid: Shared.Repositories.DatabaseRepository`1.MigrateDatabaseAsync*
-  name: MigrateDatabaseAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_MigrateDatabaseAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.MigrateDatabaseAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.MigrateDatabaseAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).MigrateDatabaseAsync
-  nameWithType: DatabaseRepository<TContext>.MigrateDatabaseAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).MigrateDatabaseAsync
-- uid: Shared.Repositories.DatabaseRepository`1.UpdateAsync*
-  name: UpdateAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_UpdateAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.UpdateAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.UpdateAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateAsync
-  nameWithType: DatabaseRepository<TContext>.UpdateAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).UpdateAsync
-- uid: Shared.Repositories.DatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
-  name: UpdateAsync<T>(T, CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_UpdateAsync__1___0_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
-  name.vb: UpdateAsync(Of T)(T, CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.UpdateAsync<T>(T, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateAsync(Of T)(T, System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.UpdateAsync<T>(T, CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).UpdateAsync(Of T)(T, CancellationToken)
-- uid: Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync*
-  name: UpdateRangeAsync
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_UpdateRangeAsync_
-  commentId: Overload:Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.UpdateRangeAsync
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync
-  nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync
-  nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync
-- uid: Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
-  name: UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
-  href: api/Shared.Repositories.DatabaseRepository-1.html#Shared_Repositories_DatabaseRepository_1_UpdateRangeAsync__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.DatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
-  name.vb: UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
-  fullName: Shared.Repositories.DatabaseRepository<TContext>.UpdateRangeAsync<T>(System.Collections.Generic.IEnumerable<T>, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Threading.CancellationToken)
-  nameWithType: DatabaseRepository<TContext>.UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
-  nameWithType.vb: DatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
-- uid: Shared.Repositories.IDatabaseRepository`1
-  name: IDatabaseRepository<TContext>
-  href: api/Shared.Repositories.IDatabaseRepository-1.html
-  commentId: T:Shared.Repositories.IDatabaseRepository`1
-  name.vb: IDatabaseRepository(Of TContext)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext)
-  nameWithType: IDatabaseRepository<TContext>
-  nameWithType.vb: IDatabaseRepository(Of TContext)
-- uid: Shared.Repositories.IDatabaseRepository`1.AddAsync*
-  name: AddAsync
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_AddAsync_
-  commentId: Overload:Shared.Repositories.IDatabaseRepository`1.AddAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.AddAsync
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).AddAsync
-  nameWithType: IDatabaseRepository<TContext>.AddAsync
-  nameWithType.vb: IDatabaseRepository(Of TContext).AddAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
-  name: AddAsync<T>(T, CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_AddAsync__1___0_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.AddAsync``1(``0,System.Threading.CancellationToken)
-  name.vb: AddAsync(Of T)(T, CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.AddAsync<T>(T, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).AddAsync(Of T)(T, System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.AddAsync<T>(T, CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).AddAsync(Of T)(T, CancellationToken)
-- uid: Shared.Repositories.IDatabaseRepository`1.DeleteAsync*
-  name: DeleteAsync
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_DeleteAsync_
-  commentId: Overload:Shared.Repositories.IDatabaseRepository`1.DeleteAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.DeleteAsync
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).DeleteAsync
-  nameWithType: IDatabaseRepository<TContext>.DeleteAsync
-  nameWithType.vb: IDatabaseRepository(Of TContext).DeleteAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
-  name: DeleteAsync<T>(T, CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_DeleteAsync__1___0_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.DeleteAsync``1(``0,System.Threading.CancellationToken)
-  name.vb: DeleteAsync(Of T)(T, CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.DeleteAsync<T>(T, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).DeleteAsync(Of T)(T, System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.DeleteAsync<T>(T, CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).DeleteAsync(Of T)(T, CancellationToken)
-- uid: Shared.Repositories.IDatabaseRepository`1.GetQueryableAsync*
-  name: GetQueryableAsync
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_GetQueryableAsync_
-  commentId: Overload:Shared.Repositories.IDatabaseRepository`1.GetQueryableAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.GetQueryableAsync
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).GetQueryableAsync
-  nameWithType: IDatabaseRepository<TContext>.GetQueryableAsync
-  nameWithType.vb: IDatabaseRepository(Of TContext).GetQueryableAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
-  name: GetQueryableAsync<T>(CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_GetQueryableAsync__1_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.GetQueryableAsync``1(System.Threading.CancellationToken)
-  name.vb: GetQueryableAsync(Of T)(CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.GetQueryableAsync<T>(System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).GetQueryableAsync(Of T)(System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.GetQueryableAsync<T>(CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).GetQueryableAsync(Of T)(CancellationToken)
-- uid: Shared.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
-  name: MigrateDatabaseAsync(CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_MigrateDatabaseAsync_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync(System.Threading.CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.MigrateDatabaseAsync(System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).MigrateDatabaseAsync(System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.MigrateDatabaseAsync(CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).MigrateDatabaseAsync(CancellationToken)
-- uid: Shared.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync*
-  name: MigrateDatabaseAsync
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_MigrateDatabaseAsync_
-  commentId: Overload:Shared.Repositories.IDatabaseRepository`1.MigrateDatabaseAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.MigrateDatabaseAsync
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).MigrateDatabaseAsync
-  nameWithType: IDatabaseRepository<TContext>.MigrateDatabaseAsync
-  nameWithType.vb: IDatabaseRepository(Of TContext).MigrateDatabaseAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.UpdateAsync*
-  name: UpdateAsync
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_UpdateAsync_
-  commentId: Overload:Shared.Repositories.IDatabaseRepository`1.UpdateAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.UpdateAsync
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateAsync
-  nameWithType: IDatabaseRepository<TContext>.UpdateAsync
-  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
-  name: UpdateAsync<T>(T, CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_UpdateAsync__1___0_System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.UpdateAsync``1(``0,System.Threading.CancellationToken)
-  name.vb: UpdateAsync(Of T)(T, CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.UpdateAsync<T>(T, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateAsync(Of T)(T, System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.UpdateAsync<T>(T, CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateAsync(Of T)(T, CancellationToken)
-- uid: Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync*
-  name: UpdateRangeAsync
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_UpdateRangeAsync_
-  commentId: Overload:Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync
-  isSpec: "True"
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.UpdateRangeAsync
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync
-  nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync
-  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync
-- uid: Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
-  name: UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
-  href: api/Shared.Repositories.IDatabaseRepository-1.html#Shared_Repositories_IDatabaseRepository_1_UpdateRangeAsync__1_System_Collections_Generic_IEnumerable___0__System_Threading_CancellationToken_
-  commentId: M:Shared.Repositories.IDatabaseRepository`1.UpdateRangeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Threading.CancellationToken)
-  name.vb: UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
-  fullName: Shared.Repositories.IDatabaseRepository<TContext>.UpdateRangeAsync<T>(System.Collections.Generic.IEnumerable<T>, System.Threading.CancellationToken)
-  fullName.vb: Shared.Repositories.IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Threading.CancellationToken)
-  nameWithType: IDatabaseRepository<TContext>.UpdateRangeAsync<T>(IEnumerable<T>, CancellationToken)
-  nameWithType.vb: IDatabaseRepository(Of TContext).UpdateRangeAsync(Of T)(IEnumerable(Of T), CancellationToken)
 - uid: Shared.ServiceCollectionExtensions
   name: ServiceCollectionExtensions
   href: api/Shared.ServiceCollectionExtensions.html
@@ -12676,13 +12676,13 @@ references:
   commentId: T:ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository
   fullName: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository
   nameWithType: StatisticsRepository
-- uid: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+- uid: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name: StatisticsRepository(IDatabaseRepository<ShopDbContext>)
-  href: api/ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.html#ShopApi_Features_StatisticsFeature_Repository_StatisticsRepository__ctor_Shared_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
-  commentId: M:ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.#ctor(Shared.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
+  href: api/ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.html#ShopApi_Features_StatisticsFeature_Repository_StatisticsRepository__ctor_DatabaseControl_Repositories_IDatabaseRepository_LibraryShopEntities_Data_ShopDbContext__
+  commentId: M:ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.#ctor(DatabaseControl.Repositories.IDatabaseRepository{LibraryShopEntities.Data.ShopDbContext})
   name.vb: New(IDatabaseRepository(Of ShopDbContext))
-  fullName: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.StatisticsRepository(Shared.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
-  fullName.vb: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.New(Shared.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
+  fullName: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.StatisticsRepository(DatabaseControl.Repositories.IDatabaseRepository<LibraryShopEntities.Data.ShopDbContext>)
+  fullName.vb: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.New(DatabaseControl.Repositories.IDatabaseRepository(Of LibraryShopEntities.Data.ShopDbContext))
   nameWithType: StatisticsRepository.StatisticsRepository(IDatabaseRepository<ShopDbContext>)
   nameWithType.vb: StatisticsRepository.New(IDatabaseRepository(Of ShopDbContext))
 - uid: ShopApi.Features.StatisticsFeature.Repository.StatisticsRepository.#ctor*
@@ -16002,109 +16002,262 @@ references:
   commentId: N:UserApi.Domain.Models
   fullName: UserApi.Domain.Models
   nameWithType: UserApi.Domain.Models
-- uid: UserApi.Domain.Models.CreateUserFromOAuth
-  name: CreateUserFromOAuth
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html
-  commentId: T:UserApi.Domain.Models.CreateUserFromOAuth
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth
-  nameWithType: CreateUserFromOAuth
-- uid: UserApi.Domain.Models.CreateUserFromOAuth.AuthMethod
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel
+  name: CreateUserFromOAuthModel
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html
+  commentId: T:UserApi.Domain.Models.CreateUserFromOAuthModel
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel
+  nameWithType: CreateUserFromOAuthModel
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel.AuthMethod
   name: AuthMethod
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html#UserApi_Domain_Models_CreateUserFromOAuth_AuthMethod
-  commentId: P:UserApi.Domain.Models.CreateUserFromOAuth.AuthMethod
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth.AuthMethod
-  nameWithType: CreateUserFromOAuth.AuthMethod
-- uid: UserApi.Domain.Models.CreateUserFromOAuth.AuthMethod*
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html#UserApi_Domain_Models_CreateUserFromOAuthModel_AuthMethod
+  commentId: P:UserApi.Domain.Models.CreateUserFromOAuthModel.AuthMethod
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel.AuthMethod
+  nameWithType: CreateUserFromOAuthModel.AuthMethod
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel.AuthMethod*
   name: AuthMethod
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html#UserApi_Domain_Models_CreateUserFromOAuth_AuthMethod_
-  commentId: Overload:UserApi.Domain.Models.CreateUserFromOAuth.AuthMethod
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html#UserApi_Domain_Models_CreateUserFromOAuthModel_AuthMethod_
+  commentId: Overload:UserApi.Domain.Models.CreateUserFromOAuthModel.AuthMethod
   isSpec: "True"
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth.AuthMethod
-  nameWithType: CreateUserFromOAuth.AuthMethod
-- uid: UserApi.Domain.Models.CreateUserFromOAuth.Email
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel.AuthMethod
+  nameWithType: CreateUserFromOAuthModel.AuthMethod
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel.Email
   name: Email
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html#UserApi_Domain_Models_CreateUserFromOAuth_Email
-  commentId: P:UserApi.Domain.Models.CreateUserFromOAuth.Email
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth.Email
-  nameWithType: CreateUserFromOAuth.Email
-- uid: UserApi.Domain.Models.CreateUserFromOAuth.Email*
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html#UserApi_Domain_Models_CreateUserFromOAuthModel_Email
+  commentId: P:UserApi.Domain.Models.CreateUserFromOAuthModel.Email
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel.Email
+  nameWithType: CreateUserFromOAuthModel.Email
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel.Email*
   name: Email
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html#UserApi_Domain_Models_CreateUserFromOAuth_Email_
-  commentId: Overload:UserApi.Domain.Models.CreateUserFromOAuth.Email
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html#UserApi_Domain_Models_CreateUserFromOAuthModel_Email_
+  commentId: Overload:UserApi.Domain.Models.CreateUserFromOAuthModel.Email
   isSpec: "True"
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth.Email
-  nameWithType: CreateUserFromOAuth.Email
-- uid: UserApi.Domain.Models.CreateUserFromOAuth.LoginProviderSubject
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel.Email
+  nameWithType: CreateUserFromOAuthModel.Email
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel.LoginProviderSubject
   name: LoginProviderSubject
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html#UserApi_Domain_Models_CreateUserFromOAuth_LoginProviderSubject
-  commentId: P:UserApi.Domain.Models.CreateUserFromOAuth.LoginProviderSubject
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth.LoginProviderSubject
-  nameWithType: CreateUserFromOAuth.LoginProviderSubject
-- uid: UserApi.Domain.Models.CreateUserFromOAuth.LoginProviderSubject*
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html#UserApi_Domain_Models_CreateUserFromOAuthModel_LoginProviderSubject
+  commentId: P:UserApi.Domain.Models.CreateUserFromOAuthModel.LoginProviderSubject
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel.LoginProviderSubject
+  nameWithType: CreateUserFromOAuthModel.LoginProviderSubject
+- uid: UserApi.Domain.Models.CreateUserFromOAuthModel.LoginProviderSubject*
   name: LoginProviderSubject
-  href: api/UserApi.Domain.Models.CreateUserFromOAuth.html#UserApi_Domain_Models_CreateUserFromOAuth_LoginProviderSubject_
-  commentId: Overload:UserApi.Domain.Models.CreateUserFromOAuth.LoginProviderSubject
+  href: api/UserApi.Domain.Models.CreateUserFromOAuthModel.html#UserApi_Domain_Models_CreateUserFromOAuthModel_LoginProviderSubject_
+  commentId: Overload:UserApi.Domain.Models.CreateUserFromOAuthModel.LoginProviderSubject
   isSpec: "True"
-  fullName: UserApi.Domain.Models.CreateUserFromOAuth.LoginProviderSubject
-  nameWithType: CreateUserFromOAuth.LoginProviderSubject
-- uid: UserApi.Domain.Models.UserUpdateData
-  name: UserUpdateData
-  href: api/UserApi.Domain.Models.UserUpdateData.html
-  commentId: T:UserApi.Domain.Models.UserUpdateData
-  fullName: UserApi.Domain.Models.UserUpdateData
-  nameWithType: UserUpdateData
-- uid: UserApi.Domain.Models.UserUpdateData.Email
-  name: Email
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_Email
-  commentId: P:UserApi.Domain.Models.UserUpdateData.Email
-  fullName: UserApi.Domain.Models.UserUpdateData.Email
-  nameWithType: UserUpdateData.Email
-- uid: UserApi.Domain.Models.UserUpdateData.Email*
-  name: Email
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_Email_
-  commentId: Overload:UserApi.Domain.Models.UserUpdateData.Email
+  fullName: UserApi.Domain.Models.CreateUserFromOAuthModel.LoginProviderSubject
+  nameWithType: CreateUserFromOAuthModel.LoginProviderSubject
+- uid: UserApi.Domain.Models.LoginUserModel
+  name: LoginUserModel
+  href: api/UserApi.Domain.Models.LoginUserModel.html
+  commentId: T:UserApi.Domain.Models.LoginUserModel
+  fullName: UserApi.Domain.Models.LoginUserModel
+  nameWithType: LoginUserModel
+- uid: UserApi.Domain.Models.LoginUserModel.#ctor(UserEntities.Domain.Entities.User,System.String)
+  name: LoginUserModel(User, string)
+  href: api/UserApi.Domain.Models.LoginUserModel.html#UserApi_Domain_Models_LoginUserModel__ctor_UserEntities_Domain_Entities_User_System_String_
+  commentId: M:UserApi.Domain.Models.LoginUserModel.#ctor(UserEntities.Domain.Entities.User,System.String)
+  name.vb: New(User, String)
+  fullName: UserApi.Domain.Models.LoginUserModel.LoginUserModel(UserEntities.Domain.Entities.User, string)
+  fullName.vb: UserApi.Domain.Models.LoginUserModel.New(UserEntities.Domain.Entities.User, String)
+  nameWithType: LoginUserModel.LoginUserModel(User, string)
+  nameWithType.vb: LoginUserModel.New(User, String)
+- uid: UserApi.Domain.Models.LoginUserModel.#ctor*
+  name: LoginUserModel
+  href: api/UserApi.Domain.Models.LoginUserModel.html#UserApi_Domain_Models_LoginUserModel__ctor_
+  commentId: Overload:UserApi.Domain.Models.LoginUserModel.#ctor
   isSpec: "True"
-  fullName: UserApi.Domain.Models.UserUpdateData.Email
-  nameWithType: UserUpdateData.Email
-- uid: UserApi.Domain.Models.UserUpdateData.OldPassword
-  name: OldPassword
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_OldPassword
-  commentId: P:UserApi.Domain.Models.UserUpdateData.OldPassword
-  fullName: UserApi.Domain.Models.UserUpdateData.OldPassword
-  nameWithType: UserUpdateData.OldPassword
-- uid: UserApi.Domain.Models.UserUpdateData.OldPassword*
-  name: OldPassword
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_OldPassword_
-  commentId: Overload:UserApi.Domain.Models.UserUpdateData.OldPassword
-  isSpec: "True"
-  fullName: UserApi.Domain.Models.UserUpdateData.OldPassword
-  nameWithType: UserUpdateData.OldPassword
-- uid: UserApi.Domain.Models.UserUpdateData.Password
+  name.vb: New
+  fullName: UserApi.Domain.Models.LoginUserModel.LoginUserModel
+  fullName.vb: UserApi.Domain.Models.LoginUserModel.New
+  nameWithType: LoginUserModel.LoginUserModel
+  nameWithType.vb: LoginUserModel.New
+- uid: UserApi.Domain.Models.LoginUserModel.Password
   name: Password
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_Password
-  commentId: P:UserApi.Domain.Models.UserUpdateData.Password
-  fullName: UserApi.Domain.Models.UserUpdateData.Password
-  nameWithType: UserUpdateData.Password
-- uid: UserApi.Domain.Models.UserUpdateData.Password*
+  href: api/UserApi.Domain.Models.LoginUserModel.html#UserApi_Domain_Models_LoginUserModel_Password
+  commentId: P:UserApi.Domain.Models.LoginUserModel.Password
+  fullName: UserApi.Domain.Models.LoginUserModel.Password
+  nameWithType: LoginUserModel.Password
+- uid: UserApi.Domain.Models.LoginUserModel.Password*
   name: Password
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_Password_
-  commentId: Overload:UserApi.Domain.Models.UserUpdateData.Password
+  href: api/UserApi.Domain.Models.LoginUserModel.html#UserApi_Domain_Models_LoginUserModel_Password_
+  commentId: Overload:UserApi.Domain.Models.LoginUserModel.Password
   isSpec: "True"
-  fullName: UserApi.Domain.Models.UserUpdateData.Password
-  nameWithType: UserUpdateData.Password
-- uid: UserApi.Domain.Models.UserUpdateData.UserName
-  name: UserName
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_UserName
-  commentId: P:UserApi.Domain.Models.UserUpdateData.UserName
-  fullName: UserApi.Domain.Models.UserUpdateData.UserName
-  nameWithType: UserUpdateData.UserName
-- uid: UserApi.Domain.Models.UserUpdateData.UserName*
-  name: UserName
-  href: api/UserApi.Domain.Models.UserUpdateData.html#UserApi_Domain_Models_UserUpdateData_UserName_
-  commentId: Overload:UserApi.Domain.Models.UserUpdateData.UserName
+  fullName: UserApi.Domain.Models.LoginUserModel.Password
+  nameWithType: LoginUserModel.Password
+- uid: UserApi.Domain.Models.LoginUserModel.User
+  name: User
+  href: api/UserApi.Domain.Models.LoginUserModel.html#UserApi_Domain_Models_LoginUserModel_User
+  commentId: P:UserApi.Domain.Models.LoginUserModel.User
+  fullName: UserApi.Domain.Models.LoginUserModel.User
+  nameWithType: LoginUserModel.User
+- uid: UserApi.Domain.Models.LoginUserModel.User*
+  name: User
+  href: api/UserApi.Domain.Models.LoginUserModel.html#UserApi_Domain_Models_LoginUserModel_User_
+  commentId: Overload:UserApi.Domain.Models.LoginUserModel.User
   isSpec: "True"
-  fullName: UserApi.Domain.Models.UserUpdateData.UserName
-  nameWithType: UserUpdateData.UserName
+  fullName: UserApi.Domain.Models.LoginUserModel.User
+  nameWithType: LoginUserModel.User
+- uid: UserApi.Domain.Models.RefreshTokenModel
+  name: RefreshTokenModel
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html
+  commentId: T:UserApi.Domain.Models.RefreshTokenModel
+  fullName: UserApi.Domain.Models.RefreshTokenModel
+  nameWithType: RefreshTokenModel
+- uid: UserApi.Domain.Models.RefreshTokenModel.#ctor(UserEntities.Domain.Entities.User,Authentication.Models.AccessTokenData)
+  name: RefreshTokenModel(User, AccessTokenData)
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html#UserApi_Domain_Models_RefreshTokenModel__ctor_UserEntities_Domain_Entities_User_Authentication_Models_AccessTokenData_
+  commentId: M:UserApi.Domain.Models.RefreshTokenModel.#ctor(UserEntities.Domain.Entities.User,Authentication.Models.AccessTokenData)
+  name.vb: New(User, AccessTokenData)
+  fullName: UserApi.Domain.Models.RefreshTokenModel.RefreshTokenModel(UserEntities.Domain.Entities.User, Authentication.Models.AccessTokenData)
+  fullName.vb: UserApi.Domain.Models.RefreshTokenModel.New(UserEntities.Domain.Entities.User, Authentication.Models.AccessTokenData)
+  nameWithType: RefreshTokenModel.RefreshTokenModel(User, AccessTokenData)
+  nameWithType.vb: RefreshTokenModel.New(User, AccessTokenData)
+- uid: UserApi.Domain.Models.RefreshTokenModel.#ctor*
+  name: RefreshTokenModel
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html#UserApi_Domain_Models_RefreshTokenModel__ctor_
+  commentId: Overload:UserApi.Domain.Models.RefreshTokenModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UserApi.Domain.Models.RefreshTokenModel.RefreshTokenModel
+  fullName.vb: UserApi.Domain.Models.RefreshTokenModel.New
+  nameWithType: RefreshTokenModel.RefreshTokenModel
+  nameWithType.vb: RefreshTokenModel.New
+- uid: UserApi.Domain.Models.RefreshTokenModel.AccessTokenData
+  name: AccessTokenData
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html#UserApi_Domain_Models_RefreshTokenModel_AccessTokenData
+  commentId: P:UserApi.Domain.Models.RefreshTokenModel.AccessTokenData
+  fullName: UserApi.Domain.Models.RefreshTokenModel.AccessTokenData
+  nameWithType: RefreshTokenModel.AccessTokenData
+- uid: UserApi.Domain.Models.RefreshTokenModel.AccessTokenData*
+  name: AccessTokenData
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html#UserApi_Domain_Models_RefreshTokenModel_AccessTokenData_
+  commentId: Overload:UserApi.Domain.Models.RefreshTokenModel.AccessTokenData
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.RefreshTokenModel.AccessTokenData
+  nameWithType: RefreshTokenModel.AccessTokenData
+- uid: UserApi.Domain.Models.RefreshTokenModel.User
+  name: User
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html#UserApi_Domain_Models_RefreshTokenModel_User
+  commentId: P:UserApi.Domain.Models.RefreshTokenModel.User
+  fullName: UserApi.Domain.Models.RefreshTokenModel.User
+  nameWithType: RefreshTokenModel.User
+- uid: UserApi.Domain.Models.RefreshTokenModel.User*
+  name: User
+  href: api/UserApi.Domain.Models.RefreshTokenModel.html#UserApi_Domain_Models_RefreshTokenModel_User_
+  commentId: Overload:UserApi.Domain.Models.RefreshTokenModel.User
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.RefreshTokenModel.User
+  nameWithType: RefreshTokenModel.User
+- uid: UserApi.Domain.Models.RegisterUserModel
+  name: RegisterUserModel
+  href: api/UserApi.Domain.Models.RegisterUserModel.html
+  commentId: T:UserApi.Domain.Models.RegisterUserModel
+  fullName: UserApi.Domain.Models.RegisterUserModel
+  nameWithType: RegisterUserModel
+- uid: UserApi.Domain.Models.RegisterUserModel.#ctor(UserEntities.Domain.Entities.User,System.String)
+  name: RegisterUserModel(User, string)
+  href: api/UserApi.Domain.Models.RegisterUserModel.html#UserApi_Domain_Models_RegisterUserModel__ctor_UserEntities_Domain_Entities_User_System_String_
+  commentId: M:UserApi.Domain.Models.RegisterUserModel.#ctor(UserEntities.Domain.Entities.User,System.String)
+  name.vb: New(User, String)
+  fullName: UserApi.Domain.Models.RegisterUserModel.RegisterUserModel(UserEntities.Domain.Entities.User, string)
+  fullName.vb: UserApi.Domain.Models.RegisterUserModel.New(UserEntities.Domain.Entities.User, String)
+  nameWithType: RegisterUserModel.RegisterUserModel(User, string)
+  nameWithType.vb: RegisterUserModel.New(User, String)
+- uid: UserApi.Domain.Models.RegisterUserModel.#ctor*
+  name: RegisterUserModel
+  href: api/UserApi.Domain.Models.RegisterUserModel.html#UserApi_Domain_Models_RegisterUserModel__ctor_
+  commentId: Overload:UserApi.Domain.Models.RegisterUserModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UserApi.Domain.Models.RegisterUserModel.RegisterUserModel
+  fullName.vb: UserApi.Domain.Models.RegisterUserModel.New
+  nameWithType: RegisterUserModel.RegisterUserModel
+  nameWithType.vb: RegisterUserModel.New
+- uid: UserApi.Domain.Models.RegisterUserModel.Password
+  name: Password
+  href: api/UserApi.Domain.Models.RegisterUserModel.html#UserApi_Domain_Models_RegisterUserModel_Password
+  commentId: P:UserApi.Domain.Models.RegisterUserModel.Password
+  fullName: UserApi.Domain.Models.RegisterUserModel.Password
+  nameWithType: RegisterUserModel.Password
+- uid: UserApi.Domain.Models.RegisterUserModel.Password*
+  name: Password
+  href: api/UserApi.Domain.Models.RegisterUserModel.html#UserApi_Domain_Models_RegisterUserModel_Password_
+  commentId: Overload:UserApi.Domain.Models.RegisterUserModel.Password
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.RegisterUserModel.Password
+  nameWithType: RegisterUserModel.Password
+- uid: UserApi.Domain.Models.RegisterUserModel.User
+  name: User
+  href: api/UserApi.Domain.Models.RegisterUserModel.html#UserApi_Domain_Models_RegisterUserModel_User
+  commentId: P:UserApi.Domain.Models.RegisterUserModel.User
+  fullName: UserApi.Domain.Models.RegisterUserModel.User
+  nameWithType: RegisterUserModel.User
+- uid: UserApi.Domain.Models.RegisterUserModel.User*
+  name: User
+  href: api/UserApi.Domain.Models.RegisterUserModel.html#UserApi_Domain_Models_RegisterUserModel_User_
+  commentId: Overload:UserApi.Domain.Models.RegisterUserModel.User
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.RegisterUserModel.User
+  nameWithType: RegisterUserModel.User
+- uid: UserApi.Domain.Models.UserUpdateModel
+  name: UserUpdateModel
+  href: api/UserApi.Domain.Models.UserUpdateModel.html
+  commentId: T:UserApi.Domain.Models.UserUpdateModel
+  fullName: UserApi.Domain.Models.UserUpdateModel
+  nameWithType: UserUpdateModel
+- uid: UserApi.Domain.Models.UserUpdateModel.Email
+  name: Email
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_Email
+  commentId: P:UserApi.Domain.Models.UserUpdateModel.Email
+  fullName: UserApi.Domain.Models.UserUpdateModel.Email
+  nameWithType: UserUpdateModel.Email
+- uid: UserApi.Domain.Models.UserUpdateModel.Email*
+  name: Email
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_Email_
+  commentId: Overload:UserApi.Domain.Models.UserUpdateModel.Email
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.UserUpdateModel.Email
+  nameWithType: UserUpdateModel.Email
+- uid: UserApi.Domain.Models.UserUpdateModel.OldPassword
+  name: OldPassword
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_OldPassword
+  commentId: P:UserApi.Domain.Models.UserUpdateModel.OldPassword
+  fullName: UserApi.Domain.Models.UserUpdateModel.OldPassword
+  nameWithType: UserUpdateModel.OldPassword
+- uid: UserApi.Domain.Models.UserUpdateModel.OldPassword*
+  name: OldPassword
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_OldPassword_
+  commentId: Overload:UserApi.Domain.Models.UserUpdateModel.OldPassword
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.UserUpdateModel.OldPassword
+  nameWithType: UserUpdateModel.OldPassword
+- uid: UserApi.Domain.Models.UserUpdateModel.Password
+  name: Password
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_Password
+  commentId: P:UserApi.Domain.Models.UserUpdateModel.Password
+  fullName: UserApi.Domain.Models.UserUpdateModel.Password
+  nameWithType: UserUpdateModel.Password
+- uid: UserApi.Domain.Models.UserUpdateModel.Password*
+  name: Password
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_Password_
+  commentId: Overload:UserApi.Domain.Models.UserUpdateModel.Password
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.UserUpdateModel.Password
+  nameWithType: UserUpdateModel.Password
+- uid: UserApi.Domain.Models.UserUpdateModel.UserName
+  name: UserName
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_UserName
+  commentId: P:UserApi.Domain.Models.UserUpdateModel.UserName
+  fullName: UserApi.Domain.Models.UserUpdateModel.UserName
+  nameWithType: UserUpdateModel.UserName
+- uid: UserApi.Domain.Models.UserUpdateModel.UserName*
+  name: UserName
+  href: api/UserApi.Domain.Models.UserUpdateModel.html#UserApi_Domain_Models_UserUpdateModel_UserName_
+  commentId: Overload:UserApi.Domain.Models.UserUpdateModel.UserName
+  isSpec: "True"
+  fullName: UserApi.Domain.Models.UserUpdateModel.UserName
+  nameWithType: UserUpdateModel.UserName
 - uid: UserApi.Migrations
   name: UserApi.Migrations
   href: api/UserApi.Migrations.html
@@ -16193,12 +16346,12 @@ references:
   fullName.vb: UserApi.Services.Auth.AuthService.New
   nameWithType: AuthService.AuthService
   nameWithType.vb: AuthService.New
-- uid: UserApi.Services.Auth.AuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams,System.Threading.CancellationToken)
-  name: LoginUserAsync(LoginUserParams, CancellationToken)
-  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_LoginUserAsync_UserApi_Services_Auth_LoginUserParams_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.AuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.AuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams, System.Threading.CancellationToken)
-  nameWithType: AuthService.LoginUserAsync(LoginUserParams, CancellationToken)
+- uid: UserApi.Services.Auth.AuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel,System.Threading.CancellationToken)
+  name: LoginUserAsync(LoginUserModel, CancellationToken)
+  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_LoginUserAsync_UserApi_Domain_Models_LoginUserModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.AuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.AuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel, System.Threading.CancellationToken)
+  nameWithType: AuthService.LoginUserAsync(LoginUserModel, CancellationToken)
 - uid: UserApi.Services.Auth.AuthService.LoginUserAsync*
   name: LoginUserAsync
   href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_LoginUserAsync_
@@ -16206,12 +16359,12 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.AuthService.LoginUserAsync
   nameWithType: AuthService.LoginUserAsync
-- uid: UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
-  name: RefreshTokenAsync(RefreshTokenParams, CancellationToken)
-  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RefreshTokenAsync_UserApi_Services_Auth_RefreshTokenParams_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams, System.Threading.CancellationToken)
-  nameWithType: AuthService.RefreshTokenAsync(RefreshTokenParams, CancellationToken)
+- uid: UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel,System.Threading.CancellationToken)
+  name: RefreshTokenAsync(RefreshTokenModel, CancellationToken)
+  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RefreshTokenAsync_UserApi_Domain_Models_RefreshTokenModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.AuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel, System.Threading.CancellationToken)
+  nameWithType: AuthService.RefreshTokenAsync(RefreshTokenModel, CancellationToken)
 - uid: UserApi.Services.Auth.AuthService.RefreshTokenAsync*
   name: RefreshTokenAsync
   href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RefreshTokenAsync_
@@ -16219,12 +16372,12 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.AuthService.RefreshTokenAsync
   nameWithType: AuthService.RefreshTokenAsync
-- uid: UserApi.Services.Auth.AuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams,System.Threading.CancellationToken)
-  name: RegisterUserAsync(RegisterUserParams, CancellationToken)
-  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RegisterUserAsync_UserApi_Services_Auth_RegisterUserParams_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.AuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.AuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams, System.Threading.CancellationToken)
-  nameWithType: AuthService.RegisterUserAsync(RegisterUserParams, CancellationToken)
+- uid: UserApi.Services.Auth.AuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel,System.Threading.CancellationToken)
+  name: RegisterUserAsync(RegisterUserModel, CancellationToken)
+  href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RegisterUserAsync_UserApi_Domain_Models_RegisterUserModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.AuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.AuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel, System.Threading.CancellationToken)
+  nameWithType: AuthService.RegisterUserAsync(RegisterUserModel, CancellationToken)
 - uid: UserApi.Services.Auth.AuthService.RegisterUserAsync*
   name: RegisterUserAsync
   href: api/UserApi.Services.Auth.AuthService.html#UserApi_Services_Auth_AuthService_RegisterUserAsync_
@@ -16238,12 +16391,12 @@ references:
   commentId: T:UserApi.Services.Auth.IAuthService
   fullName: UserApi.Services.Auth.IAuthService
   nameWithType: IAuthService
-- uid: UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams,System.Threading.CancellationToken)
-  name: LoginUserAsync(LoginUserParams, CancellationToken)
-  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_LoginUserAsync_UserApi_Services_Auth_LoginUserParams_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Services.Auth.LoginUserParams, System.Threading.CancellationToken)
-  nameWithType: IAuthService.LoginUserAsync(LoginUserParams, CancellationToken)
+- uid: UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel,System.Threading.CancellationToken)
+  name: LoginUserAsync(LoginUserModel, CancellationToken)
+  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_LoginUserAsync_UserApi_Domain_Models_LoginUserModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.IAuthService.LoginUserAsync(UserApi.Domain.Models.LoginUserModel, System.Threading.CancellationToken)
+  nameWithType: IAuthService.LoginUserAsync(LoginUserModel, CancellationToken)
 - uid: UserApi.Services.Auth.IAuthService.LoginUserAsync*
   name: LoginUserAsync
   href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_LoginUserAsync_
@@ -16251,12 +16404,12 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.IAuthService.LoginUserAsync
   nameWithType: IAuthService.LoginUserAsync
-- uid: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
-  name: RefreshTokenAsync(RefreshTokenParams, CancellationToken)
-  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RefreshTokenAsync_UserApi_Services_Auth_RefreshTokenParams_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Services.Auth.RefreshTokenParams, System.Threading.CancellationToken)
-  nameWithType: IAuthService.RefreshTokenAsync(RefreshTokenParams, CancellationToken)
+- uid: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel,System.Threading.CancellationToken)
+  name: RefreshTokenAsync(RefreshTokenModel, CancellationToken)
+  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RefreshTokenAsync_UserApi_Domain_Models_RefreshTokenModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.IAuthService.RefreshTokenAsync(UserApi.Domain.Models.RefreshTokenModel, System.Threading.CancellationToken)
+  nameWithType: IAuthService.RefreshTokenAsync(RefreshTokenModel, CancellationToken)
 - uid: UserApi.Services.Auth.IAuthService.RefreshTokenAsync*
   name: RefreshTokenAsync
   href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RefreshTokenAsync_
@@ -16264,12 +16417,12 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.IAuthService.RefreshTokenAsync
   nameWithType: IAuthService.RefreshTokenAsync
-- uid: UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams,System.Threading.CancellationToken)
-  name: RegisterUserAsync(RegisterUserParams, CancellationToken)
-  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RegisterUserAsync_UserApi_Services_Auth_RegisterUserParams_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams,System.Threading.CancellationToken)
-  fullName: UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Services.Auth.RegisterUserParams, System.Threading.CancellationToken)
-  nameWithType: IAuthService.RegisterUserAsync(RegisterUserParams, CancellationToken)
+- uid: UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel,System.Threading.CancellationToken)
+  name: RegisterUserAsync(RegisterUserModel, CancellationToken)
+  href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RegisterUserAsync_UserApi_Domain_Models_RegisterUserModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.Auth.IAuthService.RegisterUserAsync(UserApi.Domain.Models.RegisterUserModel, System.Threading.CancellationToken)
+  nameWithType: IAuthService.RegisterUserAsync(RegisterUserModel, CancellationToken)
 - uid: UserApi.Services.Auth.IAuthService.RegisterUserAsync*
   name: RegisterUserAsync
   href: api/UserApi.Services.Auth.IAuthService.html#UserApi_Services_Auth_IAuthService_RegisterUserAsync_
@@ -16277,159 +16430,6 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.Auth.IAuthService.RegisterUserAsync
   nameWithType: IAuthService.RegisterUserAsync
-- uid: UserApi.Services.Auth.LoginUserParams
-  name: LoginUserParams
-  href: api/UserApi.Services.Auth.LoginUserParams.html
-  commentId: T:UserApi.Services.Auth.LoginUserParams
-  fullName: UserApi.Services.Auth.LoginUserParams
-  nameWithType: LoginUserParams
-- uid: UserApi.Services.Auth.LoginUserParams.#ctor(UserEntities.Domain.Entities.User,System.String)
-  name: LoginUserParams(User, string)
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams__ctor_UserEntities_Domain_Entities_User_System_String_
-  commentId: M:UserApi.Services.Auth.LoginUserParams.#ctor(UserEntities.Domain.Entities.User,System.String)
-  name.vb: New(User, String)
-  fullName: UserApi.Services.Auth.LoginUserParams.LoginUserParams(UserEntities.Domain.Entities.User, string)
-  fullName.vb: UserApi.Services.Auth.LoginUserParams.New(UserEntities.Domain.Entities.User, String)
-  nameWithType: LoginUserParams.LoginUserParams(User, string)
-  nameWithType.vb: LoginUserParams.New(User, String)
-- uid: UserApi.Services.Auth.LoginUserParams.#ctor*
-  name: LoginUserParams
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams__ctor_
-  commentId: Overload:UserApi.Services.Auth.LoginUserParams.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: UserApi.Services.Auth.LoginUserParams.LoginUserParams
-  fullName.vb: UserApi.Services.Auth.LoginUserParams.New
-  nameWithType: LoginUserParams.LoginUserParams
-  nameWithType.vb: LoginUserParams.New
-- uid: UserApi.Services.Auth.LoginUserParams.Password
-  name: Password
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_Password
-  commentId: P:UserApi.Services.Auth.LoginUserParams.Password
-  fullName: UserApi.Services.Auth.LoginUserParams.Password
-  nameWithType: LoginUserParams.Password
-- uid: UserApi.Services.Auth.LoginUserParams.Password*
-  name: Password
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_Password_
-  commentId: Overload:UserApi.Services.Auth.LoginUserParams.Password
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.LoginUserParams.Password
-  nameWithType: LoginUserParams.Password
-- uid: UserApi.Services.Auth.LoginUserParams.User
-  name: User
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_User
-  commentId: P:UserApi.Services.Auth.LoginUserParams.User
-  fullName: UserApi.Services.Auth.LoginUserParams.User
-  nameWithType: LoginUserParams.User
-- uid: UserApi.Services.Auth.LoginUserParams.User*
-  name: User
-  href: api/UserApi.Services.Auth.LoginUserParams.html#UserApi_Services_Auth_LoginUserParams_User_
-  commentId: Overload:UserApi.Services.Auth.LoginUserParams.User
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.LoginUserParams.User
-  nameWithType: LoginUserParams.User
-- uid: UserApi.Services.Auth.RefreshTokenParams
-  name: RefreshTokenParams
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html
-  commentId: T:UserApi.Services.Auth.RefreshTokenParams
-  fullName: UserApi.Services.Auth.RefreshTokenParams
-  nameWithType: RefreshTokenParams
-- uid: UserApi.Services.Auth.RefreshTokenParams.#ctor(UserEntities.Domain.Entities.User,Authentication.Models.AccessTokenData)
-  name: RefreshTokenParams(User, AccessTokenData)
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams__ctor_UserEntities_Domain_Entities_User_Authentication_Models_AccessTokenData_
-  commentId: M:UserApi.Services.Auth.RefreshTokenParams.#ctor(UserEntities.Domain.Entities.User,Authentication.Models.AccessTokenData)
-  name.vb: New(User, AccessTokenData)
-  fullName: UserApi.Services.Auth.RefreshTokenParams.RefreshTokenParams(UserEntities.Domain.Entities.User, Authentication.Models.AccessTokenData)
-  fullName.vb: UserApi.Services.Auth.RefreshTokenParams.New(UserEntities.Domain.Entities.User, Authentication.Models.AccessTokenData)
-  nameWithType: RefreshTokenParams.RefreshTokenParams(User, AccessTokenData)
-  nameWithType.vb: RefreshTokenParams.New(User, AccessTokenData)
-- uid: UserApi.Services.Auth.RefreshTokenParams.#ctor*
-  name: RefreshTokenParams
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams__ctor_
-  commentId: Overload:UserApi.Services.Auth.RefreshTokenParams.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: UserApi.Services.Auth.RefreshTokenParams.RefreshTokenParams
-  fullName.vb: UserApi.Services.Auth.RefreshTokenParams.New
-  nameWithType: RefreshTokenParams.RefreshTokenParams
-  nameWithType.vb: RefreshTokenParams.New
-- uid: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
-  name: AccessTokenData
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_AccessTokenData
-  commentId: P:UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
-  fullName: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
-  nameWithType: RefreshTokenParams.AccessTokenData
-- uid: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData*
-  name: AccessTokenData
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_AccessTokenData_
-  commentId: Overload:UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.RefreshTokenParams.AccessTokenData
-  nameWithType: RefreshTokenParams.AccessTokenData
-- uid: UserApi.Services.Auth.RefreshTokenParams.User
-  name: User
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_User
-  commentId: P:UserApi.Services.Auth.RefreshTokenParams.User
-  fullName: UserApi.Services.Auth.RefreshTokenParams.User
-  nameWithType: RefreshTokenParams.User
-- uid: UserApi.Services.Auth.RefreshTokenParams.User*
-  name: User
-  href: api/UserApi.Services.Auth.RefreshTokenParams.html#UserApi_Services_Auth_RefreshTokenParams_User_
-  commentId: Overload:UserApi.Services.Auth.RefreshTokenParams.User
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.RefreshTokenParams.User
-  nameWithType: RefreshTokenParams.User
-- uid: UserApi.Services.Auth.RegisterUserParams
-  name: RegisterUserParams
-  href: api/UserApi.Services.Auth.RegisterUserParams.html
-  commentId: T:UserApi.Services.Auth.RegisterUserParams
-  fullName: UserApi.Services.Auth.RegisterUserParams
-  nameWithType: RegisterUserParams
-- uid: UserApi.Services.Auth.RegisterUserParams.#ctor(UserEntities.Domain.Entities.User,System.String)
-  name: RegisterUserParams(User, string)
-  href: api/UserApi.Services.Auth.RegisterUserParams.html#UserApi_Services_Auth_RegisterUserParams__ctor_UserEntities_Domain_Entities_User_System_String_
-  commentId: M:UserApi.Services.Auth.RegisterUserParams.#ctor(UserEntities.Domain.Entities.User,System.String)
-  name.vb: New(User, String)
-  fullName: UserApi.Services.Auth.RegisterUserParams.RegisterUserParams(UserEntities.Domain.Entities.User, string)
-  fullName.vb: UserApi.Services.Auth.RegisterUserParams.New(UserEntities.Domain.Entities.User, String)
-  nameWithType: RegisterUserParams.RegisterUserParams(User, string)
-  nameWithType.vb: RegisterUserParams.New(User, String)
-- uid: UserApi.Services.Auth.RegisterUserParams.#ctor*
-  name: RegisterUserParams
-  href: api/UserApi.Services.Auth.RegisterUserParams.html#UserApi_Services_Auth_RegisterUserParams__ctor_
-  commentId: Overload:UserApi.Services.Auth.RegisterUserParams.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: UserApi.Services.Auth.RegisterUserParams.RegisterUserParams
-  fullName.vb: UserApi.Services.Auth.RegisterUserParams.New
-  nameWithType: RegisterUserParams.RegisterUserParams
-  nameWithType.vb: RegisterUserParams.New
-- uid: UserApi.Services.Auth.RegisterUserParams.Password
-  name: Password
-  href: api/UserApi.Services.Auth.RegisterUserParams.html#UserApi_Services_Auth_RegisterUserParams_Password
-  commentId: P:UserApi.Services.Auth.RegisterUserParams.Password
-  fullName: UserApi.Services.Auth.RegisterUserParams.Password
-  nameWithType: RegisterUserParams.Password
-- uid: UserApi.Services.Auth.RegisterUserParams.Password*
-  name: Password
-  href: api/UserApi.Services.Auth.RegisterUserParams.html#UserApi_Services_Auth_RegisterUserParams_Password_
-  commentId: Overload:UserApi.Services.Auth.RegisterUserParams.Password
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.RegisterUserParams.Password
-  nameWithType: RegisterUserParams.Password
-- uid: UserApi.Services.Auth.RegisterUserParams.User
-  name: User
-  href: api/UserApi.Services.Auth.RegisterUserParams.html#UserApi_Services_Auth_RegisterUserParams_User
-  commentId: P:UserApi.Services.Auth.RegisterUserParams.User
-  fullName: UserApi.Services.Auth.RegisterUserParams.User
-  nameWithType: RegisterUserParams.User
-- uid: UserApi.Services.Auth.RegisterUserParams.User*
-  name: User
-  href: api/UserApi.Services.Auth.RegisterUserParams.html#UserApi_Services_Auth_RegisterUserParams_User_
-  commentId: Overload:UserApi.Services.Auth.RegisterUserParams.User
-  isSpec: "True"
-  fullName: UserApi.Services.Auth.RegisterUserParams.User
-  nameWithType: RegisterUserParams.User
 - uid: UserApi.Services.ITokenService
   name: ITokenService
   href: api/UserApi.Services.ITokenService.html
@@ -16616,15 +16616,15 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.IUserService.SetUserRolesAsync
   nameWithType: IUserService.SetUserRolesAsync
-- uid: UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateData,System.Boolean,System.Threading.CancellationToken)
-  name: UpdateUserAsync(User, UserUpdateData, bool, CancellationToken)
-  href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_UpdateUserAsync_UserEntities_Domain_Entities_User_UserApi_Domain_Models_UserUpdateData_System_Boolean_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateData,System.Boolean,System.Threading.CancellationToken)
-  name.vb: UpdateUserAsync(User, UserUpdateData, Boolean, CancellationToken)
-  fullName: UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateData, bool, System.Threading.CancellationToken)
-  fullName.vb: UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateData, Boolean, System.Threading.CancellationToken)
-  nameWithType: IUserService.UpdateUserAsync(User, UserUpdateData, bool, CancellationToken)
-  nameWithType.vb: IUserService.UpdateUserAsync(User, UserUpdateData, Boolean, CancellationToken)
+- uid: UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateModel,System.Boolean,System.Threading.CancellationToken)
+  name: UpdateUserAsync(User, UserUpdateModel, bool, CancellationToken)
+  href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_UpdateUserAsync_UserEntities_Domain_Entities_User_UserApi_Domain_Models_UserUpdateModel_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateModel,System.Boolean,System.Threading.CancellationToken)
+  name.vb: UpdateUserAsync(User, UserUpdateModel, Boolean, CancellationToken)
+  fullName: UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateModel, bool, System.Threading.CancellationToken)
+  fullName.vb: UserApi.Services.IUserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateModel, Boolean, System.Threading.CancellationToken)
+  nameWithType: IUserService.UpdateUserAsync(User, UserUpdateModel, bool, CancellationToken)
+  nameWithType.vb: IUserService.UpdateUserAsync(User, UserUpdateModel, Boolean, CancellationToken)
 - uid: UserApi.Services.IUserService.UpdateUserAsync*
   name: UpdateUserAsync
   href: api/UserApi.Services.IUserService.html#UserApi_Services_IUserService_UpdateUserAsync_
@@ -16975,12 +16975,12 @@ references:
   commentId: T:UserApi.Services.OAuth.IUserOAuthCreationService
   fullName: UserApi.Services.OAuth.IUserOAuthCreationService
   nameWithType: IUserOAuthCreationService
-- uid: UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuth,System.Threading.CancellationToken)
-  name: CreateUserFromOAuthAsync(CreateUserFromOAuth, CancellationToken)
-  href: api/UserApi.Services.OAuth.IUserOAuthCreationService.html#UserApi_Services_OAuth_IUserOAuthCreationService_CreateUserFromOAuthAsync_UserApi_Domain_Models_CreateUserFromOAuth_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuth,System.Threading.CancellationToken)
-  fullName: UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuth, System.Threading.CancellationToken)
-  nameWithType: IUserOAuthCreationService.CreateUserFromOAuthAsync(CreateUserFromOAuth, CancellationToken)
+- uid: UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuthModel,System.Threading.CancellationToken)
+  name: CreateUserFromOAuthAsync(CreateUserFromOAuthModel, CancellationToken)
+  href: api/UserApi.Services.OAuth.IUserOAuthCreationService.html#UserApi_Services_OAuth_IUserOAuthCreationService_CreateUserFromOAuthAsync_UserApi_Domain_Models_CreateUserFromOAuthModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuthModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuthModel, System.Threading.CancellationToken)
+  nameWithType: IUserOAuthCreationService.CreateUserFromOAuthAsync(CreateUserFromOAuthModel, CancellationToken)
 - uid: UserApi.Services.OAuth.IUserOAuthCreationService.CreateUserFromOAuthAsync*
   name: CreateUserFromOAuthAsync
   href: api/UserApi.Services.OAuth.IUserOAuthCreationService.html#UserApi_Services_OAuth_IUserOAuthCreationService_CreateUserFromOAuthAsync_
@@ -17013,12 +17013,12 @@ references:
   fullName.vb: UserApi.Services.OAuth.UserOAuthCreationService.New
   nameWithType: UserOAuthCreationService.UserOAuthCreationService
   nameWithType.vb: UserOAuthCreationService.New
-- uid: UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuth,System.Threading.CancellationToken)
-  name: CreateUserFromOAuthAsync(CreateUserFromOAuth, CancellationToken)
-  href: api/UserApi.Services.OAuth.UserOAuthCreationService.html#UserApi_Services_OAuth_UserOAuthCreationService_CreateUserFromOAuthAsync_UserApi_Domain_Models_CreateUserFromOAuth_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuth,System.Threading.CancellationToken)
-  fullName: UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuth, System.Threading.CancellationToken)
-  nameWithType: UserOAuthCreationService.CreateUserFromOAuthAsync(CreateUserFromOAuth, CancellationToken)
+- uid: UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuthModel,System.Threading.CancellationToken)
+  name: CreateUserFromOAuthAsync(CreateUserFromOAuthModel, CancellationToken)
+  href: api/UserApi.Services.OAuth.UserOAuthCreationService.html#UserApi_Services_OAuth_UserOAuthCreationService_CreateUserFromOAuthAsync_UserApi_Domain_Models_CreateUserFromOAuthModel_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuthModel,System.Threading.CancellationToken)
+  fullName: UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync(UserApi.Domain.Models.CreateUserFromOAuthModel, System.Threading.CancellationToken)
+  nameWithType: UserOAuthCreationService.CreateUserFromOAuthAsync(CreateUserFromOAuthModel, CancellationToken)
 - uid: UserApi.Services.OAuth.UserOAuthCreationService.CreateUserFromOAuthAsync*
   name: CreateUserFromOAuthAsync
   href: api/UserApi.Services.OAuth.UserOAuthCreationService.html#UserApi_Services_OAuth_UserOAuthCreationService_CreateUserFromOAuthAsync_
@@ -17102,13 +17102,13 @@ references:
   commentId: T:UserApi.Services.UserAuthenticationMethodService
   fullName: UserApi.Services.UserAuthenticationMethodService
   nameWithType: UserAuthenticationMethodService
-- uid: UserApi.Services.UserAuthenticationMethodService.#ctor(Shared.Repositories.IDatabaseRepository{UserEntities.Data.UserIdentityDbContext})
+- uid: UserApi.Services.UserAuthenticationMethodService.#ctor(DatabaseControl.Repositories.IDatabaseRepository{UserEntities.Data.UserIdentityDbContext})
   name: UserAuthenticationMethodService(IDatabaseRepository<UserIdentityDbContext>)
-  href: api/UserApi.Services.UserAuthenticationMethodService.html#UserApi_Services_UserAuthenticationMethodService__ctor_Shared_Repositories_IDatabaseRepository_UserEntities_Data_UserIdentityDbContext__
-  commentId: M:UserApi.Services.UserAuthenticationMethodService.#ctor(Shared.Repositories.IDatabaseRepository{UserEntities.Data.UserIdentityDbContext})
+  href: api/UserApi.Services.UserAuthenticationMethodService.html#UserApi_Services_UserAuthenticationMethodService__ctor_DatabaseControl_Repositories_IDatabaseRepository_UserEntities_Data_UserIdentityDbContext__
+  commentId: M:UserApi.Services.UserAuthenticationMethodService.#ctor(DatabaseControl.Repositories.IDatabaseRepository{UserEntities.Data.UserIdentityDbContext})
   name.vb: New(IDatabaseRepository(Of UserIdentityDbContext))
-  fullName: UserApi.Services.UserAuthenticationMethodService.UserAuthenticationMethodService(Shared.Repositories.IDatabaseRepository<UserEntities.Data.UserIdentityDbContext>)
-  fullName.vb: UserApi.Services.UserAuthenticationMethodService.New(Shared.Repositories.IDatabaseRepository(Of UserEntities.Data.UserIdentityDbContext))
+  fullName: UserApi.Services.UserAuthenticationMethodService.UserAuthenticationMethodService(DatabaseControl.Repositories.IDatabaseRepository<UserEntities.Data.UserIdentityDbContext>)
+  fullName.vb: UserApi.Services.UserAuthenticationMethodService.New(DatabaseControl.Repositories.IDatabaseRepository(Of UserEntities.Data.UserIdentityDbContext))
   nameWithType: UserAuthenticationMethodService.UserAuthenticationMethodService(IDatabaseRepository<UserIdentityDbContext>)
   nameWithType.vb: UserAuthenticationMethodService.New(IDatabaseRepository(Of UserIdentityDbContext))
 - uid: UserApi.Services.UserAuthenticationMethodService.#ctor*
@@ -17269,15 +17269,15 @@ references:
   isSpec: "True"
   fullName: UserApi.Services.UserService.SetUserRolesAsync
   nameWithType: UserService.SetUserRolesAsync
-- uid: UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateData,System.Boolean,System.Threading.CancellationToken)
-  name: UpdateUserAsync(User, UserUpdateData, bool, CancellationToken)
-  href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_UpdateUserAsync_UserEntities_Domain_Entities_User_UserApi_Domain_Models_UserUpdateData_System_Boolean_System_Threading_CancellationToken_
-  commentId: M:UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateData,System.Boolean,System.Threading.CancellationToken)
-  name.vb: UpdateUserAsync(User, UserUpdateData, Boolean, CancellationToken)
-  fullName: UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateData, bool, System.Threading.CancellationToken)
-  fullName.vb: UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateData, Boolean, System.Threading.CancellationToken)
-  nameWithType: UserService.UpdateUserAsync(User, UserUpdateData, bool, CancellationToken)
-  nameWithType.vb: UserService.UpdateUserAsync(User, UserUpdateData, Boolean, CancellationToken)
+- uid: UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateModel,System.Boolean,System.Threading.CancellationToken)
+  name: UpdateUserAsync(User, UserUpdateModel, bool, CancellationToken)
+  href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_UpdateUserAsync_UserEntities_Domain_Entities_User_UserApi_Domain_Models_UserUpdateModel_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User,UserApi.Domain.Models.UserUpdateModel,System.Boolean,System.Threading.CancellationToken)
+  name.vb: UpdateUserAsync(User, UserUpdateModel, Boolean, CancellationToken)
+  fullName: UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateModel, bool, System.Threading.CancellationToken)
+  fullName.vb: UserApi.Services.UserService.UpdateUserAsync(UserEntities.Domain.Entities.User, UserApi.Domain.Models.UserUpdateModel, Boolean, System.Threading.CancellationToken)
+  nameWithType: UserService.UpdateUserAsync(User, UserUpdateModel, bool, CancellationToken)
+  nameWithType.vb: UserService.UpdateUserAsync(User, UserUpdateModel, Boolean, CancellationToken)
 - uid: UserApi.Services.UserService.UpdateUserAsync*
   name: UpdateUserAsync
   href: api/UserApi.Services.UserService.html#UserApi_Services_UserService_UpdateUserAsync_

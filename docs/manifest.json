@@ -372,6 +372,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.Repositories.DatabaseRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.Repositories.DatabaseRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.Repositories.IDatabaseRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.Repositories.IDatabaseRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseControl.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseControl.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DatabaseControl.ServiceCollectionExtensions.yml",
       "output": {
         ".html": {
@@ -1796,36 +1826,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Shared.Helpers.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Shared.Repositories.DatabaseRepository-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Shared.Repositories.DatabaseRepository-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Shared.Repositories.IDatabaseRepository-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Shared.Repositories.IDatabaseRepository-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Shared.Repositories.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Shared.Repositories.html"
         }
       },
       "version": ""
@@ -4082,20 +4082,50 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UserApi.Domain.Models.CreateUserFromOAuth.yml",
+      "source_relative_path": "api/UserApi.Domain.Models.CreateUserFromOAuthModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UserApi.Domain.Models.CreateUserFromOAuth.html"
+          "relative_path": "api/UserApi.Domain.Models.CreateUserFromOAuthModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UserApi.Domain.Models.UserUpdateData.yml",
+      "source_relative_path": "api/UserApi.Domain.Models.LoginUserModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UserApi.Domain.Models.UserUpdateData.html"
+          "relative_path": "api/UserApi.Domain.Models.LoginUserModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Models.RefreshTokenModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Models.RefreshTokenModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Models.RegisterUserModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Models.RegisterUserModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserApi.Domain.Models.UserUpdateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserApi.Domain.Models.UserUpdateModel.html"
         }
       },
       "version": ""
@@ -4146,36 +4176,6 @@
       "output": {
         ".html": {
           "relative_path": "api/UserApi.Services.Auth.IAuthService.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UserApi.Services.Auth.LoginUserParams.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UserApi.Services.Auth.LoginUserParams.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UserApi.Services.Auth.RefreshTokenParams.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UserApi.Services.Auth.RefreshTokenParams.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UserApi.Services.Auth.RegisterUserParams.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UserApi.Services.Auth.RegisterUserParams.html"
         }
       },
       "version": ""
